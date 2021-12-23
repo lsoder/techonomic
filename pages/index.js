@@ -1,5 +1,12 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.scss'
+import Head from 'next/head';
+import Hero from '../components/hero';
+import styles from '../styles/Home.module.scss';
+import Section1 from '../components/section1';
+import Section2 from '../components/section2';
+import Section3 from '../components/section3';
+import Section4 from '../components/section4';
+import Section5 from '../components/section5';
+import Section6 from '../components/section6';
 
 export default function Home() {
   return (
@@ -11,22 +18,15 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-         Här ska Techonomics nya hemsida byggas
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+        <Hero />
+        <Section1 />
+        <Section2 />
+        <Section3 />
+        <Section4 />
+        <Section5 />
+        <Section6 />
       </main>
 
-      <footer className={styles.footer}>
-          Powered by{' '}
-          <span className={styles.logo}>
-           Linda & Amanda
-          </span>
-      </footer>
     </div>
-  )
+  );
 }
