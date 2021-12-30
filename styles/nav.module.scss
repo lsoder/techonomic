@@ -1,5 +1,25 @@
 .row {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  align-items: center;
+  padding: 0 1.5rem;
+  .hide {
+    display: none;
+  }
+}
+
+@media (min-width: 900px) {
+  .row {
+    justify-content: space-evenly;
+    .hide {
+      display: flex;
+      justify-content: space-evenly;
+      width: 60%;
+    }
+  }
+
+  .container {
+    display: none;
+  }
 }
