@@ -36,3 +36,21 @@
     rgba(255, 220, 252, 1) 100%
   );
 }
+
+.buttonStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #5a2cdd;
+  color: white;
+  height: 2rem;
+  width: 8rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 0.7rem;
+  letter-spacing: 0.05rem;
+  @media (min-width: 900px) {
+    display: none;
+  }
+}

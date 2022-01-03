@@ -1,27 +1,59 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import styles from '../styles/Nav.module.scss'
+import { useState } from 'react'
 
-const Nav = (props) => {
+const Navbar = () => {
+  const [active, setActive] = useState(false)
   return (
     <>
       <div className={styles.row}>
-        <h3>Techonomic</h3>
-        <button>Boka möte</button>
-        <div className={styles.hide}>
+        <Link href='/'>
+          <Image src='/logo.png' alt='logo' width='120' height='18' />
+        </Link>
+        <div className={styles.menuDesktop}>
           <Link href='/'>HEM</Link>
           <Link href='/abonnemang'>ABONNEMANG</Link>
           <Link href='/branscher'>BRANSCHER</Link>
           <Link href='/about'>OM OSS</Link>
+          <Link href='/kontakta'>KONTAKT</Link>
+          <button className={styles.buttonStyle}>Boka möte</button>
         </div>
       </div>
-      <div className={styles.container}>
-        <div style={headerStyle}>
-          <div id='burger' onClick={props.onMenuClick}>
-            <svg viewBox='0 0 100 80' width='40' height='40'>
-              <rect y='10' width='50' height='5'></rect>
-              <rect y='25' width='50' height='5'></rect>
-              <rect y='40' width='50' height='5'></rect>
-            </svg>
+      <div onClick={() => setActive(!active)} className={styles.wrapper}>
+        <div className={active ? styles.activeHamburger : styles.hamburger} />
+        <div className={active ? styles.activeSidenav : styles.sidenav}>
+          <ul className={styles.ulMenu}>
+            <li>
+              <Link href='/'>HEM</Link>
+            </li>
+            <li>
+              <Link href='/abonnemang'>ABONNEMANG</Link>
+            </li>
+            <li>
+              <Link href='/branscher'>BRANSCHER</Link>
+            </li>
+            <li>
+              <Link href='/about'>OM OSS</Link>
+            </li>
+            <li>
+              <Link href='/kontakta'>KONTAKT</Link>
+            </li>
+          </ul>
+          <div className={styles.sidenavFooterContainer}>
+            <div className={styles.sidenavFooterContent}>
+              <Image src='/logo.png' alt='logo' width='120' height='18' />
+              <br />
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum.
+              <br />
+              <br />
+              Frågor? Prata med någon av våra experter
+              <br />
+              <br />
+              <br />
+              Facebook Linkedin Instagram
+            </div>
           </div>
         </div>
       </div>
@@ -29,17 +61,4 @@ const Nav = (props) => {
   )
 }
 
-const headerStyle = {
-  position: 'fixed',
-  right: 0,
-  top: '1rem',
-  right: 0,
-  display: 'flex',
-  justifyContent: 'space-between',
-  alignItems: 'right',
-  padding: ' 0 1rem',
-  zIndex: '100',
-  cursor: 'pointer',
-}
-
-export default Nav
+export default Navbar
