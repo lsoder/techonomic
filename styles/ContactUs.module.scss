@@ -1,0 +1,50 @@
+.containerContact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  .textContainer {
+    @media (min-width: 900px) {
+      max-width: 45rem;
+    }
+    p {
+      text-align: center;
+    }
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    input {
+      width: 100%;
+      border: 1px solid black;
+      border-radius: 7px;
+      letter-spacing: 0.05rem;
+      padding: 1.1rem;
+      margin-bottom: 15px;
+    }
+    .buttonStyle {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: black;
+      color: white;
+      padding: 1rem;
+      width: 50%;
+      border: none;
+      border-radius: 7px;
+      font-weight: bold;
+      font-size: 0.8rem;
+      letter-spacing: 0.05rem;
+    }
+  }
+  h4 {
+    font-size: 0.6rem;
+    font-weight: normal;
+    letter-spacing: 0.04rem;
+    text-align: center;
+  }
+}
