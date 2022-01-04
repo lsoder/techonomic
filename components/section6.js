@@ -18,18 +18,11 @@ const Section6 = () => {
         </p>
       </div>
       <form>
-        <input
-          id='name'
-          placeholder='Ditt namn'
-          type='text'
-          autocomplete='name'
-          required
-        />
+        <input id='name' placeholder='Ditt namn' type='text' required />
         <input
           id='name'
           placeholder='dinmail@example.com'
           type='text'
-          autocomplete='name'
           required
         />
         <button className={styles.buttonStyle} type='submit'>
