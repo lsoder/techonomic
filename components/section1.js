@@ -1,11 +1,10 @@
+import CustomerCard from "./customerCard";
+
 const Section1 = () => {
   return (
     <>
       <h1>Våra kunder säger</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor.
-      </p>
+      <CustomerCard comment='"Jag tycker att techonomic tillför exakt det jag behöver i min bokföring."' name='Petter, mäklare' />
     </>
   );
 };
