@@ -11,12 +11,24 @@
   background: rgb(241, 228, 255);
   background: $gradientBackground;
 }
-
 .hide {
+  width: 100%;
   @media (min-width: 900px) {
     display: none;
   }
+  // HÄR KAN MAN MANIPULERA KNAPP LITE!!!!!
+
+  // button {
+  //   width: 20%;
+  //   height: 2.5rem;
+  //   transition: width .2s;
+  //   &:hover {
+  //     width: 21%;
+  //     background-color: #724ed6;
+  //   }
+  // }
 }
+
 
 // .buttonStyle {
 //   display: flex;
