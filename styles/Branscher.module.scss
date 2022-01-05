@@ -8,19 +8,19 @@
   align-items: center;
   background: $gradientBackground;
   padding: 0 3rem;
-  @media (min-width: 900px) {
+  @media (min-width: $desktop) {
     flex-direction: row;
   }
   .customerDiv {
     width: 80%;
-    @media (min-width: 900px) {
+    @media (min-width: $desktop) {
       width: 50%;
     }
   }
   .branscherDiv {
     width: 80%;
     text-align: center;
-    @media (min-width: 900px) {
+    @media (min-width: $desktop) {
       width: 50%;
     }
   }

@@ -1,12 +1,14 @@
+@import './variables';
+
 .hideSmall {
   display: none;
-  @media (min-width: 900px) {
+  @media (min-width: $desktop) {
     display: inherit;
   }
 }
 
 .hideLarge {
-  @media (min-width: 900px) {
+  @media (min-width: $desktop) {
     display: none;
   }
 }
@@ -21,17 +23,17 @@
   .content {
     display: flex;
     flex-direction: column;
-    @media (min-width: 900px) {
+    @media (min-width: $desktop) {
       flex-direction: row;
       align-content: space-between;
     }
     .customerContent {
-      @media (min-width: 900px) {
+      @media (min-width: $desktop) {
         width: 50%;
       }
     }
     .branscherContent {
-      @media (min-width: 900px) {
+      @media (min-width: $desktop) {
         flex-direction: column;
         width: 50%;
         text-align: center;
