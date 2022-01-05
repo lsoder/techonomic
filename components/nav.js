@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../styles/Nav.module.scss'
 import { useState } from 'react'
+import PurpleButton from './buttons'
 
 const Navbar = () => {
   const [active, setActive] = useState(false)
@@ -17,7 +18,7 @@ const Navbar = () => {
           <Link href='/branscher'>BRANSCHER</Link>
           <Link href='/about'>OM OSS</Link>
           <Link href='/kontakta'>KONTAKT</Link>
-          <button className={styles.buttonStyle}>Boka möte</button>
+          <PurpleButton text='boka möte'/>
         </div>
       </div>
       <div onClick={() => setActive(!active)} className={styles.wrapper}>
