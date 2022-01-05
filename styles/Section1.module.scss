@@ -6,7 +6,6 @@
 }
 
 .hideLarge {
-  display: inherit;
   @media (min-width: 900px) {
     display: none;
   }
@@ -14,34 +13,56 @@
 
 //section1
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  .content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    .content {
-      display: flex;
-      flex-direction: column;
+    @media (min-width: 900px) {
+      flex-direction: row;
+      align-content: space-between;
+    }
+    .customerContent {
       @media (min-width: 900px) {
-        flex-direction: row;
-        align-content: space-between;
+        width: 50%;
       }
-      .customerContent {
-        @media (min-width: 900px) {
-          width: 50%;
-        }
-      }
-      .branscherContent {
-        @media (min-width: 900px) {
-          flex-direction: column;
-          width: 50%;
-          text-align: center;
-          p {
-            margin: 0;
-          }
+    }
+    .branscherContent {
+      @media (min-width: 900px) {
+        flex-direction: column;
+        width: 50%;
+        text-align: center;
+        p {
+          margin: 0;
         }
       }
     }
+  }
+}
+
+//section2
+.container2 {
+  width: 100%;
+  justify-content: center;
+  margin: 3rem 0;
+  .bookMeetingContent {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fce8fa;
+    margin: 0 1rem;
+    button {
+      background-color: black;
+      color: white;
+      height: 2rem;
+      width: 40%;
+      margin: 1rem 0;
+    }
+  }
 }
 
 //section3
@@ -51,4 +72,3 @@
     margin: 0;
   }
 }
-
