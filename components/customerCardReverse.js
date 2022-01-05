@@ -9,7 +9,7 @@ const CustomerCardReverse = (props) => {
             <i>{props.comment}</i>
             <p>{'-' + ' ' + props.name}</p>
            </div>
-           <Image src='/avatar-male.png' alt='logo' width='100' height='100'/>
+           <Image src={props.image} alt='logo' width='100' height='100'/>
         </div>
     )
 }

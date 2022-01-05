@@ -10,11 +10,13 @@ const Section1 = () => {
       <div className={styles.content}>
         <div className={styles.customerContent}>
           <CustomerCard
+            image="/avatar-male.png"
             comment='"Jag tycker att techonomic tillför exakt det jag behöver i min bokföring."'
             name="Petter, mäklare"
           />
           <div className={styles.hideSmall}>
             <CustomerCardReverse
+              image="/avatar-male.png"
               comment='"Snabbt och effektivt, klart bästa redovisningsekonomer jag haft!"'
               name="Ola, utvecklare"
             />
