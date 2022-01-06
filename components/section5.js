@@ -1,26 +1,26 @@
-import SubscriptionCard from './subscriptionCard';
+import SubscriptionCard from './subscriptionCard'
 
 const Section5 = () => {
   return (
     <>
-      <h1>Abonnemang</h1>
+      <h2>Abonnemang</h2>
       <SubscriptionCard
-        heading="Lite"
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor"
+        heading='Lite'
+        text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor'
       />
       <SubscriptionCard
-        heading="Medium"
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor"
+        heading='Medium'
+        text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor'
       />
       <SubscriptionCard
-        heading="Large"
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor"
+        heading='Large'
+        text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor'
       />
     </>
-  );
-};
+  )
+}
 
-export default Section5;
+export default Section5

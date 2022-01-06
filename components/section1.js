@@ -1,24 +1,24 @@
-import styles from '../styles/Section1.module.scss';
-import CustomerCard from './customerCard';
-import CustomerCardReverse from './customerCardReverse';
+import styles from '../styles/Section1.module.scss'
+import CustomerCard from './customerCard'
+import CustomerCardReverse from './customerCardReverse'
 
 const Section1 = () => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.hideLarge}>Våra kunder tycker</h1>
-      <h1 className={styles.hideSmall}>Branscher</h1>
+      <h2 className={styles.hideLarge}>Våra kunder tycker</h2>
+      <h2 className={styles.hideSmall}>Branscher</h2>
       <div className={styles.content}>
         <div className={styles.customerContent}>
           <CustomerCard
-            image="/avatar-male.png"
+            image='/avatar-male.png'
             comment='"Jag tycker att techonomic tillför exakt det jag behöver i min bokföring."'
-            name="Petter, mäklare"
+            name='Petter, mäklare'
           />
           <div className={styles.hideSmall}>
             <CustomerCardReverse
-              image="/avatar-male.png"
+              image='/avatar-male.png'
               comment='"Snabbt och effektivt, klart bästa redovisningsekonomer jag haft!"'
-              name="Ola, utvecklare"
+              name='Ola, utvecklare'
             />
           </div>
         </div>
@@ -30,7 +30,7 @@ const Section1 = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Section1;
+export default Section1

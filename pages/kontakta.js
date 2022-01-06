@@ -1,7 +1,7 @@
 const Kontakta = () => {
   return (
     <>
-      <h1>Kontakta-sidan</h1>
+      <h2>Kontakta-sidan</h2>
     </>
   )
 }
