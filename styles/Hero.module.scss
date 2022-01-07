@@ -13,7 +13,7 @@
   @media (min-width: $desktop) {
     flex-direction: row;
   }
-  .test1 {
+  .box1 {
     padding: 0 2rem;
     @media (min-width: $desktop) {
       width: 80%;
@@ -26,7 +26,7 @@
       }
     }
   }
-  .test2 {
+  .box2 {
     padding-right: 4rem;
     @media (max-width: $desktop) {
       display: none;

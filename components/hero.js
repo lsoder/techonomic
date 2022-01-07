@@ -7,13 +7,13 @@ const Hero = () => {
     <div className={styles.hero}>
       {/*       <h1>Techonomic</h1>
        */}
-      <div className={styles.test1}>
+      <div className={styles.box1}>
         <h1>Duis aute irure dolor in reprehenderit in voluptate velit esse!</h1>
         <div className={styles.hideMobile}>
           <BlackButton text='Kontakta oss!' />
         </div>
       </div>
-      <div className={styles.test2}>
+      <div className={styles.box2}>
         <Image src='/illustration.png' alt='bild' width='500' height='300' />
       </div>
       <div className={styles.mobile}>
