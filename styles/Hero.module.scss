@@ -25,6 +25,11 @@
         display: none;
       }
     }
+    .imageMobile {
+      @media (min-width: $desktop) {
+        display: none;
+      }
+    }
   }
   .box2 {
     padding-right: 4rem;
