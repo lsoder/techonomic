@@ -1,10 +1,9 @@
-
 const Abonnemang = () => {
-    return (
-        <>
-        <h1>Abonnemangs-sidan</h1>
-        </>
-    )
+  return (
+    <>
+      <h2>Abonnemangs-sidan</h2>
+    </>
+  )
 }
 
-export default Abonnemang;
+export default Abonnemang
