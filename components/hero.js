@@ -8,7 +8,12 @@ const Hero = () => {
       {/*       <h1>Techonomic</h1>
        */}
       <div className={styles.box1}>
+        <div className={styles.imageMobile}>
+          <Image src='/illustration.png' alt='bild' width='250' height='150' />
+        </div>
+
         <h1>Duis aute irure dolor in reprehenderit in voluptate velit esse!</h1>
+
         <div className={styles.hideMobile}>
           <BlackButton text='Kontakta oss!' />
         </div>
