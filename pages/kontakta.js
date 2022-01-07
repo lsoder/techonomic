@@ -1,8 +1,18 @@
+
 import styles from '../styles/Contact.module.scss'
 import ContactCard from '../components/contactCard'
+import Head from 'next/head';
 
 const Kontakta = () => {
   return (
+    <>
+          <Head>
+        <title>Techonomic - KONTAKTA OSS</title>
+        <meta
+          name="description"
+          content="Meta description for the About page"
+        />
+      </Head>
     <div className={styles.container}>
       <h2>Kontakta oss</h2>
       <div className={styles.textContainer}>
@@ -29,7 +39,8 @@ const Kontakta = () => {
         />
       </div>
     </div>
+</>
   )
 }
 
-export default Kontakta
+export default Kontakta;
