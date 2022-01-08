@@ -4,6 +4,7 @@ import InstagramIcon from '@mui/icons-material/Instagram'
 import FacebookIcon from '@mui/icons-material/Facebook'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import { BlackButton } from './buttons'
+import ButtonSm, { ButtonLg } from './buttonNew'
 
 const ContactCard = (props) => {
   return (
@@ -17,7 +18,9 @@ const ContactCard = (props) => {
         <LinkedInIcon fontSize='small' />
         <InstagramIcon fontSize='small' />
       </div>
-      <BlackButton text='Boka möte' />
+      {/*       <BlackButton text='Boka möte' />
+       */}
+      <ButtonSm text='Boka möte' />
     </div>
   )
 }

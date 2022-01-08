@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from '../styles/ContactUs.module.scss'
+import ButtonSm, { ButtonLg } from './buttonNew'
 
 const Section6 = () => {
   return (
@@ -26,9 +27,10 @@ const Section6 = () => {
           type='text'
           required
         />
-        <button className={styles.buttonStyle} type='submit'>
+        {/*   <button className={styles.buttonStyle} type='submit'>
           Skicka
-        </button>
+        </button> */}
+        <ButtonLg text='Skicka' />
       </form>
       <h4>
         info@techonomic.se <br />
