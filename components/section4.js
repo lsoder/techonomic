@@ -1,5 +1,6 @@
 import styles from '../styles/Contact.module.scss'
 import ContactCard from './contactCard'
+import Some from './some';
 
 const Section4 = () => {
   return (
@@ -20,13 +21,20 @@ const Section4 = () => {
           name='Namn Efternamn'
           mail='mail@mail.com'
           phone='073 000000'
+          facebook='https://www.facebook.com/'
+          linkedIn='https://www.linkedIn.com/'
+          instagram='https://www.instagram.com/'
         />
         <ContactCard
           image='/avatar-male.png'
           name='Namn Efternamn'
           mail='mail@mail.com'
           phone='073 000000'
-        />
+          facebook='https://www.facebook.com/'
+          linkedIn='https://www.linkedIn.com/'
+          instagram='https://www.instagram.com/'
+        >
+        </ContactCard>
       </div>
     </div>
   )

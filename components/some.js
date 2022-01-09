@@ -1,16 +1,22 @@
-import InstagramIcon from '@mui/icons-material/Instagram'
-import FacebookIcon from '@mui/icons-material/Facebook'
-import LinkedInIcon from '@mui/icons-material/LinkedIn'
-import styles from '../styles/ContactCard.module.scss'
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import styles from '../styles/ContactCard.module.scss';
 
 const Some = (props) => {
   return (
     <div className={styles.some}>
-      <FacebookIcon fontSize='small'>{props.facebook}</FacebookIcon>
-      <LinkedInIcon fontSize='small'>{props.linkedIn}</LinkedInIcon>
-      <InstagramIcon fontSize='small'>{props.insta}</InstagramIcon>
+      <a href={props.facebook}>
+      <FacebookIcon fontSize="small"></FacebookIcon>
+      </a>
+      <a href={props.linkedIn}>
+      <LinkedInIcon fontSize="small"></LinkedInIcon>
+      </a>
+      <a href={props.instagram}>
+      <InstagramIcon fontSize="small"></InstagramIcon>
+      </a>
     </div>
-  )
-}
+  );
+};
 
-export default Some
+export default Some;
