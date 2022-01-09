@@ -1,18 +1,21 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import Some from './some'
 import styles from '../styles/Nav.module.scss'
 import { useState } from 'react'
 import PurpleButton from './buttons'
 import ButtonSm, { ButtonLg } from './buttonNew'
 
-const Navbar = () => {
+const Navbar = (props) => {
   const [active, setActive] = useState(false)
   return (
     <>
       <div className={styles.row}>
-        <Link href='/'>
-          <Image src='/logo.png' alt='logo' width='120' height='18' />
-        </Link>
+        <div className={styles.logoStyling}>
+          <Link href='/'>
+            <Image src='/logo.png' alt='logo' width='120' height='18' />
+          </Link>
+        </div>
         <div className={styles.menuDesktop}>
           <Link href='/'>HEM</Link>
           <Link href='/abonnemang'>ABONNEMANG</Link>
@@ -56,7 +59,11 @@ const Navbar = () => {
               <br />
               <br />
               <br />
-              Facebook Linkedin Instagram
+              <Some
+                facebook={props.facebook}
+                linkedIn={props.linkedIn}
+                instagram={props.instagram}
+              />
             </div>
           </div>
         </div>

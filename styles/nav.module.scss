@@ -132,6 +132,9 @@
   width: 100%;
   align-items: center;
   padding: 1rem 0 1rem 1.8rem;
+  .logoStyling {
+    cursor: pointer;
+  }
   @media (min-width: $desktop) {
     justify-content: space-evenly;
     padding-right: 0.5rem;
