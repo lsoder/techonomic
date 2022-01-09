@@ -32,9 +32,11 @@
     }
   }
   .box2 {
-    padding-right: 4rem;
-    @media (max-width: $desktop) {
-      display: none;
+    // Hide on mobile
+    display: none;
+    @media (min-width: $desktop) {
+      padding-right: 4rem;
+      display: flex;
     }
   }
 }
