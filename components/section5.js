@@ -1,26 +1,123 @@
-import SubscriptionCard from './subscriptionCard'
+import SubscriptionCard from './subscriptionCard';
+import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+import Box from '@mui/material/Box';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+
+import styles from '../styles/Section1.module.scss';
+import PaidIcon from '@mui/icons-material/Paid';
+import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
+import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
+import SummarizeIcon from '@mui/icons-material/Summarize';
+import AnalyticsIcon from '@mui/icons-material/Analytics';
+import EmojiEmotionsIcon from '@mui/icons-material/EmojiEmotions';
+import { ButtonLg } from './buttonNew';
+
+const theme = createTheme({
+  typography: {
+    purpleHeader: {
+      color: '#5A2CDD',
+      fontSize: 20,
+      fontWeight: 'bold',
+    },
+  },
+  palette: {
+    mainColor: {
+      main: '#5A2CDD',
+      contrastText: '#fff',
+    },
+    black: {
+      main: '#000000',
+      contrastText: '#fff',
+    },
+  },
+});
+
+const bull = (
+  <ThemeProvider theme={theme}>
+    <Box
+      component="span"
+      sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
+    >
+      <CheckCircleIcon color="mainColor" />
+    </Box>
+  </ThemeProvider>
+);
 
 const Section5 = () => {
   return (
     <>
       <h2>Abonnemang</h2>
-      <SubscriptionCard
-        heading='Lite'
-        text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor'
+      <div className={styles.hideLarge}>
+        <SubscriptionCard heading="Paket" price="Fr. 499kr/mån">
+          <p>{bull} Bokföring </p>
+          <p>{bull} Fakturering</p>
+          <p>{bull} Deklarationer</p>
+          <p>{bull} Lön</p>
+          <p>{bull} Månadsrapportering</p>
+          <p>{bull} Rådgivning</p>
+        </SubscriptionCard>
+      </div>
+      <div className={styles.hideSmall}>
+        <div className={styles.container5}>
+          <div className={styles.gridContainer}>
+            <div className={styles.rowDiv}>
+              <LibraryBooksIcon fontSize="large" />
+              <h3>Bokföring</h3>
+              <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse!
+              </p>
+            </div>
+            <div className={styles.rowDiv}>
+              <AccountBalanceWalletIcon fontSize="large" />
+              <h3>Fakturering</h3>
+              <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse!
+              </p>
+            </div>
+            <div className={styles.rowDiv}>
+              <AnalyticsIcon fontSize="large" />
+              <h3>Deklarationer</h3>
+              <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse!
+              </p>
+            </div>
+            <div className={styles.rowDiv}>
+              <PaidIcon fontSize="large" />
+              <h3>Lön</h3>
+              <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse!
+              </p>
+            </div>
+            <div className={styles.rowDiv}>
+              <SummarizeIcon fontSize="large" />
+              <h3>Månadsrapportering</h3>
+              <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse!
+              </p>
+            </div>
+            <div className={styles.rowDiv}>
+              <EmojiEmotionsIcon fontSize="large" />
+              <h3>Rådgivning</h3>
+              <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse!
+              </p>
+            </div>
+          </div>
+          <ButtonLg text='Läs mer'/>
+        </div>
+      </div>
+      {/* <SubscriptionCard
+        heading="Medium"
+        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor"
       />
       <SubscriptionCard
-        heading='Medium'
-        text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor'
-      />
-      <SubscriptionCard
-        heading='Large'
-        text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor'
-      />
+        heading="Large"
+        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor"
+      /> */}
     </>
-  )
-}
+  );
+};
 
-export default Section5
+export default Section5;
