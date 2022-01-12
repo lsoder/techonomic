@@ -45,6 +45,8 @@
     }
   }
   .hide {
+    display: flex;
+    margin-top: 10rem;
     @media (max-width: $desktop) {
       display: none;
     }
