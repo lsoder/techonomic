@@ -75,20 +75,27 @@
   }
 }
 
-// section5 
+// section5
 .container5 {
   width: 100vw;
-  background-color: #F3F0FD;
+  background-color: #f3f0fd;
   padding: 4rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  h2 {
+    margin: 0;
+  }
+  h3 {
+    margin: .5rem 0;
+  }
   .gridContainer {
     display: grid;
     grid-template-columns: auto auto auto;
+    padding: 4rem 0;
     .gridContent {
       display: flex;
-      padding-left: .5rem;
+      padding-left: 0.5rem;
       .gridText {
         padding-left: 1rem;
         h3 {
@@ -98,7 +105,6 @@
     }
   }
   i {
-    font-size: 12px;
+    font-size: 1rem;
   }
-
 }

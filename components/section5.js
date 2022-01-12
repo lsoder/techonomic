@@ -11,6 +11,8 @@ import SummarizeIcon from '@mui/icons-material/Summarize';
 import AnalyticsIcon from '@mui/icons-material/Analytics';
 import EmojiEmotionsIcon from '@mui/icons-material/EmojiEmotions';
 import { ButtonLg } from './buttonNew';
+import Link from 'next/link';
+import Abonnemang from '../pages/abonnemang';
 
 const theme = createTheme({
   typography: {
@@ -48,7 +50,7 @@ const Section5 = () => {
     <>
       <h2 className={styles.hideLarge}>Abonnemang</h2>
       <div className={styles.hideLarge}>
-        <SubscriptionCard heading="Paket" price="Fr. 499kr/mån">
+        <SubscriptionCard heading="Grundpaket" price="Fr. 499kr/mån">
           <p>{bull} Bokföring </p>
           <p>{bull} Fakturering</p>
           <p>{bull} Deklarationer</p>
@@ -60,6 +62,7 @@ const Section5 = () => {
       <div className={styles.hideSmall}>
         <div className={styles.container5}>
         <h2>Abonnemang</h2>
+        <h3>Fr. 499kr/mån</h3>
           <div className={styles.gridContainer}>
             <div className={styles.gridContent}>
               <LibraryBooksIcon fontSize="large" />
@@ -122,8 +125,7 @@ const Section5 = () => {
               </div>
             </div>
           </div>
-          <ButtonLg text="Läs mer" />
-          <i>lorem ipsum sit dolor hej</i>
+          <i>Vill du veta mer om vårt abonnemang och övriga tjänster klicka <Link href='/abonnemang'><b>här.</b></Link></i>
         </div>
       </div>
       {/* <SubscriptionCard

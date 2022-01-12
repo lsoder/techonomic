@@ -12,7 +12,7 @@ const SubscriptionCard = (props) => {
       {Children}
       </div>
       <ButtonSm text="Läs mer" />
-      <i>lorem ipsum sit dolor hej</i>
+      <i>Detta ingår i vårt grundpaket, vi erhåller <br/>även andra tjänster att lägga till.</i>
     </div>
   );
 };
