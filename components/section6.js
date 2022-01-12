@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from '../styles/ContactUs.module.scss'
-import ButtonSm, { ButtonLg } from './buttonNew'
+import { ButtonSm, ButtonLg } from './buttonNew'
 
 const Section6 = () => {
   return (

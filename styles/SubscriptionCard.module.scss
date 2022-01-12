@@ -1,0 +1,31 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem 1rem 1rem;
+  border: 0.5px solid #f8f8f8;
+  // background-color: rgb(245, 245, 245);
+  border-radius: 0.5rem;
+  box-shadow: 0.1rem 0.1rem 0.3rem #dddddd;
+  h3 {
+    padding: 0;
+  }
+  h2 {
+    margin: 0 0 1rem 0;
+    padding: 0;
+    font-weight: 400;
+    color: #8768df;
+  }
+  .cardContent {
+      padding-bottom: 1rem;
+      p {
+          padding: 0;
+          margin: 0;
+      }
+  }
+  i {
+      font-size: 10px;
+      padding: 1rem;
+  }
+}

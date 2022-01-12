@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import styles from '../styles/Hero.module.scss'
 import PurpleButton, { BlackButton } from './buttons'
-import ButtonSm, { ButtonLg } from './buttonNew'
+import { ButtonSm, ButtonLg } from './buttonNew'
 import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined'
 
 const Hero = () => {
@@ -27,7 +27,7 @@ const Hero = () => {
           {/* Below code is hidden on mobile */}
 
           <div className={styles.hideMobile}>
-            <ButtonSm text='Kontakta oss' />
+            <ButtonSm href='/' text='Kontakta oss' />
           </div>
         </div>
 
@@ -39,7 +39,7 @@ const Hero = () => {
         <KeyboardArrowDownOutlinedIcon />
       </div>
       <div className={styles.mobile}>
-        <ButtonSm text='Boka möte' />
+        <ButtonSm href='/' text='Boka möte' />
 
         <div className={styles.underButtonLink}>
           <h6>Frågor? Prata med någon av våra experter!</h6>

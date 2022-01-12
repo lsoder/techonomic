@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../styles/Nav.module.scss'
-import ButtonSm, { ButtonLg } from './buttonNew'
+import { ButtonSm, ButtonLg } from './buttonNew'
 import Hamburger from './hamburger'
 
 const Navbar = () => {
@@ -20,7 +20,7 @@ const Navbar = () => {
           <Link href='/about'>OM OSS</Link>
           <Link href='/kontakta'>KONTAKT</Link>
 
-          <ButtonSm text='Boka möte' />
+          <ButtonSm href='/' text='Boka möte' />
         </div>
         {/* Below show only on mobile */}
         <Hamburger />

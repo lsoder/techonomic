@@ -2,7 +2,7 @@ import Image from 'next/image'
 import styles from '../styles/ContactCard.module.scss'
 import Some from './some'
 import { BlackButton } from './buttons'
-import ButtonSm, { ButtonLg } from './buttonNew'
+import { ButtonSm, ButtonLg } from './buttonNew'
 
 const ContactCard = (props) => {
   return (
@@ -14,7 +14,7 @@ const ContactCard = (props) => {
       <Some facebook={props.facebook} linkedIn={props.linkedIn} instagram={props.instagram} />
       {/*       <BlackButton text='Boka möte' />
        */}
-      <ButtonSm text='Boka möte' />
+      <ButtonSm href='/' text='Boka möte' />
     </div>
   )
 }
