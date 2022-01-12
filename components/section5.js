@@ -46,7 +46,7 @@ const bull = (
 const Section5 = () => {
   return (
     <>
-      <h2>Abonnemang</h2>
+      <h2 className={styles.hideLarge}>Abonnemang</h2>
       <div className={styles.hideLarge}>
         <SubscriptionCard heading="Paket" price="Fr. 499kr/mån">
           <p>{bull} Bokföring </p>
@@ -59,6 +59,7 @@ const Section5 = () => {
       </div>
       <div className={styles.hideSmall}>
         <div className={styles.container5}>
+        <h2>Abonnemang</h2>
           <div className={styles.gridContainer}>
             <div className={styles.gridContent}>
               <LibraryBooksIcon fontSize="large" />
