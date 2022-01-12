@@ -12,8 +12,7 @@ const SubscriptionCard = (props) => {
       <div className={styles.cardContent}>{Children}</div>
       <ButtonSm href='/abonnemang' text="Läs mer" />
       <i>
-        Detta ingår i vårt grundpaket, vi erhåller <br />
-        även andra tjänster att lägga till.
+        {props.underText}
       </i>
     </div>
   );

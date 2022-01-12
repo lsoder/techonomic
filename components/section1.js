@@ -27,6 +27,10 @@ const Section1 = () => {
           <p>Mäklare</p>
           <p>Utvecklare</p>
           <p>Målare</p>
+          <p>Lorem</p>
+          <p>Ipsum</p>
+          <p>Sit</p>
+          <p>Dolor</p>
         </div>
       </div>
     </div>

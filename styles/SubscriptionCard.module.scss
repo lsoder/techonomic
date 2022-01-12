@@ -8,6 +8,8 @@
   // background-color: rgb(245, 245, 245);
   border-radius: 0.5rem;
   box-shadow: 0.1rem 0.1rem 0.3rem #dddddd;
+  margin-bottom: 3rem;
+  max-width: 19rem;
   h3 {
     padding: 0;
   }
@@ -18,7 +20,7 @@
     color: #8768df;
   }
   .cardContent {
-      padding-bottom: 1rem;
+      padding-bottom: 3rem;
       p {
           padding: 0;
           margin: 0;
@@ -26,6 +28,6 @@
   }
   i {
       font-size: 10px;
-      padding: 1rem;
+      padding: 2rem 0 0 0;
   }
 }
