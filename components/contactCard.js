@@ -14,7 +14,7 @@ const ContactCard = (props) => {
       <Some facebook={props.facebook} linkedIn={props.linkedIn} instagram={props.instagram} />
       {/*       <BlackButton text='Boka möte' />
        */}
-      <ButtonSm text='Boka möte' />
+      <ButtonSm href='/' text='Boka möte' />
     </div>
   )
 }

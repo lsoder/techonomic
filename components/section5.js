@@ -50,7 +50,7 @@ const Section5 = () => {
     <>
       <h2 className={styles.hideLarge}>Abonnemang</h2>
       <div className={styles.hideLarge}>
-        <SubscriptionCard heading="Grundpaket" price="Fr. 499kr/mån">
+        <SubscriptionCard heading="Grundpaket" price="Fr. 499kr/mån" link='/abonnemang'>
           <p>{bull} Bokföring </p>
           <p>{bull} Fakturering</p>
           <p>{bull} Deklarationer</p>

@@ -1,11 +1,14 @@
-import ButtonUnstyled, { buttonUnstyledClasses } from '@mui/base/ButtonUnstyled'
-import { styled } from '@mui/system'
+import ButtonUnstyled, {
+  buttonUnstyledClasses,
+} from '@mui/base/ButtonUnstyled';
+import { styled, textAlign } from '@mui/system';
+import Link from 'next/link';
 
 const black = {
   500: '#151515',
   600: '#313131',
   700: '#000000',
-}
+};
 
 const ButtonStyleSm = styled('span')`
   font-weight: bold;
@@ -31,7 +34,7 @@ const ButtonStyleSm = styled('span')`
       0 0 0 5px rgba(0, 127, 255, 0.5);
     outline: none;
   }
-`
+`;
 
 const ButtonStyleLg = styled('span')`
   font-weight: bold;
@@ -57,18 +60,25 @@ const ButtonStyleLg = styled('span')`
       0 0 0 5px rgba(0, 127, 255, 0.5);
     outline: none;
   }
-`
+`;
 
 function CustomButtonSm(props) {
-  return <ButtonUnstyled {...props} component={ButtonStyleSm} />
+  return <ButtonUnstyled {...props} component={ButtonStyleSm} />;
 }
 function CustomButtonLg(props) {
-  return <ButtonUnstyled {...props} component={ButtonStyleLg} />
+  return <ButtonUnstyled {...props} component={ButtonStyleLg} />;
 }
 
-export default function ButtonSm(props) {
-  return <CustomButtonSm>{props.text}</CustomButtonSm>
+function ButtonSm({ href, text }) {
+  return (
+    <Link href={href} passHref>
+      <CustomButtonSm>{text}</CustomButtonSm>
+    </Link>
+  );
 }
+export default ButtonSm;
+
+
 export function ButtonLg(props) {
-  return <CustomButtonLg>{props.text}</CustomButtonLg>
+  return <CustomButtonLg>{props.text}</CustomButtonLg>;
 }

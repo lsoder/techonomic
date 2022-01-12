@@ -7,7 +7,7 @@ const Section2 = () => {
     <div className={`${styles.container2} ${styles.hideLarge}`}>
       <div className={`${styles.bookMeetingContent}`}>
         <h2>Boka ett möte med oss</h2>
-        <ButtonSm text='Till kalender' />
+        <ButtonSm href='/' text='Till kalender' />
         <p>Lorem ipsum dolor sit amet,</p>
       </div>
     </div>
