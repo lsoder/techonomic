@@ -4,7 +4,7 @@ import { ButtonSm }from './buttonNew';
 
 const Section2 = () => {
   return (
-    <div className={`${styles.container2} ${styles.hideLarge}`}>
+    <div className={styles.container2}>
       <div className={`${styles.bookMeetingContent}`}>
         <h2>Boka ett möte med oss</h2>
         <ButtonSm href='/' text='Till kalender' />
