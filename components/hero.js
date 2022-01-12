@@ -6,6 +6,7 @@ import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDown
 import Lottie from "lottie-react";
 import animation from "../lottie/gear.json"
 import animation2 from "../lottie/test3.json"
+import animation3 from "../lottie/test2.json"
 
 const Hero = () => {
   return (
@@ -35,7 +36,7 @@ const Hero = () => {
         </div>
 
         <div className={styles.box2}>
-          <Lottie animationData={animation2}/>
+          <Lottie animationData={animation3}/>
         </div>
       </div>
       <div className={styles.hide}>
