@@ -3,6 +3,9 @@ import styles from '../styles/Hero.module.scss'
 import PurpleButton, { BlackButton } from './buttons'
 import { ButtonSm, ButtonLg } from './buttonNew'
 import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined'
+import Lottie from "lottie-react";
+import animation from "../lottie/gear.json"
+import animation2 from "../lottie/test3.json"
 
 const Hero = () => {
   return (
@@ -32,7 +35,7 @@ const Hero = () => {
         </div>
 
         <div className={styles.box2}>
-          <Image src='/illustration.png' alt='bild' width='500' height='300' />
+          <Lottie animationData={animation2}/>
         </div>
       </div>
       <div className={styles.hide}>
