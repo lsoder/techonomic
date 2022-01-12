@@ -1,5 +1,7 @@
 import SubscriptionCard from './subscriptionCard';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+import AddCircleIcon from '@mui/icons-material/AddCircle';
+import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 import Box from '@mui/material/Box';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
@@ -19,8 +21,8 @@ const theme = createTheme({
       main: '#5A2CDD',
       contrastText: '#fff',
     },
-    black: {
-      main: '#000000',
+    green: {
+      main: '#A7D0AB',
       contrastText: '#fff',
     },
   },
@@ -33,6 +35,18 @@ const bull = (
       sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
     >
       <CheckCircleIcon color="mainColor" />
+    </Box>
+  </ThemeProvider>
+);
+
+const plus = (
+  <ThemeProvider theme={theme}>
+    <Box
+      component="span"
+      sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
+    >
+      {/* <AddCircleIcon color="green" /> */}
+      <AddCircleOutlineIcon color="green" />
     </Box>
   </ThemeProvider>
 );
@@ -53,11 +67,11 @@ const Section5 = () => {
           <p>{bull} Grafisk rapporteringsverktyg</p>
         </SubscriptionCard>
         <SubscriptionCard heading="Plustjänster" price=" " link='/abonnemang' underText='Dessa tillägg man kan lägga till i abonnemanget.'>
-          <p>{bull} Betalning av lev.fakturor</p>
-          <p>{bull} Månadsmoms</p>
-          <p>{bull} Löner</p>
-          <p>{bull} Periodisk sammanställning</p>
-          <p>{bull} Årstjänster</p>
+          <p>{plus} Betalning av lev.fakturor</p>
+          <p>{plus} Månadsmoms</p>
+          <p>{plus} Löner</p>
+          <p>{plus} Periodisk sammanställning</p>
+          <p>{plus} Årstjänster</p>
         </SubscriptionCard>
       </div>
     </>
