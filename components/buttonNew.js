@@ -3,6 +3,7 @@ import ButtonUnstyled, {
 } from '@mui/base/ButtonUnstyled';
 import { styled, textAlign } from '@mui/system';
 import Link from 'next/link';
+import React from 'react';
 
 const black = {
   500: '#151515',
@@ -69,16 +70,18 @@ function CustomButtonLg(props) {
   return <ButtonUnstyled {...props} component={ButtonStyleLg} />;
 }
 
-function ButtonSm({ href, text }) {
+export function ButtonSm({ href, text }) {
   return (
     <Link href={href} passHref>
-      <CustomButtonSm>{text}</CustomButtonSm>
+      <a>
+        <CustomButtonSm>{text}</CustomButtonSm>
+      </a>
     </Link>
   );
 }
-export default ButtonSm;
 
 
 export function ButtonLg(props) {
   return <CustomButtonLg>{props.text}</CustomButtonLg>;
 }
+

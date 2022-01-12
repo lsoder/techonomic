@@ -1,6 +1,6 @@
 import styles from '../styles/Section1.module.scss'
 import { BlackButton } from './buttons'
-import ButtonSm from './buttonNew';
+import { ButtonSm }from './buttonNew';
 
 const Section2 = () => {
   return (

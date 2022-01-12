@@ -1,7 +1,7 @@
 
 import styles from '../styles/SubscriptionCard.module.scss';
 import Link from 'next/link';
-import ButtonSm from './buttonNew';
+import { ButtonSm } from './buttonNew';
 
 const SubscriptionCard = (props) => {
   const Children = props.children;

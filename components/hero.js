@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import styles from '../styles/Hero.module.scss'
 import PurpleButton, { BlackButton } from './buttons'
-import ButtonSm, { ButtonLg } from './buttonNew'
+import { ButtonSm, ButtonLg } from './buttonNew'
 import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined'
 
 const Hero = () => {
