@@ -60,50 +60,69 @@ const Section5 = () => {
       <div className={styles.hideSmall}>
         <div className={styles.container5}>
           <div className={styles.gridContainer}>
-            <div className={styles.rowDiv}>
+            <div className={styles.gridContent}>
               <LibraryBooksIcon fontSize="large" />
-              <h3>Bokföring</h3>
-              <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse!
-              </p>
+              <div className={styles.gridText}>
+                <h3>Bokföring</h3>
+                <p>
+                  Duis aute irure dolor in reprehenderit in voluptate velit
+                  esse!
+                </p>
+              </div>
             </div>
-            <div className={styles.rowDiv}>
+            <div className={styles.gridContent}>
               <AccountBalanceWalletIcon fontSize="large" />
-              <h3>Fakturering</h3>
-              <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse!
-              </p>
+              <div className={styles.gridText}>
+                <h3>Fakturering</h3>
+                <p>
+                  Duis aute irure dolor in reprehenderit in voluptate velit
+                  esse!
+                </p>
+              </div>
             </div>
-            <div className={styles.rowDiv}>
+            <div className={styles.gridContent}>
               <AnalyticsIcon fontSize="large" />
-              <h3>Deklarationer</h3>
-              <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse!
-              </p>
+              <div className={styles.gridText}>
+                <h3>Deklarationer</h3>
+                <p>
+                  Duis aute irure dolor in reprehenderit in voluptate velit
+                  esse!
+                </p>
+              </div>
             </div>
-            <div className={styles.rowDiv}>
+            <div className={styles.gridContent}>
               <PaidIcon fontSize="large" />
-              <h3>Lön</h3>
-              <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse!
-              </p>
+              <div className={styles.gridText}>
+                <h3>Lön</h3>
+                <p>
+                  Duis aute irure dolor in reprehenderit in voluptate velit
+                  esse!
+                </p>
+              </div>
             </div>
-            <div className={styles.rowDiv}>
+            <div className={styles.gridContent}>
               <SummarizeIcon fontSize="large" />
-              <h3>Månadsrapportering</h3>
-              <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse!
-              </p>
+              <div className={styles.gridText}>
+                <h3>Månadsrapportering</h3>
+                <p>
+                  Duis aute irure dolor in reprehenderit in voluptate velit
+                  esse!
+                </p>
+              </div>
             </div>
-            <div className={styles.rowDiv}>
+            <div className={styles.gridContent}>
               <EmojiEmotionsIcon fontSize="large" />
-              <h3>Rådgivning</h3>
-              <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse!
-              </p>
+              <div className={styles.gridText}>
+                <h3>Rådgivning</h3>
+                <p>
+                  Duis aute irure dolor in reprehenderit in voluptate velit
+                  esse!
+                </p>
+              </div>
             </div>
           </div>
-          <ButtonLg text='Läs mer'/>
+          <ButtonLg text="Läs mer" />
+          <i>lorem ipsum sit dolor hej</i>
         </div>
       </div>
       {/* <SubscriptionCard
