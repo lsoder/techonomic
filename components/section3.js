@@ -1,8 +1,10 @@
 import Image from 'next/image'
 import styles from '../styles/Section1.module.scss'
+import SubscriptionDesktop from './subscriptionDesktop'
 
 const Section3 = () => {
   return (
+    <>
     <div className={styles.hideLarge}>
       <div className={styles.container3}>
         <h2>Branscher</h2>
@@ -15,6 +17,8 @@ const Section3 = () => {
         <h3>Finansbolag</h3>
       </div>
     </div>
+    <SubscriptionDesktop/>
+    </>
   )
 }
 
