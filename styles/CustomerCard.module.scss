@@ -1,23 +1,46 @@
+@import './variables';
+
 .container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin: 2rem 0;
+  align-items: center;
+  .imageDiv {
+    margin-right: 1rem;
+  }
   .commentDiv {
-
-    width: 50%;
+    max-width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
-
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 25px;
-    /* or 139% */
+    @media (min-width: $desktop) {
+      max-width: 70%;
+    }
+    .quote {
+      font-size: 20px;
+      font-weight: bold;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+    }
     p {
-        margin: 0;
+        margin: .5rem 0 0 0;
+    }
+  }
+  .commentDivReverse {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    @media (min-width: $desktop) {
+      max-width: 70%;
+    }
+    .quote {
+      font-size: 20px;
+      font-weight: bold;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    p {
+        margin: .5rem 0 0 0;
     }
   }
 }

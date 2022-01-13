@@ -8,13 +8,10 @@ import AnalyticsIcon from '@mui/icons-material/Analytics';
 import EmojiEmotionsIcon from '@mui/icons-material/EmojiEmotions';
 import { ButtonLg } from './buttonNew';
 import Link from 'next/link';
-import styles from '../styles/Section1.module.scss';
-
+import styles from '../styles/SubscriptionDesktop.module.scss';
 const SubscriptionDesktop = () => {
   return (
-    <div className={styles.container5}>
-      <h2>Abonnemang</h2>
-      <h3>Fr. 499kr/mån</h3>
+    <div className={styles.containerSubscriptionDesktop}>
       <div className={styles.gridContainer}>
         <div className={styles.gridContent}>
           <LoyaltyIcon fontSize="large" />
@@ -80,12 +77,6 @@ const SubscriptionDesktop = () => {
           </div>
         </div>
       </div>
-        <i>
-          Vill du veta mer om vårt abonnemang och övriga tjänster klicka{' '}
-          <Link href="/abonnemang">
-            <b>här.</b>
-          </Link>
-        </i>
     </div>
   );
 };
