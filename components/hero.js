@@ -25,7 +25,7 @@ const Hero = () => {
           </div>
 
           <h1>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse!
+            Bokföring på abonnemang, <br/> helt enkelt .
           </h1>
 
           {/* Below code is hidden on mobile */}

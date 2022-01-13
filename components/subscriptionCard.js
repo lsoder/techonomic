@@ -8,6 +8,7 @@ const SubscriptionCard = (props) => {
   return (
     <div className={styles.cardContainer}>
       <h3>{props.heading}</h3>
+      <p>{props.text}</p>
       <h2>{props.price}</h2>
       <div className={styles.cardContent}>{Children}</div>
       <i>

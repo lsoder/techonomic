@@ -18,17 +18,7 @@ const Section3 = () => {
           <h3>Finansbolag</h3>
         </div>
       </div>
-      <div className={styles.subscriptionWrapper}>
-        <h2>Abonnemang</h2>
-        <h3>Fr. 1500kr/mån</h3>
-        <SubscriptionDesktop />
-        <i>
-          Vill du veta mer om vårt abonnemang och övriga tjänster klicka{' '}
-          <Link href="/abonnemang">
-            <b>här.</b>
-          </Link>
-        </i>
-      </div>
+
     </>
   );
 };
