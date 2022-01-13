@@ -36,13 +36,27 @@ const Abonnemang = () => {
           underText="Detta ingår i vårt grundpaket, vi erhåller
         även andra tjänster att lägga till."
         >
-          <p>{bull} Personlig konsult</p>
-          <p>{bull} Rådgivning</p>
-          <p>{bull} Löpande bokföring</p>
-          <p>{bull} Kvartals-/års-moms</p>
-          <p>{bull} Arbetsgivardeklaration</p>
-          <p>{bull} Programvarukostnad</p>
-          <p>{bull} Grafisk rapporteringsverktyg</p>
+          <div className={styles.listItem}>
+            {bull} <p>Personlig konsult</p>
+          </div>
+          <div className={styles.listItem}>
+            {bull} <p>Rådgivning</p>
+          </div>
+          <div className={styles.listItem}>
+            {bull} <p>Löpande bokföring</p>
+          </div>
+          <div className={styles.listItem}>
+            {bull} <p>Kvartals-/års-moms</p>
+          </div>
+          <div className={styles.listItem}>
+            {bull} <p>Arbetsgivardeklaration</p>
+          </div>
+          <div className={styles.listItem}>
+            {bull} <p>Programvarukostnad</p>
+          </div>
+          <div className={styles.listItem}>
+            {bull} <p>Grafisk rapporteringsverktyg</p>
+          </div>
         </SubscriptionCard>
         <p>
           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -59,11 +73,26 @@ const Abonnemang = () => {
           link="/abonnemang"
           underText="Dessa tillägg man kan lägga till i abonnemanget."
         >
-          <p>{plus} Betalning av lev.fakturor</p>
-          <p>{plus} Månadsmoms</p>
-          <p>{plus} Löner</p>
-          <p>{plus} Periodisk sammanställning</p>
-          <p>{plus} Årstjänster</p>
+          <div className={styles.listItem}>
+            {plus}
+            <p>Betalning av lev.fakturor</p>
+          </div>
+          <div className={styles.listItem}>
+            {plus}
+            <p>Månadsmoms</p>
+          </div>
+          <div className={styles.listItem}>
+            {plus}
+            <p>Löner</p>
+          </div>
+          <div className={styles.listItem}>
+            {plus}
+            <p>Periodisk sammanställning</p>
+          </div>
+          <div className={styles.listItem}>
+            {plus}
+            <p>Årstjänster</p>
+          </div>
         </SubscriptionCard>
         <i>
           adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
@@ -95,11 +124,26 @@ const Abonnemang = () => {
           <div className={styles.box1}>
             <h2>Plustjänster</h2>
             <div>
-              <p>{filledPlus} Betalning av lev.fakturor</p>
-              <p>{filledPlus} Månadsmoms</p>
-              <p>{filledPlus} Löner</p>
-              <p>{filledPlus} Periodisk sammanställning</p>
-              <p>{filledPlus} Årstjänster</p>
+              <div className={styles.listItem}>
+                {filledPlus}
+                <p>Betalning av lev.fakturor</p>
+              </div>
+              <div className={styles.listItem}>
+                {filledPlus}
+                <p>Månadsmoms</p>
+              </div>
+              <div className={styles.listItem}>
+                {filledPlus}
+                <p>Löner</p>
+              </div>
+              <div className={styles.listItem}>
+                {filledPlus}
+                <p>Periodisk sammanställning</p>
+              </div>
+              <div className={styles.listItem}>
+                {filledPlus}
+                <p>Årstjänster</p>
+              </div>
             </div>
           </div>
           <div className={styles.box2}>
