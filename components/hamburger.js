@@ -4,7 +4,7 @@ import Some from './some'
 import styles from '../styles/Nav.module.scss'
 import { useState } from 'react'
 
-const Hamburger = (props) => {
+const Hamburger = () => {
   const [active, setActive] = useState(false)
   return (
     <>
@@ -36,10 +36,10 @@ const Hamburger = (props) => {
               officia deserunt mollit anim id est laborum.
               <br />
               <br />
-              Frågor? Prata med någon av våra experter
-              <br />
-              <br />
-              <br />
+              Frågor? Prata med någon av våra experter!
+              <div className={styles.padding}>
+                <h4>hello@mail</h4> <h4>0700 - 12 34 56</h4>
+              </div>
               <Some
                 facebook='https://www.facebook.com/'
                 linkedIn='https://www.linkedin.com/'
