@@ -6,6 +6,7 @@
       display: inherit;
       width: 100vw;
       display: flex;
+      justify-content: center;
       h2 {
         margin: 0;
       }
@@ -15,10 +16,6 @@
       .gridContainer {
         display: grid;
         grid-template-columns: auto auto auto;
-        // grid-template:
-        //   'a b c'
-        //   'd e f'
-        //   'g h h' auto;
         padding: 1rem 0;
         @media (max-width: 1015px) {
           grid-template-columns: auto auto;
