@@ -13,7 +13,6 @@
     max-width: 50%;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
     justify-content: flex-end;
     @media (min-width: $desktop) {
       max-width: 70%;
@@ -25,6 +24,7 @@
     }
     p {
         margin: .5rem 0 0 0;
+        font-weight: bold;
     }
   }
   .commentDivReverse {
@@ -41,6 +41,7 @@
     }
     p {
         margin: .5rem 0 0 0;
+        font-weight: bold;
     }
   }
 }
