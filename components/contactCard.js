@@ -7,7 +7,7 @@ import { ButtonSm, ButtonLg } from './buttonNew'
 const ContactCard = (props) => {
   return (
     <div className={styles.container}>
-      <Image src={props.image} alt='logo' width='100' height='100' />
+      <Image src={props.image} alt='logo' width='150' height='150' />
       <p>{props.name}</p>
       <h4>{props.mail}</h4>
       <h4>{props.phone}</h4>

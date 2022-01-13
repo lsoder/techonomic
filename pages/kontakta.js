@@ -26,14 +26,14 @@ const Kontakta = () => {
       </div>
       <div className={styles.cardContainer}>
         <ContactCard
-          image='/avatar-male.png'
-          name='Namn Efternamn'
+          image='/images/jonatan.png'
+          name='Jonatan Brekke'
           mail='mail@mail.com'
           phone='073 000000'
         />
         <ContactCard
-          image='/avatar-male.png'
-          name='Namn Efternamn'
+          image='/images/thobias.png'
+          name='Thobias Granström'
           mail='mail@mail.com'
           phone='073 000000'
         />
