@@ -1,6 +1,8 @@
-import styles from '../styles/Section1.module.scss'
-import CustomerCard from './customerCard'
-import CustomerCardReverse from './customerCardReverse'
+import styles from '../styles/Section1.module.scss';
+import CustomerCard from './customerCard';
+import CustomerCardReverse from './customerCardReverse';
+import { ButtonSm } from './buttonNew';
+import { gear } from './coloredIcons';
 
 const Section1 = () => {
   return (
@@ -10,31 +12,45 @@ const Section1 = () => {
       <div className={styles.content}>
         <div className={styles.customerContent}>
           <CustomerCard
-            image='/images/petter.png'
-            comment='Jag tycker att techonomic tillför exakt det jag behöver i min bokföring.'
-            name='Petter, mäklare'
+            image="/images/petter.png"
+            comment="Jag tycker att techonomic tillför exakt det jag behöver i min bokföring."
+            name="Petter, mäklare"
           />
           <div className={styles.hideSmall}>
             <CustomerCardReverse
-              image='/images/ola.png'
+              image="/images/ola.png"
               comment='"Snabbt och effektivt, helt klart den bästa redovisningsbyrå jag någonsin har haft!"'
-              name='Ola, utvecklare'
+              name="Ola, utvecklare"
             />
           </div>
         </div>
         <div className={`${styles.hideSmall} ${styles.branscherContent}`}>
           <h3>Urval av branscher vi jobbar mot:</h3>
-          <p>Mäklare</p>
-          <p>Utvecklare</p>
-          <p>Målare</p>
-          <p>Lorem</p>
-          <p>Ipsum</p>
-          <p>Sit</p>
-          <p>Dolor</p>
+          <div className={styles.branschList}>
+            <div className={styles.listItem}>
+              {gear} <p>Mäklare</p>
+            </div>
+            <div className={styles.listItem}>
+              {gear} <p>Utvecklare</p>
+            </div>
+            <div className={styles.listItem}>
+              {gear} <p>Influencers</p>
+            </div>
+            <div className={styles.listItem}>
+              {gear} <p>Tatuerare</p>
+            </div>
+            <div className={styles.listItem}>
+              {gear} <p>Snickare</p>
+            </div>
+            <div className={styles.listItem}>
+              {gear} <p>Frisöres</p>
+            </div>
+          </div>
+          <ButtonSm href="/branscher" text="Läs mer" />
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Section1
+export default Section1;

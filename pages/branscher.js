@@ -27,7 +27,7 @@ const Branscher = () => {
           />
         </div>
         <div className={styles.branscherDiv}>
-          <h2>Några branscher vi specificerat oss på*</h2>
+          <h3>Några branscher vi specificerat oss på*</h3>
           <p>mäklare</p>
           <p>mäklare</p>
           <p>mäklare</p>

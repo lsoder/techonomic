@@ -21,6 +21,7 @@
     width: 80%;
     text-align: center;
     @media (min-width: $desktop) {
+      padding-left: 2rem;
       width: 50%;
     }
   }

@@ -4,7 +4,7 @@ import styles from '../styles/CustomerCard.module.scss';
 const CustomerCardReverse = (props) => {
   return (
     <div className={styles.container}>
-      <div className={styles.commentDivReverse}>
+      <div className={styles.commentDiv}>
         <i>
           {' '}
           <span className={styles.quote}>&quot;</span> {props.comment}{' '}

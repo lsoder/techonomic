@@ -36,10 +36,18 @@
     .branscherContent {
       @media (min-width: $desktop) {
         flex-direction: column;
+        align-items: center;
         width: 50%;
-        text-align: center;
-        p {
-          margin: 0;
+        //text-align: center;
+        .branschList {
+          padding: 0 0 2rem 0;
+          .listItem {
+            display: flex;
+            align-items: center;
+          }
+          p {
+            margin: 0;
+          }
         }
       }
     }
@@ -74,7 +82,9 @@
 }
 
 .buttonDiv {
-  margin: 2rem 0 0 0 ;
+  margin: 2rem 0 0 0;
+  display: flex;
+  justify-content: center;
 }
 
 // SubscriptionDesktop
