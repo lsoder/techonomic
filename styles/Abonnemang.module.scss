@@ -1,0 +1,46 @@
+@import './variables';
+
+.subscriptionWrapperMobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 2rem;
+    @media (min-width: $desktop) {
+        display: none;
+    }
+    i {
+      margin: 0 0 2rem 0;
+    }
+}
+
+.subscriptionWrapperDesktop {
+  display: none;
+  @media (min-width: $desktop) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f3f0fd;
+    h2 {
+      margin: 0 0 2rem 0;
+    }
+    h3 {
+      margin: 0.5rem 0 3rem 0;
+    }
+    i {
+      font-size: 1rem;
+      padding: 1rem;
+    }
+    .content {
+      display: flex;
+      flex-direction: row;
+      padding: 2rem;
+      .box1 {
+        width: 50%;
+      }
+      .box2 {
+        width: 50%;
+      }
+    }
+  }
+}

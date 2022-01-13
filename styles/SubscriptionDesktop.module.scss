@@ -1,0 +1,39 @@
+@import './variables';
+
+.containerSubscriptionDesktop {
+    display: none;
+    @media (min-width: $desktop) {
+      display: inherit;
+      width: 100vw;
+      display: flex;
+      h2 {
+        margin: 0;
+      }
+      h3 {
+        margin: 0.5rem 0;
+      }
+      .gridContainer {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        // grid-template:
+        //   'a b c'
+        //   'd e f'
+        //   'g h h' auto;
+        padding: 1rem 0;
+        @media (max-width: 1015px) {
+          grid-template-columns: auto auto;
+
+        }
+        .gridContent {
+          display: flex;
+          margin: 1rem 2rem;
+          .gridText {
+            padding-left: 1rem;
+            h3 {
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+  }

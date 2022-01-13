@@ -10,7 +10,6 @@ const SubscriptionCard = (props) => {
       <h3>{props.heading}</h3>
       <h2>{props.price}</h2>
       <div className={styles.cardContent}>{Children}</div>
-      <ButtonSm href='/abonnemang' text="Läs mer" />
       <i>
         {props.underText}
       </i>
