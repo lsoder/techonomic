@@ -16,14 +16,14 @@ const Branscher = () => {
       <div className={styles.container}>
         <div className={styles.customerDiv}>
           <CustomerCard
-            image="/avatar-male.png"
-            comment='"Jag tycker att techonomic tillför exakt det jag behöver i min bokföring."'
+            image="/images/petter.png"
+            comment='Jag tycker att techonomic tillför exakt det jag behöver i min bokföring.'
             name="Petter, mäklare"
           />
           <CustomerCardReverse
-            image="/avatar-male.png"
-            comment='"Snabbt och effektivt"'
-            name="Ola, utvecklare"
+            image="/images/ola.png"
+            comment='Snabbt och effektivt, dem har gjort underverk för mig och min firma.'
+            name="Nils, målare"
           />
         </div>
         <div className={styles.branscherDiv}>
