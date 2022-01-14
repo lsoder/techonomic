@@ -19,7 +19,7 @@ const MyCustom404Page = (props) => {
           </a>
         </Link>
       </h2>
-      <p>HÄR GÖR VI EN SNYGG 404-SIDA!!!!</p>
+      <p>HÄR GÖR VI EN SNYGG 404-SIDA!!!!!!</p>
     </div>
   );
 };
