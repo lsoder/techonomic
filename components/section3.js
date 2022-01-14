@@ -29,6 +29,7 @@ const Section3 = () => {
           </Link>
         </i>
       </div>
+
     </>
   );
 };

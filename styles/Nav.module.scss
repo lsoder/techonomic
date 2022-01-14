@@ -3,7 +3,7 @@
 .wrapper {
   display: flex;
   justify-content: flex-end;
-  padding: 1.5rem;
+  margin: 1.9rem 1.5rem 0 0;
   position: fixed;
   top: 0;
   right: 0;
@@ -136,12 +136,15 @@
 .row {
   display: flex;
   // VILL VI HA DEN FIXED??
-  // position: fixed;
-  // background-color: white;
+  position: fixed;
+  background-color: white;
+  z-index: 100;
   justify-content: flex-start;
   width: 100%;
   align-items: center;
-  padding: 1rem 0 1rem 1.8rem;
+  padding: .9rem 0 .7rem 1.8rem;
+  border-bottom: 1px solid #f3f0fd;
+//   box-shadow: 1px 1px 5px #f3f0fd;
   .logoStyling {
     cursor: pointer;
   }
