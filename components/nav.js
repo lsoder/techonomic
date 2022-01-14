@@ -9,7 +9,7 @@ const Navbar = () => {
     <>
       <div className={styles.row}>
         <div className={styles.logoStyling}>
-          <Link href='/'>
+          <Link href='/' passHref>
             <Image src='/logo.png' alt='logo' width='180' height='27' />
           </Link>
         </div>

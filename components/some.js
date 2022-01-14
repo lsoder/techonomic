@@ -6,13 +6,13 @@ import styles from '../styles/ContactCard.module.scss'
 const Some = (props) => {
   return (
     <div className={styles.some}>
-      <a href={props.facebook} target='_blank'>
+      <a href={props.facebook}>
         <FacebookIcon fontSize='small'></FacebookIcon>
       </a>
-      <a href={props.linkedIn} target='_blank'>
+      <a href={props.linkedIn}>
         <LinkedInIcon fontSize='small'></LinkedInIcon>
       </a>
-      <a href={props.instagram} target='_blank'>
+      <a href={props.instagram}>
         <InstagramIcon fontSize='small'></InstagramIcon>
       </a>
     </div>
