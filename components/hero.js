@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import styles from '../styles/Hero.module.scss'
-import PurpleButton, { BlackButton } from './buttons'
-import { ButtonSm, ButtonLg } from './buttonNew'
+import { ButtonSm, ButtonLg } from './buttons'
 import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined'
 // import Lottie from "lottie-react";
 // import animation from "../lottie/gear.json"

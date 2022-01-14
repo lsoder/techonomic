@@ -1,9 +1,10 @@
 import Head from 'next/head';
-import { ButtonSm } from '../components/buttonNew';
-import { bull, plus, filledPlus } from '../components/coloredIcons';
-import SubscriptionCard from '../components/subscriptionCard';
+import { ButtonSm } from '../components/buttons';
+import { filledPlus } from '../components/coloredIcons';
+import SubscriptionCardBasic, {SubscriptionCardExtra} from '../components/subscriptionCards';
 import SubscriptionDesktop from '../components/subscriptionDesktop';
 import styles from '../styles/Abonnemang.module.scss';
+
 
 const Abonnemang = () => {
   return (
@@ -29,35 +30,7 @@ const Abonnemang = () => {
           incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
         </p>
-        <SubscriptionCard
-          heading="Grundpaket"
-          price="Fr. 1500kr/mån"
-          link="/abonnemang"
-          underText="Detta ingår i vårt grundpaket, vi erhåller
-        även andra tjänster att lägga till."
-        >
-          <div className={styles.listItem}>
-            {bull} <p>Personlig konsult</p>
-          </div>
-          <div className={styles.listItem}>
-            {bull} <p>Rådgivning</p>
-          </div>
-          <div className={styles.listItem}>
-            {bull} <p>Löpande bokföring</p>
-          </div>
-          <div className={styles.listItem}>
-            {bull} <p>Kvartals-/års-moms</p>
-          </div>
-          <div className={styles.listItem}>
-            {bull} <p>Arbetsgivardeklaration</p>
-          </div>
-          <div className={styles.listItem}>
-            {bull} <p>Programvarukostnad</p>
-          </div>
-          <div className={styles.listItem}>
-            {bull} <p>Grafisk rapporteringsverktyg</p>
-          </div>
-        </SubscriptionCard>
+        <SubscriptionCardBasic />
         <p>
           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
           labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -67,33 +40,7 @@ const Abonnemang = () => {
           proident, sunt in culpa qui officia deserunt mollit anim id est
           laborum.
         </p>
-        <SubscriptionCard
-          heading="Plustjänster"
-          price=" "
-          link="/abonnemang"
-          underText="Dessa tillägg man kan lägga till i abonnemanget."
-        >
-          <div className={styles.listItem}>
-            {plus}
-            <p>Betalning av lev.fakturor</p>
-          </div>
-          <div className={styles.listItem}>
-            {plus}
-            <p>Månadsmoms</p>
-          </div>
-          <div className={styles.listItem}>
-            {plus}
-            <p>Löner</p>
-          </div>
-          <div className={styles.listItem}>
-            {plus}
-            <p>Periodisk sammanställning</p>
-          </div>
-          <div className={styles.listItem}>
-            {plus}
-            <p>Årstjänster</p>
-          </div>
-        </SubscriptionCard>
+        <SubscriptionCardExtra/>
         <i>
           adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
         </i>

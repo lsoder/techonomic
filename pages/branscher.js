@@ -1,6 +1,5 @@
 import styles from '../styles/Branscher.module.scss';
-import CustomerCard from '../components/customerCard';
-import CustomerCardReverse from '../components/customerCardReverse';
+import CustomerCard, { CustomerCardReverse } from '../components/customerCards';
 import Head from 'next/head';
 import { gear } from '../components/coloredIcons';
 

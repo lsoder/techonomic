@@ -1,7 +1,5 @@
 import Image from 'next/image';
 import styles from '../styles/Section1.module.scss';
-import SubscriptionDesktop from './subscriptionDesktop';
-import Link from 'next/link';
 
 const Section3 = () => {
   return (
