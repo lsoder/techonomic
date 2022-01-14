@@ -23,6 +23,9 @@
         width: 80%;
         padding: 0 4rem;
         text-align: left;
+        h1 {
+          font-size: 70px;
+        }
       }
       .hideMobile {
         @media (max-width: $desktop) {

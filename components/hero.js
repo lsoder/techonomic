@@ -25,7 +25,7 @@ const Hero = () => {
           </div>
 
           <h1>
-            Bokföring på abonnemang, <br/> helt enkelt .
+            Bokföring på abonnemang, <br/>enkelt .
           </h1>
 
           {/* Below code is hidden on mobile */}
