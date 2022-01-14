@@ -78,7 +78,7 @@ const Section5 = () => {
         <SubscriptionDesktop />
         <i>
           Vill du veta mer om vårt abonnemang och övriga tjänster klicka{' '}
-          <Link href="/abonnemang">
+          <Link href="/abonnemang" passHref>
             <b>här.</b>
           </Link>
         </i>
