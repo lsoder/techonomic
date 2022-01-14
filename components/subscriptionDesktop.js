@@ -1,14 +1,12 @@
 import LoyaltyIcon from '@mui/icons-material/Loyalty';
-import PaidIcon from '@mui/icons-material/Paid';
 import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
 import TodayIcon from '@mui/icons-material/Today';
 import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
 import SummarizeIcon from '@mui/icons-material/Summarize';
 import AnalyticsIcon from '@mui/icons-material/Analytics';
 import EmojiEmotionsIcon from '@mui/icons-material/EmojiEmotions';
-import { ButtonLg } from './buttonNew';
-import Link from 'next/link';
 import styles from '../styles/SubscriptionDesktop.module.scss';
+
 const SubscriptionDesktop = () => {
   return (
     <div className={styles.containerSubscriptionDesktop}>

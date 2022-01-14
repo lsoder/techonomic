@@ -1,7 +1,6 @@
 import styles from '../styles/Section1.module.scss';
-import CustomerCard from './customerCard';
-import CustomerCardReverse from './customerCardReverse';
-import { ButtonSm } from './buttonNew';
+import CustomerCard, { CustomerCardReverse }from './customerCards';
+import { ButtonSm } from './buttons';
 import { gear } from './coloredIcons';
 
 const Section1 = () => {
