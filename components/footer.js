@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from '../styles/Home.module.scss'
+import Some from './some'
+import styles from '../styles/Footer.module.scss'
 
 const Footer = () => {
   return (
@@ -14,6 +15,15 @@ const Footer = () => {
         </div>
         <div className={styles.footerMenuContainer}>
           <div className={styles.footerMenu}>
+            <div className={styles.desktopStyle}>
+              <ul className={styles.desktopUl}>
+                <li className={styles.desktopLi}>
+                  <Image src='/logo.png' alt='logo' width='120' height='18' />
+                </li>
+                <li>Adress 1234567</li>
+                <li>123 45 Göteborg</li>
+              </ul>
+            </div>
             <ul>
               <li>MENY</li>
               <li>
@@ -30,11 +40,13 @@ const Footer = () => {
               <li>KONTAKT</li>
               <li>073- 00 00 00</li>
               <li>info@techonomic</li>
+              <Some facebook='' linkedIn='' instagram='' />
             </ul>
           </div>
         </div>
-        <Image src='/logo.png' alt='logo' width='120' height='18' />
-
+        <div className={styles.logoFooter}>
+          <Image src='/logo.png' alt='logo' width='120' height='18' />
+        </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
       <div className={styles.bottom}>
