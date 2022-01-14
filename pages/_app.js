@@ -15,10 +15,10 @@ function MyApp({ Component, pageProps }) {
           href='https://fonts.gstatic.com'
           crossOrigin='true'
         />
-        <link
+        {/* <link
           href='https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap'
           rel='stylesheet'
-        />
+        /> */}
       </Head>
       <Layout>
         <Component {...pageProps} />
