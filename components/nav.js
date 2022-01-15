@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className={styles.row}>
         <div className={styles.logoStyling}>
           <Link href='/' passHref>
-            <Image src='/logo.png' alt='logo' width='180' height='27' />
+            <Image src='/logo.png' alt='logo' width='130' height='19' />
           </Link>
         </div>
         <div className={styles.menuDesktop}>
