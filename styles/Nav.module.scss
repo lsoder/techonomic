@@ -3,7 +3,7 @@
 .wrapper {
   display: flex;
   justify-content: flex-end;
-  margin: 1.9rem 1.5rem 0 0;
+  margin: 1.5rem 1.5rem 0 0;
   position: fixed;
   top: 0;
   right: 0;
@@ -142,9 +142,9 @@
   justify-content: flex-start;
   width: 100%;
   align-items: center;
-  padding: .9rem 0 .7rem 1.8rem;
+  padding: 0.9rem 0 0.7rem 1.8rem;
   border-bottom: 1px solid #f3f0fd;
-//   box-shadow: 1px 1px 5px #f3f0fd;
+  //   box-shadow: 1px 1px 5px #f3f0fd;
   .logoStyling {
     cursor: pointer;
   }

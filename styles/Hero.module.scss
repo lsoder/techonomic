@@ -5,11 +5,11 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+  //align-items: center;
+  //text-align: center;
   justify-content: center;
-  background: rgb(241, 228, 255);
-  background: $gradientBackground;
+  //background: rgb(241, 228, 255);
+  //background: $blueBackground;
   @media (min-width: $desktop) {
     flex-direction: column;
   }
@@ -18,10 +18,16 @@
     width: 100%;
     flex-direction: row;
     justify-content: center;
+    h1 {
+      font-size: 36px;
+    }
+    .h1blue {
+      color: #2162f0;
+    }
     .box1 {
       padding: 0 2rem;
       @media (min-width: $desktop) {
-        width: 80%;
+        width: 90%;
         padding: 0 4rem;
         text-align: left;
         h1 {
@@ -34,6 +40,7 @@
         }
       }
       .imageMobile {
+        display: flex;
         @media (min-width: $desktop) {
           display: none;
         }
@@ -48,39 +55,43 @@
       }
     }
   }
-  .hide {
-    display: flex;
-    margin-top: 10rem;
-    @media (max-width: $desktop) {
-      display: none;
-    }
-  }
 }
 .mobile {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
+  //display: flex;
+  //justify-content: center;
+  //align-items: center;
+  //flex-direction: column;
+  //width: 100%;
+  padding-left: 2rem;
+  //padding-top: 1rem;
+
   .underButtonLink {
     width: 40%;
     padding-top: 1rem;
   }
+
   @media (min-width: $desktop) {
     display: none;
   }
+}
+// HÄR KAN MAN MANIPULERA KNAPP LITE!!!!!
 
-  // HÄR KAN MAN MANIPULERA KNAPP LITE!!!!!
+// button {
+//   width: 20%;
+//   height: 2.5rem;
+//   transition: width .2s;
+//   &:hover {
+//     width: 21%;
+//     background-color: #724ed6;
+//   }
+// }
 
-  // button {
-  //   width: 20%;
-  //   height: 2.5rem;
-  //   transition: width .2s;
-  //   &:hover {
-  //     width: 21%;
-  //     background-color: #724ed6;
-  //   }
-  // }
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  //background: chartreuse;
 }
 
 // .buttonStyle {

@@ -1,7 +1,8 @@
 import Image from 'next/image'
 import styles from '../styles/Hero.module.scss'
-import { ButtonSm, ButtonLg } from './buttons'
+import { ButtonSm, ButtonLg, ButtonLgBlue, ButtonSmBlue } from './buttons'
 import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined'
+import { style } from '@mui/system'
 // import Lottie from "lottie-react";
 // import animation from "../lottie/gear.json"
 // import animation2 from "../lottie/test3.json"
@@ -10,44 +11,41 @@ import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDown
 const Hero = () => {
   return (
     <div className={styles.hero}>
-      {/*       <h1>Techonomic</h1>
-       */}
       <div className={styles.container}>
         <div className={styles.box1}>
           <div className={styles.imageMobile}>
             <Image
               src='/illustration.png'
               alt='bild'
-              width='250'
-              height='150'
+              width='190'
+              height='100'
             />
           </div>
 
           <h1>
-            Bokföring på abonnemang, <br/>enkelt .
+            Personlig konsult, rådgivning och bokföring på abonnemang <br />
+            <span className={styles.h1blue}>- helt enkelt.</span>
           </h1>
 
           {/* Below code is hidden on mobile */}
 
           <div className={styles.hideMobile}>
-            <ButtonSm href='/' text='Kontakta oss' />
+            <ButtonLgBlue href='/' text='Kontakta oss' />
+            <h6>Frågor? Prata med någon av våra experter!</h6>
           </div>
         </div>
 
-        <div className={styles.box2}>
-          {/* <Lottie animationData={animation3}/> */}
-        </div>
+        {/*         <div className={styles.box2}>
+          {/* <Lottie animationData={animation3}/> 
+        </div> */}
       </div>
-      <div className={styles.hide}>
-        <KeyboardArrowDownOutlinedIcon />
-      </div>
-      <div className={styles.mobile}>
-        <ButtonSm href='/' text='Boka möte' />
 
-        <div className={styles.underButtonLink}>
-          <h6>Frågor? Prata med någon av våra experter!</h6>
-          <KeyboardArrowDownOutlinedIcon />
-        </div>
+      <div className={styles.mobile}>
+        <ButtonSmBlue href='/' text='Boka möte' />
+        <h6>Frågor? Prata med någon av våra experter!</h6>
+      </div>
+      <div className={styles.centered}>
+        <KeyboardArrowDownOutlinedIcon />
       </div>
     </div>
   )
