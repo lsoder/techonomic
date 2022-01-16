@@ -5,8 +5,6 @@ import { ButtonLg } from './buttons'
 const Section6 = () => {
   return (
     <div className={styles.containerContact}>
-      {/*       <Image src='/logo.png' alt='logo' width='120' height='18' />
-       */}{' '}
       <Image src='/illustration.png' alt='bild' width='250' height='150' />
       <h2>Bli kontaktad av oss?</h2>
       <div className={styles.textContainer}>
@@ -30,7 +28,7 @@ const Section6 = () => {
         {/*   <button className={styles.buttonStyle} type='submit'>
           Skicka
         </button> */}
-        <ButtonLg text='Skicka' />
+        <ButtonLg href='/' text='Skicka' />
       </form>
       <h4>
         info@techonomic.se <br />
