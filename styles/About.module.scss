@@ -4,10 +4,11 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-top: 5rem;
+  padding-top: 2rem;
   @media (min-width: $desktop) {
     flex-direction: row;
     justify-content: center;
+    padding-top: 3rem;
   }
   .aboutContainer {
     @media (min-width: $desktop) {

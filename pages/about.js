@@ -26,14 +26,14 @@ const About = () => {
             </div>
             <div className={styles.some}>
               <div className={styles.padding}>
-                <p>Namn Efternamn</p>
-                <h4>jonatan@techonomic.se</h4> <h4>0768 - 58 03 65</h4>
+                <p>Thobias Granström</p>
+                <h4>thobias@techonomic.se</h4> <h4>0700 - 00 00 00</h4>
                 <div className={styles.paddingTop}>
                   <Some facebook='' linkedIn='' instagram='' />
                 </div>
               </div>
               <div className={styles.padding}>
-                <p>Namn Efternamn</p>
+                <p>Jonatan Brekke</p>
                 <h4>jonatan@techonomic.se</h4> <h4>0768 - 58 03 65</h4>
                 <div className={styles.paddingTop}>
                   <Some facebook='' linkedIn='' instagram='' />

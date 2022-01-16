@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import Some from './some'
-import styles from '../styles/Footer.module.scss'
+import Some from '../some'
+import styles from '../footer/Footer.module.scss'
 
 const Footer = () => {
   return (
@@ -39,7 +39,7 @@ const Footer = () => {
             <ul>
               <li>KONTAKT</li>
               <li>073- 00 00 00</li>
-              <li>info@techonomic</li>
+              <li>info@techonomic.se</li>
               <Some facebook='' linkedIn='' instagram='' />
             </ul>
           </div>

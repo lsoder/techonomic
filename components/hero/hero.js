@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import styles from '../styles/Hero.module.scss'
+import styles from '../hero/Hero.module.scss'
 import { motion } from 'framer-motion'
-import { container, container2, container3, item } from '../motion/motion'
-import { ButtonLgBlue, ButtonSmBlue } from './buttons'
+import { container, container2, container3, item } from '../../motion/motion'
+import { ButtonLgBlue, ButtonSmBlue } from '../buttons'
 import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined'
 
 // import Lottie from "lottie-react";

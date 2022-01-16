@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from '../styles/Nav.module.scss'
-import { ButtonSm } from './buttons'
-import Hamburger from './hamburger'
+import styles from '../nav/Nav.module.scss'
+import { ButtonSm } from '../buttons'
+import Hamburger from '../hamburger/hamburger'
 
 const Navbar = () => {
   return (
