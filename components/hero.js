@@ -1,51 +1,14 @@
 import Image from 'next/image'
 import styles from '../styles/Hero.module.scss'
 import { motion } from 'framer-motion'
-
-import { ButtonSm, ButtonLg, ButtonLgBlue, ButtonSmBlue } from './buttons'
+import { container, container2, container3, item } from '../motion/motion'
+import { ButtonLgBlue, ButtonSmBlue } from './buttons'
 import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined'
 
 // import Lottie from "lottie-react";
 // import animation from "../lottie/gear.json"
 // import animation2 from "../lottie/test3.json"
 // import animation3 from "../lottie/test2.json"
-
-const container = {
-  hidden: { opacity: 0 },
-  show: {
-    opacity: 1,
-    transition: {
-      delayChildren: 0.5,
-      staggerDirection: -3,
-    },
-  },
-}
-
-const container2 = {
-  hidden: { opacity: 0 },
-  show: {
-    opacity: 1,
-    transition: {
-      delayChildren: 1.5,
-      staggerDirection: -10,
-    },
-  },
-}
-const container3 = {
-  hidden: { opacity: 0 },
-  show: {
-    opacity: 1,
-    transition: {
-      delayChildren: 2,
-      staggerDirection: -12,
-    },
-  },
-}
-
-const item = {
-  hidden: { opacity: 0 },
-  show: { opacity: 1 },
-}
 
 const Hero = () => {
   return (
