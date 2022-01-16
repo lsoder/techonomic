@@ -28,7 +28,9 @@ const Section6 = () => {
         {/*   <button className={styles.buttonStyle} type='submit'>
           Skicka
         </button> */}
-        <ButtonLg href='/' text='Skicka' />
+        <div className={styles.padding}>
+          <ButtonLg href='/' text='Skicka' />
+        </div>
       </form>
       <h4>
         info@techonomic.se <br />
