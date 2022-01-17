@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import styles from '../styles/CustomerCard.module.scss';
+import styles from './CustomerCard.module.scss';
 
 const CustomerCard = (props) => {
   return (

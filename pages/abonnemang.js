@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import { ButtonSm } from '../components/buttons';
 import { filledPlus } from '../components/coloredIcons';
-import SubscriptionCardBasic, {SubscriptionCardExtra} from '../components/subscriptionCards';
-import SubscriptionDesktop from '../components/subscriptionDesktop';
+import SubscriptionCardBasic, {SubscriptionCardExtra} from '../components/subscriptionCards/subscriptionCards';
+import SubscriptionDesktop from '../components/subscriptionDesktop/subscriptionDesktop';
 import styles from '../styles/Abonnemang.module.scss';
 
 
