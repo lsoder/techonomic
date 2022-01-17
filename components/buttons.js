@@ -1,7 +1,9 @@
 import ButtonUnstyled, { buttonUnstyledClasses } from '@mui/base/ButtonUnstyled'
-import { styled, textAlign } from '@mui/system'
 import Link from 'next/link'
 import React from 'react'
+import { motion } from 'framer-motion'
+
+import { styled, textAlign } from '@mui/system'
 
 const black = {
   500: '#151515',
@@ -134,18 +136,42 @@ export function ButtonSm({ href, text }) {
   return (
     <Link href={href} passHref>
       <a>
-        <CustomButtonSm>{text}</CustomButtonSm>
+        <motion.div whileHover={{ scale: 1.05 }}>
+          <CustomButtonSm>{text}</CustomButtonSm>
+        </motion.div>
       </a>
     </Link>
   )
 }
 
-export function ButtonSmBlue(props) {
-  return <CustomButtonSmBlue>{props.text}</CustomButtonSmBlue>
+export function ButtonSmBlue({ href, text }) {
+  return (
+    <Link href={href} passHref>
+      <a>
+        <motion.div whileHover={{ marginLeft: '1rem', scale: 1.1 }}>
+          <CustomButtonSmBlue>{text}</CustomButtonSmBlue>
+        </motion.div>
+      </a>
+    </Link>
+  )
 }
-export function ButtonLg(props) {
-  return <CustomButtonLg>{props.text}</CustomButtonLg>
+export function ButtonLg({ href, text }) {
+  return (
+    <Link href={href} passHref>
+      <a>
+        <CustomButtonLg>{text}</CustomButtonLg>
+      </a>
+    </Link>
+  )
 }
-export function ButtonLgBlue(props) {
-  return <CustomButtonLgBlue>{props.text}</CustomButtonLgBlue>
+export function ButtonLgBlue({ href, text }) {
+  return (
+    <Link href={href} passHref>
+      <a>
+        <motion.div whileHover={{ marginLeft: '0.5rem', scale: 1.02 }}>
+          <CustomButtonLgBlue>{text}</CustomButtonLgBlue>
+        </motion.div>
+      </a>
+    </Link>
+  )
 }
