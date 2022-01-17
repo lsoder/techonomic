@@ -10,7 +10,7 @@ const MyCustom404Page = (props) => {
       <div>
         <motion.div variants={container} initial="hidden" animate="show">
           <motion.div variants={item} size={50}>
-            <h1>Oupps något gick fel.</h1>
+            <h1>Oups något gick fel.</h1>
           </motion.div>
         </motion.div>
         <motion.div variants={container2} initial="hidden" animate="show">
