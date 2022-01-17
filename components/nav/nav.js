@@ -20,7 +20,7 @@ const Navbar = () => {
           <Link href='/about'>OM OSS</Link>
           <Link href='/kontakta'>KONTAKT</Link>
 
-          <ButtonSmBlue href='/' text='Boka demo' />
+          <ButtonSm href='/' text='Boka demo' />
         </div>
         {/* Below show only on mobile */}
         <Hamburger />

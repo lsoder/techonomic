@@ -52,9 +52,12 @@ const Hero = () => {
       </div>
 
       <div className={styles.mobile}>
-        <ButtonSmBlue href='/' text='Boka möte' />
-
-        <h6>Frågor? Prata med någon av våra experter!</h6>
+        <motion.div variants={container3} initial='hidden' animate='show'>
+          <motion.div variants={item} size={50}>
+            <ButtonSmBlue href='/' text='Boka möte' />
+            <h6>Frågor? Prata med någon av våra experter!</h6>
+          </motion.div>
+        </motion.div>
       </div>
       <div className={styles.centered}>
         {/* <Lottie className={styles.animationArrow} animationData={arrow}/>  */}
