@@ -5,7 +5,7 @@ import { ButtonLg } from './buttons'
 const Section6 = () => {
   return (
     <div className={styles.containerContact}>
-      <Image src='/illustration.png' alt='bild' width='250' height='150' />
+      {/* <Image src='/illustration.png' alt='bild' width='250' height='150' /> */}
       <h2>Bli kontaktad av oss?</h2>
       <div className={styles.textContainer}>
         <p>

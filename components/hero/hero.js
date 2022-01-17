@@ -1,9 +1,9 @@
-import Image from 'next/image';
-import styles from '../hero/Hero.module.scss';
-import { motion } from 'framer-motion';
-import { container, container2, container3, item } from '../../motion/motion';
-import { ButtonLgBlue, ButtonSmBlue } from '../buttons';
-import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined';
+import Image from 'next/image'
+import styles from '../hero/Hero.module.scss'
+import { motion } from 'framer-motion'
+import { container, container2, container3, item } from '../../motion/motion'
+import { ButtonLgBlue, ButtonSmBlue } from '../buttons'
+import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined'
 
 // import Lottie from 'lottie-react';
 // import arrow from '../../lottie/arrowDown.json';
@@ -14,21 +14,21 @@ const Hero = () => {
     <div className={styles.hero}>
       <div className={styles.container}>
         <div className={styles.box1}>
-          <div className={styles.imageMobile}>
+          {/* <div className={styles.imageMobile}>
             <Image
               src="/illustration.png"
               alt="bild"
               width="190"
               height="100"
             />
-          </div>
+          </div> */}
           <h1>
-            <motion.div variants={container} initial="hidden" animate="show">
+            <motion.div variants={container} initial='hidden' animate='show'>
               <motion.div variants={item} size={50}>
                 Personlig konsult, rådgivning och bokföring på abonnemang <br />
               </motion.div>
             </motion.div>
-            <motion.div variants={container2} initial="hidden" animate="show">
+            <motion.div variants={container2} initial='hidden' animate='show'>
               <motion.div variants={item} size={50}>
                 <span className={styles.h1blue}>- helt enkelt.</span>
               </motion.div>
@@ -37,9 +37,9 @@ const Hero = () => {
           {/* Below code is hidden on mobile */}
 
           <div className={styles.hideMobile}>
-            <motion.div variants={container3} initial="hidden" animate="show">
+            <motion.div variants={container3} initial='hidden' animate='show'>
               <motion.div variants={item} size={50}>
-                <ButtonLgBlue href="/" text="Kontakta oss" />
+                <ButtonLgBlue href='/' text='Kontakta oss' />
                 <h6>Frågor? Prata med någon av våra experter!</h6>
               </motion.div>
             </motion.div>
@@ -52,7 +52,7 @@ const Hero = () => {
       </div>
 
       <div className={styles.mobile}>
-        <ButtonSmBlue href="/" text="Boka möte" />
+        <ButtonSmBlue href='/' text='Boka möte' />
 
         <h6>Frågor? Prata med någon av våra experter!</h6>
       </div>
@@ -64,7 +64,7 @@ const Hero = () => {
         </motion.div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero

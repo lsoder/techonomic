@@ -3,7 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 import { motion } from 'framer-motion'
 
-import { styled, textAlign } from '@mui/system'
+import { styled } from '@mui/system'
 
 const black = {
   500: '#151515',
@@ -12,7 +12,7 @@ const black = {
 }
 const blue = {
   500: '#2162f0',
-  600: '##205fe8',
+  600: '#205fe8',
   700: '#1a52c9',
 }
 
@@ -148,7 +148,7 @@ export function ButtonSmBlue({ href, text }) {
   return (
     <Link href={href} passHref>
       <a>
-        <motion.div whileHover={{ scale: 1.1 }}>
+        <motion.div whileHover={{ scale: 1.05 }}>
           <CustomButtonSmBlue>{text}</CustomButtonSmBlue>
         </motion.div>
       </a>
@@ -168,9 +168,7 @@ export function ButtonLgBlue({ href, text }) {
   return (
     <Link href={href} passHref>
       <a>
-        <motion.div whileHover={{ marginLeft: '0.5rem', scale: 1.02 }}>
-          <CustomButtonLgBlue>{text}</CustomButtonLgBlue>
-        </motion.div>
+        <CustomButtonLgBlue>{text}</CustomButtonLgBlue>
       </a>
     </Link>
   )

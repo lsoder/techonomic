@@ -32,11 +32,13 @@
         text-align: left;
         h1 {
           font-size: 70px;
+          margin-bottom: 1.5rem;
         }
       }
       .hideMobile {
         @media (max-width: $desktop) {
           display: none;
+          padding: 0;
         }
       }
       .imageMobile {
