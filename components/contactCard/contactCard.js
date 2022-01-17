@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from './ContactCard.module.scss'
-import Some from '../some';
+import Some from '../some'
 import { ButtonSm } from '../buttons'
 
 const ContactCard = (props) => {
@@ -10,7 +10,7 @@ const ContactCard = (props) => {
       <p>{props.name}</p>
       <h4>{props.mail}</h4>
       <h4>{props.phone}</h4>
-      <Some facebook={props.facebook} linkedIn={props.linkedIn} instagram={props.instagram} />
+      <Some facebook='/' linkedIn='/' instagram='/' />
       <ButtonSm href='/' text='Boka möte' />
     </div>
   )
