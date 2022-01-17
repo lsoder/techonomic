@@ -5,9 +5,9 @@ import { container, container2, container3, item } from '../../motion/motion';
 import { ButtonLgBlue, ButtonSmBlue } from '../buttons';
 import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined';
 
-import Lottie from 'lottie-react';
-import arrow from '../../lottie/arrowDown.json';
-import arrow2 from '../../lottie/scroll.json';
+// import Lottie from 'lottie-react';
+// import arrow from '../../lottie/arrowDown.json';
+// import arrow2 from '../../lottie/scroll.json';
 
 const Hero = () => {
   return (
