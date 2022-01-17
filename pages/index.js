@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Hero from '../components/hero'
+import Hero from '../components/hero/hero'
 import styles from '../styles/Home.module.scss'
 import Section1 from '../components/section1'
 import Section2 from '../components/section2'
