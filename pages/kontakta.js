@@ -1,5 +1,5 @@
 import styles from '../styles/Contact.module.scss'
-import ContactCard from '../components/contactCard'
+import ContactCard from '../components/contactCard/contactCard'
 import Head from 'next/head'
 
 const Kontakta = () => {

@@ -1,7 +1,7 @@
 import InstagramIcon from '@mui/icons-material/Instagram'
 import FacebookIcon from '@mui/icons-material/Facebook'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
-import styles from '../styles/ContactCard.module.scss'
+import styles from './contactCard/ContactCard.module.scss'
 
 const Some = (props) => {
   return (

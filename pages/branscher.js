@@ -1,5 +1,5 @@
 import styles from '../styles/Branscher.module.scss';
-import CustomerCard, { CustomerCardReverse } from '../components/customerCards';
+import CustomerCard, { CustomerCardReverse } from '../components/customerCards/customerCards';
 import Head from 'next/head';
 import { gear } from '../components/coloredIcons';
 
@@ -43,24 +43,12 @@ const Branscher = () => {
           <div className={styles.branscherDiv}>
             <h3>Några branscher vi specificerat oss på*</h3>
             <div className={styles.branschList}>
-              <div className={styles.listItem}>
-                {gear} <p>Mäklare</p>
-              </div>
-              <div className={styles.listItem}>
-                {gear} <p>Utvecklare</p>
-              </div>
-              <div className={styles.listItem}>
-                {gear} <p>Influencers</p>
-              </div>
-              <div className={styles.listItem}>
-                {gear} <p>Tatuerare</p>
-              </div>
-              <div className={styles.listItem}>
-                {gear} <p>Snickare</p>
-              </div>
-              <div className={styles.listItem}>
-                {gear} <p>Frisöres</p>
-              </div>
+              <p>Mäklare</p>
+              <p>Utvecklare</p>
+              <p>Influencers</p>
+              <p>Tatuerare</p>
+              <p>Snickare</p>
+              <p>Frisöres</p>
             </div>
             <i>
               * tveka inte att höra av dig om du tillhör någon annan bransch, vi

@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import styles from '../styles/ContactCard.module.scss'
-import Some from './some'
-import { ButtonSm } from './buttons'
+import styles from './ContactCard.module.scss'
+import Some from '../some';
+import { ButtonSm } from '../buttons'
 
 const ContactCard = (props) => {
   return (

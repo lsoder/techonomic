@@ -5,7 +5,7 @@ import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
 import SummarizeIcon from '@mui/icons-material/Summarize';
 import AnalyticsIcon from '@mui/icons-material/Analytics';
 import EmojiEmotionsIcon from '@mui/icons-material/EmojiEmotions';
-import styles from '../styles/SubscriptionDesktop.module.scss';
+import styles from './SubscriptionDesktop.module.scss';
 
 const SubscriptionDesktop = () => {
   return (

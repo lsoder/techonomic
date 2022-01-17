@@ -1,8 +1,8 @@
 
-import styles from '../styles/SubscriptionCard.module.scss';
-import { ButtonSm } from './buttons';
-import { bull } from './coloredIcons';
-import { plus } from './coloredIcons';
+import styles from './SubscriptionCard.module.scss';
+import { ButtonSm } from '../buttons';
+import { bull } from '../coloredIcons';
+import { plus } from '../coloredIcons';
 
 const SubscriptionCard = (props) => {
   const Children = props.children;
@@ -22,7 +22,7 @@ const SubscriptionCard = (props) => {
 const SubscriptionCardBasic = () => {
   return (
     <SubscriptionCard
-    heading="Grundpaket"
+    heading="Abonnemang"
     price="Fr. 1500kr/mån"
     text=""
     link="/abonnemang"
