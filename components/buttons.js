@@ -148,7 +148,7 @@ export function ButtonSmBlue({ href, text }) {
   return (
     <Link href={href} passHref>
       <a>
-        <motion.div whileHover={{ marginLeft: '1rem', scale: 1.1 }}>
+        <motion.div whileHover={{ scale: 1.1 }}>
           <CustomButtonSmBlue>{text}</CustomButtonSmBlue>
         </motion.div>
       </a>
