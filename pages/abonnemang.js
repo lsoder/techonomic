@@ -13,7 +13,7 @@ const Abonnemang = () => {
         <title>Techonomic - ABONNEMANG</title>
         <meta
           name="description"
-          content="Meta description for the About page"
+          content="Meta description for the subscription page"
         />
       </Head>
       <div className={styles.subscriptionWrapperMobile}>

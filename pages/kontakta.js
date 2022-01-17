@@ -9,7 +9,7 @@ const Kontakta = () => {
         <title>Techonomic - KONTAKTA OSS</title>
         <meta
           name='description'
-          content='Meta description for the About page'
+          content='Meta description for the contact page'
         />
       </Head>
       <div className={styles.container}>

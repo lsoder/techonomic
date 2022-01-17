@@ -10,7 +10,7 @@ const Branscher = () => {
         <title>Techonomic - BRANSCHER</title>
         <meta
           name="description"
-          content="Meta description for the About page"
+          content="Meta description for the bransch page"
         />
       </Head>
       <div className={styles.container}>

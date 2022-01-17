@@ -15,7 +15,7 @@ export default function Home() {
         <title>Techonomic</title>
         <meta
           name='description'
-          content='Meta description for the About page'
+          content='Meta description for the index page'
         />
       </Head>
       <main className={styles.main}>

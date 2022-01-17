@@ -10,7 +10,7 @@ const About = () => {
         <title>Techonomic - OM OSS</title>
         <meta
           name='description'
-          content='Meta description for the About page'
+          content='Meta description for the about page'
         />
       </Head>
       <div className={styles.container}>
