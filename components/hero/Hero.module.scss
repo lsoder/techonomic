@@ -55,6 +55,14 @@
       }
     }
   }
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .animationArrow {
+      height: 5rem;
+    }
+  }
 }
 .mobile {
   //display: flex;
@@ -64,7 +72,9 @@
   //width: 100%;
   padding-left: 2rem;
   //padding-top: 1rem;
-
+  h6 {
+    margin-bottom: 0;
+  }
   .underButtonLink {
     width: 40%;
     padding-top: 1rem;
@@ -86,12 +96,7 @@
 //   }
 // }
 
-.centered {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 1rem;
-}
+
 
 // .buttonStyle {
 //   display: flex;
