@@ -1,11 +1,14 @@
+import FadeIn from '../motion/fadeIn';
 import BookAMeeting from './bookAMeeting/bookAMeeting';
 import CustomerAndBransch from './customerAndBransch/customerAndBransch';
 
 const Section2 = () => {
   return (
     <>
-      <CustomerAndBransch />
-      <BookAMeeting />
+      <FadeIn>
+        <CustomerAndBransch />
+      </FadeIn>
+        <BookAMeeting />
     </>
   );
 };

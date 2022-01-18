@@ -1,6 +1,8 @@
 import styles from '../styles/Contact.module.scss'
 import ContactCard from '../components/contactCard/contactCard'
 import Head from 'next/head'
+import FadeIn from '../motion/fadeIn';
+import { Fade } from '@mui/material';
 
 const Kontakta = () => {
   return (

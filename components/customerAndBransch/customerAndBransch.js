@@ -1,6 +1,7 @@
 import styles from './CustomerAndBransch.module.scss'
 import CustomerCard, { CustomerCardReverse } from '../customerCards/customerCards';
 import { ButtonSm } from '../buttons';
+import FadeIn from '../../motion/fadeIn';
 
 const CustomerAndBransch = () => {
     return (
