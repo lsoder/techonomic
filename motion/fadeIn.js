@@ -6,7 +6,7 @@ function FadeIn({ children }) {
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
-      transition={{ duration: 2 }}
+      transition={{ duration: 1.5 }}
       variants={{
         visible: { opacity: 1, scale: 1 },
         hidden: { opacity: 0, scale: 1 }
