@@ -12,18 +12,21 @@ const Section1 = () => {
       {/* <Section5/> */}
       <div className={styles.container}>
         <div className={styles.textContainer}>
-          <h2>Techonomic på 5 sek.</h2>
-          <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
-            <br />
-            <br />
-            För mer information, kontakta någon av våra experter!
-            <br />
-          </p>
+          <FadeIn>
+            <h2>Techonomic på 5 sek.</h2>
+            <p>
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non proident, sunt in culpa qui officia deserunt mollit
+              anim id est laborum.
+              <br />
+              <br />
+              För mer information, kontakta någon av våra experter!
+              <br />
+            </p>
+          </FadeIn>
         </div>
+
         <div className={styles.Subscription}>
           <FadeIn>
             <SubscriptionCardBasic />
