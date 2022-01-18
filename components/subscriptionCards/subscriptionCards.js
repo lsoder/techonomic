@@ -52,7 +52,7 @@ const SubscriptionCardBasic = () => {
       {bull} <p>Grafisk rapporteringsverktyg</p>
     </div>
     <div className={styles.listItem}>
-      {bull} <p>Ett perfekt sammarbete</p>
+      {bull} <p>Ingen bindningstid</p>
     </div>
     </div>
     <div className={styles.buttonDiv}>

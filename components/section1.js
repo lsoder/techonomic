@@ -3,7 +3,7 @@ import SubscriptionCardBasic, {
   SubscriptionCardExtra,
 } from './subscriptionCards/subscriptionCards';
 import Lottie from "lottie-react";
-import animationDesktop from "../lottie/desktop.json"
+// import animation from "../lottie/pattern.json"
 
 const Section1 = () => {
   return (
@@ -11,7 +11,7 @@ const Section1 = () => {
       {/* <Section5/> */}
       <div className={styles.Subscription}>
         <SubscriptionCardBasic />
-        <Lottie animationData={animationDesktop}/>
+        {/* <Lottie className={styles.animation} animationData={animation}></Lottie> */}
         {/* <SubscriptionCardExtra/> */}
       </div>
     </>
