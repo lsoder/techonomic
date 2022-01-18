@@ -8,12 +8,16 @@ import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDown
 // import Lottie from 'lottie-react';
 // import arrow from '../../lottie/arrowDown.json';
 // import arrow2 from '../../lottie/scroll.json';
+// import animation from "../../lottie/pattern.json"
+
 
 const Hero = () => {
   return (
     <div className={styles.hero}>
+        {/* <Lottie className={styles.animation} animationData={animation}></Lottie> */}
       <div className={styles.container}>
         <div className={styles.box1}>
+
           {/* <div className={styles.imageMobile}>
             <Image
               src="/illustration.png"
@@ -62,9 +66,9 @@ const Hero = () => {
       <div className={styles.centered}>
         {/* <Lottie className={styles.animationArrow} animationData={arrow}/>  */}
         {/* <Lottie className={styles.animationArrow} animationData={arrow2}/>  */}
-        <motion.div whileHover={{ scale: 2.1 }} whileTap={{ scale: 1 }}>
+        {/* <motion.div whileHover={{ scale: 2.1 }} whileTap={{ scale: 1 }}>
           <KeyboardArrowDownOutlinedIcon />
-        </motion.div>
+        </motion.div> */}
       </div>
     </div>
   )

@@ -1,12 +1,15 @@
-import Navbar from './nav/nav'
-import Footer from './footer/footer'
+import Navbar from './nav/nav';
+import Footer from './footer/footer';
+import Box from '../motion/cursor';
 
 export default function Layout({ children }) {
   return (
     <>
       <Navbar />
-      <main>{children}</main>
-      <Footer />
+      <Box>
+        <main>{children}</main>
+        <Footer />
+      </Box>
     </>
-  )
+  );
 }

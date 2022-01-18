@@ -1,11 +1,14 @@
-import Kontakta from '../pages/kontakta'
+import Kontakta from '../pages/kontakta';
+import FadeIn from '../motion/fadeIn';
 
 const Section4 = () => {
   return (
     <>
-      <Kontakta />
+      <FadeIn>
+        <Kontakta />
+      </FadeIn>
     </>
-  )
-}
+  );
+};
 
-export default Section4
+export default Section4;

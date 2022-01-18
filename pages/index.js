@@ -8,6 +8,7 @@ import Section4 from '../components/section4'
 import Section5 from '../components/section5'
 import Section6 from '../components/section6'
 
+
 export default function Home() {
   return (
     <div>

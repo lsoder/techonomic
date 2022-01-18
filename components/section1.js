@@ -2,16 +2,19 @@ import styles from '../styles/Section1.module.scss';
 import SubscriptionCardBasic, {
   SubscriptionCardExtra,
 } from './subscriptionCards/subscriptionCards';
-// import Lottie from "lottie-react";
-// import animationDesktop from "../lottie/desktop.json"
+import Lottie from "lottie-react";
+// import animation from "../lottie/pattern.json"
+import FadeIn from '../motion/fadeIn';
 
 const Section1 = () => {
   return (
     <>
       {/* <Section5/> */}
       <div className={styles.Subscription}>
+        <FadeIn>
         <SubscriptionCardBasic />
-        {/* <Lottie animationData={animationDesktop}/> */}
+        </FadeIn>
+        {/* <Lottie className={styles.animation} animationData={animation}></Lottie> */}
         {/* <SubscriptionCardExtra/> */}
       </div>
     </>

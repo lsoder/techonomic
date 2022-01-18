@@ -29,6 +29,7 @@ const SubscriptionCardBasic = () => {
     underText="Detta ingår i vårt grundpaket, vi erhåller
   även andra tjänster att lägga till."
   >
+    <div className={styles.listGrid}>
     <div className={styles.listItem}>
       {bull} <p>Personlig konsult</p>
     </div>
@@ -49,6 +50,10 @@ const SubscriptionCardBasic = () => {
     </div>
     <div className={styles.listItem}>
       {bull} <p>Grafisk rapporteringsverktyg</p>
+    </div>
+    <div className={styles.listItem}>
+      {bull} <p>Ingen bindningstid</p>
+    </div>
     </div>
     <div className={styles.buttonDiv}>
       <ButtonSm href="/abonnemang" text="Läs mer" />

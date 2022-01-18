@@ -1,5 +1,13 @@
 @import './styles/variables';
 
+
+.animation {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  transform: rotate(90deg);
+}
+
 .hero {
   height: 100vh;
   width: 100%;
@@ -62,7 +70,7 @@
     justify-content: center;
     align-items: center;
     .animationArrow {
-      height: 5rem;
+      height: 3rem;
     }
   }
 }
