@@ -2,13 +2,24 @@
 
 .container {
   display: flex;
-  //background: orange;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
   @media (min-width: $desktop) {
     flex-direction: row;
+    padding: 3rem;
+  }
+}
+.textContainer {
+  background: rgb(1, 1, 220);
+  padding: 3rem;
+  color: white;
+  height: 30rem;
+  justify-content: center;
+  align-items: center;
+  @media (min-width: $desktop) {
+    margin-right: 2rem;
   }
 }
 
@@ -23,16 +34,6 @@
   @media (min-width: $desktop) {
     display: none;
   }
-}
-
-.test {
-  background: rgb(1, 1, 220);
-  padding: 3rem;
-  color: white;
-  //max-width: 20rem;
-  margin-bottom: 3rem;
-  margin: 1rem;
-  text-align: center;
 }
 
 //section2
