@@ -5,10 +5,10 @@ import { container, container2, container3, item } from '../../motion/motion'
 import { ButtonLgBlue, ButtonSmBlue } from '../buttons'
 import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined'
 
-import Lottie from 'lottie-react';
-import arrow from '../../lottie/arrowDown.json';
-import arrow2 from '../../lottie/scroll.json';
-import animation from "../../lottie/pattern.json"
+// import Lottie from 'lottie-react';
+// import arrow from '../../lottie/arrowDown.json';
+// import arrow2 from '../../lottie/scroll.json';
+// import animation from "../../lottie/pattern.json"
 
 
 const Hero = () => {
@@ -65,7 +65,7 @@ const Hero = () => {
       </div>
       <div className={styles.centered}>
         {/* <Lottie className={styles.animationArrow} animationData={arrow}/>  */}
-        <Lottie className={styles.animationArrow} animationData={arrow2}/> 
+        {/* <Lottie className={styles.animationArrow} animationData={arrow2}/>  */}
         {/* <motion.div whileHover={{ scale: 2.1 }} whileTap={{ scale: 1 }}>
           <KeyboardArrowDownOutlinedIcon />
         </motion.div> */}
