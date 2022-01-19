@@ -8,7 +8,7 @@ const Section2 = () => {
       <FadeIn>
         <CustomerAndBransch />
       </FadeIn>
-        <BookAMeeting />
+      <BookAMeeting />
     </>
   );
 };

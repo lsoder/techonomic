@@ -8,44 +8,83 @@
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  // padding: 2rem;
+  @media (min-width: $desktop) {
+    // padding: 5rem 0;
+    padding: 3rem;
+  }
+  .content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 2rem;
     @media (min-width: $desktop) {
-      padding: 5rem 0;
+      flex-direction: row;
+      align-content: space-between;
     }
-    .content {
-      display: flex;
-      flex-direction: column;
+    .branscherContent {
       @media (min-width: $desktop) {
-        flex-direction: row;
-        align-content: space-between;
-      }
-      .customerContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 25rem;
+        // text-align: center;
+        background-color: white;
+        border-radius: 0.5rem;
+        box-shadow: 0.1rem 0.1rem 0.3rem #dddddd;
+        padding: 0 1rem;
         h2 {
           text-align: center;
         }
-        @media (min-width: $desktop) {
-          width: 50%;
-        }
-      }
-      .branscherContent {
-        @media (min-width: $desktop) {
-          flex-direction: column;
-          align-items: center;
-          width: 50%;
-          text-align: center;
-          .branschList {
-            padding-bottom: 2rem;
-            p {
-              padding: .2rem 0;
-              margin: 0;
+        .branschList {
+          padding-bottom: 2rem;
+          display: grid;
+          grid-template-columns: auto auto;
+          column-gap: 4rem;
+          // padding: 1rem 5rem;
+          // text-align: left;
+          p {
+            margin: 0.7rem 0;
+            color: white;
+            span {
+              background-color: #205fe8;
+              padding: 0.4rem;
             }
           }
         }
+        i {
+          font-size: 10px;
+          margin: 1.5rem 0 0 0;
+          text-align: center;
+        }
+      }
+    }
+    .customerContent {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      // background: rgb(1, 1, 220);
+      // color: white;
+
+      //justify-content: center;
+      //align-items: center;
+      @media (min-width: $desktop) {
+        // padding: 0 2rem 0 4rem;
+        margin-left: 2rem;
+      }
+      h2 {
+        text-align: center;
+        color: #205fe8;
+      }
+      @media (min-width: $desktop) {
+        padding-left: 4rem;
       }
     }
   }
+}

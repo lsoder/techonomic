@@ -10,7 +10,7 @@ const BookAMeeting = () => {
           <div className={`${styles.bookMeetingContent}`}>
             <h2>Boka ett möte med oss</h2>
             <ButtonSm href="/" text="Boka möte" />
-            <p>Vi väntar på just dig!</p>
+            <p><span>Vi väntar på just dig!</span></p>
           </div>
         </FadeIn>
       </div>
