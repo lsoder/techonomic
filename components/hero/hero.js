@@ -10,14 +10,12 @@ import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDown
 // import arrow2 from '../../lottie/scroll.json';
 // import animation from "../../lottie/pattern.json"
 
-
 const Hero = () => {
   return (
     <div className={styles.hero}>
-        {/* <Lottie className={styles.animation} animationData={animation}></Lottie> */}
+      {/* <Lottie className={styles.animation} animationData={animation}></Lottie> */}
       <div className={styles.container}>
         <div className={styles.box1}>
-
           {/* <div className={styles.imageMobile}>
             <Image
               src="/illustration.png"
@@ -44,7 +42,7 @@ const Hero = () => {
             <motion.div variants={container3} initial='hidden' animate='show'>
               <motion.div variants={item} size={50}>
                 <ButtonLgBlue href='/' text='Kontakta oss' />
-                <h6>Frågor? Prata med någon av våra experter!</h6>
+                {/* <h6>Frågor? Prata med någon av våra experter!</h6> */}
               </motion.div>
             </motion.div>
           </div>
@@ -58,8 +56,9 @@ const Hero = () => {
       <div className={styles.mobile}>
         <motion.div variants={container3} initial='hidden' animate='show'>
           <motion.div variants={item} size={50}>
+            {/*             <h6>Frågor? Prata med någon av våra experter!</h6>
+             */}{' '}
             <ButtonSmBlue href='/' text='Boka möte' />
-            <h6>Frågor? Prata med någon av våra experter!</h6>
           </motion.div>
         </motion.div>
       </div>
