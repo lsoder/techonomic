@@ -1,14 +1,13 @@
-
-import { Example } from '../components/example';
-import styles from '../styles/Allmannavillkor.module.scss'
-
-
+import TermAnimation from '../motion/termsAnimation';
+import { TermsTexts } from '../components/termsTexts/termsText';
 
 const Allmannavillkor = () => {
-    return(
-        <div className={styles.try}>
-            <Example />
-        </div>
-    )
-}
+  return (
+    <div>
+      <TermAnimation>
+        <TermsTexts/>
+      </TermAnimation>
+    </div>
+  );
+};
 export default Allmannavillkor;

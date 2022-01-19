@@ -1,5 +1,5 @@
 
-import styles from './styles.module.scss'
+import styles from './TermAnimation.module.scss'
 
 import { useEffect, useState } from "react";
 import {
@@ -8,9 +8,10 @@ import {
   useSpring,
   useTransform
 } from "framer-motion";
-import { ContentPlaceholder } from "./placeholder";
+import { TermsTexts } from '../components/termsTexts/termsText';
 
-export const Example = () => {
+
+const TermAnimation = ({children}) => {
   const [isComplete, setIsComplete] = useState(false);
   const { scrollYProgress } = useViewportScroll();
   const yRange = useTransform(scrollYProgress, [0, 0.9], [0, 1]);
@@ -48,9 +49,11 @@ export const Example = () => {
         />
       </svg>
       </div>
-          <ContentPlaceholder />
+      {children}
+          {/* <TermsTexts /> */}
       </div>
     </>
   );
 };
 
+export default TermAnimation;

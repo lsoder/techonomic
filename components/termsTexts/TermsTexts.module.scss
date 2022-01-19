@@ -1,0 +1,35 @@
+@import '../../styles/variables';
+
+.contentPlaceholder {
+  max-width: 600px;
+  // background-color: white;
+  color: white;
+  .header {
+    .word {
+      display: inline-block;
+      margin-bottom: 8px;
+      margin-right: 8px;
+    }
+    .paragraph {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+// @media (max-width: $desktop) {
+//   .contentPlaceholder {
+//     padding-left: 80px;
+//     .header .word {
+//       height: 30px;
+//     }
+
+//     .word {
+//       height: 14px;
+//       margin-bottom: 5px;
+//       margin-right: 5px;
+//     }
+//     .paragraph {
+//       margin-bottom: 20px;
+//     }
+//   }
+// }
