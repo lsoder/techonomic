@@ -66,6 +66,41 @@
     margin: 0;
   }
 }
+.branscherContent {
+  display: flex;;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  // text-align: center;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0.1rem 0.1rem 0.3rem #dddddd;
+  padding: 1rem;
+  min-width: 70%;
+  .branschList {
+    padding-bottom: 2rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 2rem;
+    // padding: 1rem 5rem;
+    // text-align: left;
+    p {
+      margin: 0.7rem 0;
+      color: white;
+      span {
+        background-color: #205fe8;
+        padding: 0.4rem;
+      }
+    }
+  }
+  i {
+    font-size: 10px;
+    margin: 1.5rem 0 0 0;
+  }
+  @media (min-width: $desktop) {
+    display: none;
+  }
+}
 
 // SubscriptionDesktop
 .subscriptionWrapper {
