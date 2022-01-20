@@ -1,6 +1,6 @@
 
 //pages/sitemap.xml.js
-const EXTERNAL_DATA_URL = 'https://fervent-payne-fceded.netlify.app/'
+const EXTERNAL_DATA_URL = 'https://fervent-payne-fceded.netlify.app'
 
 function generateSiteMap(posts) {
   return `<?xml version="1.0" encoding="UTF-8"?>
