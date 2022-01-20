@@ -1,0 +1,57 @@
+@import '../../styles/variables';
+
+.hideSmall {
+  display: none;
+  @media (min-width: $desktop) {
+    display: inherit;
+  }
+}
+
+.hideLarge {
+  @media (min-width: $desktop) {
+    display: none;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @media (min-width: $desktop) {
+    flex-direction: row;
+    padding: 3rem;
+  }
+  .textContainer {
+    background: rgb(1, 1, 220);
+    padding: 3rem;
+    color: white;
+    height: 30rem;
+    //justify-content: center;
+    //align-items: center;
+    @media (min-width: $desktop) {
+      margin-right: 2rem;
+    }
+  }
+  .Subscription {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    //background-color: $blueBackground;
+    padding-top: 4rem;
+    .animation {
+      position: absolute;
+      width: 100%;
+      transform: rotate(90deg);
+    }
+    h2 {
+      padding: 0 0 2rem 0;
+    }
+    @media (min-width: $desktop) {
+      flex-direction: row;
+    }
+  }
+}
