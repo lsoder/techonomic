@@ -1,16 +1,18 @@
-import styles from '../styles/Branscher.module.scss';
-import CustomerCard, { CustomerCardReverse } from '../components/customerCards/customerCards';
-import Head from 'next/head';
-import { gear } from '../components/coloredIcons';
+import styles from '../styles/Branscher.module.scss'
+import CustomerCard, {
+  CustomerCardReverse,
+} from '../components/customerCards/customerCards'
+import Head from 'next/head'
+import { gear } from '../components/coloredIcons'
 
 const Branscher = () => {
   return (
     <>
       <Head>
-        <title>Techonomic - BRANSCHER</title>
+        <title>Techonomic - Branscher</title>
         <meta
-          name="description"
-          content="Meta description for the bransch page"
+          name='description'
+          content='Meta description for the bransch page'
         />
       </Head>
       <div className={styles.container}>
@@ -30,14 +32,14 @@ const Branscher = () => {
         <div className={styles.content}>
           <div className={styles.customerDiv}>
             <CustomerCard
-              image="/images/petter.png"
-              comment="Jag tycker att techonomic tillför exakt det jag behöver i min bokföring."
-              name="Petter, mäklare"
+              image='/images/petter.png'
+              comment='Jag tycker att techonomic tillför exakt det jag behöver i min bokföring.'
+              name='Petter, mäklare'
             />
             <CustomerCardReverse
-              image="/images/ola.png"
-              comment="Snabbt och effektivt, dem har gjort underverk för mig och min firma."
-              name="Nils, målare"
+              image='/images/ola.png'
+              comment='Snabbt och effektivt, dem har gjort underverk för mig och min firma.'
+              name='Nils, målare'
             />
           </div>
           <div className={styles.branscherDiv}>
@@ -58,7 +60,7 @@ const Branscher = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Branscher;
+export default Branscher

@@ -11,7 +11,7 @@ const MyCustom404Page = () => {
   return (
     <>
       <Head>
-        <title>Techonomic - SIDAN EXISTERAR INTE</title>
+        <title>Techonomic - 404 sida</title>
         <meta
           name='description'
           content='Meta description for the index page'
@@ -24,24 +24,24 @@ const MyCustom404Page = () => {
         <div>
           <motion.div variants={container} initial='hidden' animate='show'>
             <motion.div variants={item} size={50}>
-              <h1>Oops något gick fel :(</h1>
+              <h1>Oops något gick fel..</h1>
             </motion.div>
           </motion.div>
           <motion.div variants={container2} initial='hidden' animate='show'>
             <motion.div variants={item} size={50}>
               <h3>
-                Antingen har vi som har klantat till det eller så existerar inte
-                denna sida.
+                Antingen har vi klantat till det eller så existerar inte denna
+                sida :(
               </h3>
             </motion.div>
           </motion.div>
           <motion.div variants={container3} initial='hidden' animate='show'>
             <motion.div variants={item} size={50}>
               <div className={styles.mobile}>
-                <ButtonSm href='/' text='Tillbaka till techonomic' />
+                <ButtonSm href='/' text='Tillbaka till Techonomic' />
               </div>
               <div className={styles.desktop}>
-                <ButtonLg href='/' text='Tillbaka till techonomic' />
+                <ButtonLg href='/' text='Tillbaka till Techonomic' />
               </div>
             </motion.div>
           </motion.div>

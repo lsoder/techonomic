@@ -8,12 +8,11 @@ import Section4 from '../components/section4/section4'
 import Section5 from '../components/section5/section5'
 // import Section6 from '../components/section5/section6'
 
-
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Techonomic</title>
+        <title>Techonomic - Sveriges första redovisningsabonnemang</title>
         <meta
           name='description'
           content='Meta description for the index page'
