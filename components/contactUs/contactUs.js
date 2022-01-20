@@ -1,12 +1,9 @@
-import Image from 'next/image';
-import styles from '../styles/ContactUs.module.scss';
-import { ButtonLg } from './buttons';
-import FadeIn from '../motion/fadeIn';
+import { ButtonLg } from '../buttons';
+import styles from './ContactUs.module.scss';
 
-const Section6 = () => {
-  return (
-    <FadeIn>
-      <div className={styles.containerContact}>
+const ContactUs = () =>{
+    return (
+        <div className={styles.containerContact}>
         {/* <Image src='/illustration.png' alt='bild' width='250' height='150' /> */}
         <h2>Bli kontaktad av oss?</h2>
         <div className={styles.textContainer}>
@@ -39,8 +36,7 @@ const Section6 = () => {
           073 - 00 00 00
         </h4>
       </div>
-    </FadeIn>
-  );
-};
+    )
+}
 
-export default Section6;
+export default ContactUs;
