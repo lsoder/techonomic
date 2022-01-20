@@ -15,6 +15,22 @@ const About = () => {
       </Head>
       <div className={styles.container}>
         <div className={styles.aboutContainer}>
+          <div className={styles.textContainer}>
+            <h2>Om oss</h2>
+            <p>
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+              commodo consequat. Duis aute irure dolor in reprehenderit in
+              voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
+              amet!
+              <br />
+              <br />
+              Frågor? Prata med någon av våra experter!
+            </p>
+          </div>
           <div className={styles.about}>
             <div className={styles.bild}>
               <Image
@@ -40,22 +56,6 @@ const About = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className={styles.textContainer}>
-            <h2>Om oss</h2>
-            <p>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-              commodo consequat. Duis aute irure dolor in reprehenderit in
-              voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
-              amet!
-              <br />
-              <br />
-              Frågor? Prata med någon av våra experter!
-            </p>
           </div>
         </div>
       </div>
