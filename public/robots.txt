@@ -1,4 +1,4 @@
 User-Agent: *
-Allow: 
+Allow: /
 
 Sitemap: https://fervent-payne-fceded.netlify.app/sitemap.xml
