@@ -24,14 +24,20 @@
     padding: 3rem;
   }
   .textContainer {
-    background: rgb(1, 1, 220);
-    padding: 3rem;
+    background: #74a2ff;
+    padding: 2rem;
     color: white;
-    height: 30rem;
+    //height: 30rem;
     //justify-content: center;
     //align-items: center;
     @media (min-width: $desktop) {
       margin-right: 2rem;
+    }
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 2rem 0;
     }
   }
   .Subscription {

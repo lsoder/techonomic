@@ -1,8 +1,11 @@
 import styles from './Section1.module.scss'
 import SubscriptionCardBasic from '../subscriptionCards/subscriptionCards'
+import { ButtonSm } from '../buttons'
+
 import Lottie from 'lottie-react'
 // import animation from "../lottie/pattern.json"
 import FadeIn from '../../motion/fadeIn'
+import Some from '../some'
 
 const Section1 = () => {
   return (
@@ -21,8 +24,23 @@ const Section1 = () => {
               <br />
               För mer information, kontakta någon av våra experter!
               <br />
+              <br />
+              Varmt välkommen till oss!
             </p>
+
+            <h4>
+              info@techonomic.se <br />
+              073 - 00 00 00
+            </h4>
+            <Some
+              facebook='https://www.facebook.com/'
+              linkedIn='https://www.linkedin.com/'
+              instagram='https://www.instagram.com/'
+            />
           </FadeIn>
+          <div className={styles.center}>
+            <ButtonSm href='/' text='Boka demo' />
+          </div>
         </div>
 
         <div className={styles.Subscription}>
