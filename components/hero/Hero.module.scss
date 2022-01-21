@@ -2,9 +2,14 @@
 
 .animation {
   position: absolute;
-  width: 100vw;
+  /* width: 100vw;
   height: 100vh;
-  transform: rotate(90deg);
+  transform: rotate(90deg); */
+  z-index: -1;
+  width: 100%;
+  @media (min-width: $desktop) {
+    width: 70%;
+  }
 }
 
 .hero {
