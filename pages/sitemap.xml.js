@@ -1,14 +1,11 @@
 
-import * as fs from 'fs';
+import fs from 'fs';
 // import * as fs from 'fs/promises';
 
 const Sitemap = () => {};
 
 export const getServerSideProps = ({ res }) => {
-  const baseUrl = {
-    development: "http://localhost:3000",
-    production: "https://fervent-payne-fceded.netlify.com",
-  }[process.env.NODE_ENV];
+  const baseUrl = "https://fervent-payne-fceded.netlify.app"
   
     const staticPages = fs
       .readdirSync("pages")
