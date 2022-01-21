@@ -1,14 +1,14 @@
 import styles from '../styles/Contact.module.scss'
 import ContactCard from '../components/contactCard/contactCard'
 import Head from 'next/head'
-import FadeIn from '../motion/fadeIn';
-import { Fade } from '@mui/material';
+import FadeIn from '../motion/fadeIn'
+import { Fade } from '@mui/material'
 
 const Kontakta = () => {
   return (
     <>
       <Head>
-        <title>Techonomic - KONTAKTA OSS</title>
+        <title>Techonomic - Kontakta oss</title>
         <meta
           name='description'
           content='Meta description for the contact page'

@@ -7,7 +7,7 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>Techonomic - OM OSS</title>
+        <title>Techonomic - Om oss</title>
         <meta
           name='description'
           content='Meta description for the about page'
