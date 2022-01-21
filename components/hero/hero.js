@@ -5,23 +5,24 @@ import { container, container2, container3, item } from '../../motion/motion'
 import { ButtonLgBlue, ButtonSmBlue } from '../buttons'
 import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined'
 
-// import Lottie from 'lottie-react';
-// import arrow from '../../lottie/arrowDown.json';
-// import arrow2 from '../../lottie/scroll.json';
-// import animation from "../../lottie/pattern.json"
+import Lottie from 'lottie-react'
+//import arrow from '../../lottie/arrowDown.json'
+//import arrow2 from '../../lottie/scroll.json'
+//import animation from '../../lottie/pattern.json'
+import animation from '../../lottie/background.json'
 
 const Hero = () => {
   return (
     <div className={styles.hero}>
-      {/* <Lottie className={styles.animation} animationData={animation}></Lottie> */}
+      <Lottie className={styles.animation} animationData={animation}></Lottie>
       <div className={styles.container}>
         <div className={styles.box1}>
           {/* <div className={styles.imageMobile}>
             <Image
-              src="/illustration.png"
-              alt="bild"
-              width="190"
-              height="100"
+            src="/illustration.png"
+            alt="bild"
+            width="190"
+            height="100"
             />
           </div> */}
           <h1>
@@ -36,6 +37,7 @@ const Hero = () => {
               </motion.div>
             </motion.div>
           </h1>
+
           {/* Below code is hidden on mobile */}
 
           <div className={styles.hideMobile}>
@@ -63,11 +65,14 @@ const Hero = () => {
         </motion.div>
       </div>
       <div className={styles.centered}>
-        {/* <Lottie className={styles.animationArrow} animationData={arrow}/>  */}
-        {/* <Lottie className={styles.animationArrow} animationData={arrow2}/>  */}
-        {/* <motion.div whileHover={{ scale: 2.1 }} whileTap={{ scale: 1 }}>
-          <KeyboardArrowDownOutlinedIcon />
-        </motion.div> */}
+        {/*  <Lottie className={styles.animationArrow} animationData={arrow} /> */}
+        {/*         <Lottie className={styles.animationArrow} animationData={arrow2} />
+         */}{' '}
+        <motion.div variants={container3} initial='hidden' animate='show'>
+          <motion.div variants={item} size={50}>
+            <KeyboardArrowDownOutlinedIcon />
+          </motion.div>
+        </motion.div>
       </div>
     </div>
   )
