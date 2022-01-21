@@ -1,11 +1,12 @@
+
 import * as fs from 'fs';
+// import * as fs from 'fs/promises';
 
 const Sitemap = () => {};
 
 export const getServerSideProps = ({ res }) => {
     const baseUrl = {
-      development: "http://localhost:3000",
-      production: "https://fervent-payne-fceded.netlify.app",
+      url: "https://fervent-payne-fceded.netlify.app",
     }[process.env.NODE_ENV];
   
     const staticPages = fs
