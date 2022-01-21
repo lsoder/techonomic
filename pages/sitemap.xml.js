@@ -1,6 +1,5 @@
 
-import fs from 'fs';
-// import * as fs from 'fs/promises';
+import * as fs from 'fs';
 
 const Sitemap = () => {};
 
