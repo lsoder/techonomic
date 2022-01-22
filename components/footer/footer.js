@@ -10,9 +10,7 @@ const Footer = () => {
         <div className={styles.footerTop}>
           <p>
             Med fokus på personligt bemötande och en heldigitaliserad
-            redovisningslösning blir Techonomic din ekonomiavdelning – som
-            hjälper dig ta rätt beslut. Ta kontakt med oss så bokar vi in ett
-            personligt möte, utan kostnad.
+            redovisningslösning blir Techonomic din ekonomiavdelning.
           </p>
         </div>
         <div className={styles.footerMenuContainer}>
@@ -49,7 +47,10 @@ const Footer = () => {
         <div className={styles.logoFooter}>
           <Image src='/logo.png' alt='logo' width='120' height='18' />
         </div>
-        <p>Ⓒ 2022 - Techonomic</p>
+        <p>
+          Ⓒ 2022 Techonomic - Personlig konsult, rådgivning och bokföring på
+          abonnemang.
+        </p>
       </div>
       <div className={styles.bottom}>
         <p>Powered by Linda & Amanda</p>

@@ -20,7 +20,7 @@ const Kontakta = () => {
         <div className={styles.textContainer}>
           <p>
             Med fokus på personligt bemötande och en heldigitaliserad
-            redovisningslösning blir Techonomic din ekonomiavdelning – som
+            redovisningslösning blir Techonomic din ekonomiavdelning - som
             hjälper dig ta rätt beslut. Ta kontakt med oss så bokar vi in ett
             personligt möte, utan kostnad.
             <br />
