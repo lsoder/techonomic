@@ -16,10 +16,10 @@ const Section1 = () => {
           <FadeIn>
             <h2>Techonomic på 5 sek.</h2>
             <p>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum.
+              Vi levererar en heldigitaliserad redovisningslösning till en fast
+              kostnad. Inga extra kostnader för uppstart eller andra dolda
+              avgifter. Utan bindningstid och uppsägningstid - flexibelt och
+              enkelt.
               <br />
               <br />
               För mer information, kontakta någon av våra experter!

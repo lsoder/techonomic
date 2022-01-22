@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from '../hero/Hero.module.scss'
+import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { container, container2, container3, item } from '../../motion/motion'
 import { ButtonLgBlue, ButtonSmBlue } from '../buttons'
@@ -70,7 +71,11 @@ const Hero = () => {
          */}{' '}
         <motion.div variants={container3} initial='hidden' animate='show'>
           <motion.div variants={item} size={50}>
-            <KeyboardArrowDownOutlinedIcon />
+            <Link href='#tech' scroll={false}>
+              <a>
+                <KeyboardArrowDownOutlinedIcon />
+              </a>
+            </Link>
           </motion.div>
         </motion.div>
       </div>

@@ -20,8 +20,8 @@ const Footer = () => {
                 <li className={styles.desktopLi}>
                   <Image src='/logo.png' alt='logo' width='120' height='18' />
                 </li>
-                <li>Adress 1234567</li>
-                <li>123 45 Göteborg</li>
+                <li>Kungsportsavenyen 21</li>
+                <li>411 36 Göteborg</li>
               </ul>
             </div>
             <ul>
@@ -38,7 +38,7 @@ const Footer = () => {
             </ul>
             <ul>
               <li>KONTAKT</li>
-              <li>073- 00 00 00</li>
+              <li>0768 - 58 03 65</li>
               <li>info@techonomic.se</li>
               <Some facebook='' linkedIn='' instagram='' />
             </ul>
