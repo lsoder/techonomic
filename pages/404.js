@@ -12,10 +12,10 @@ const MyCustom404Page = () => {
     <>
       <Head>
         <title>Techonomic - 404 sida</title>
-        <meta
+        {/*  <meta
           name='description'
           content='Meta description for the index page'
-        />
+        /> */}
       </Head>
       <div className={styles.container404}>
         <Lottie
