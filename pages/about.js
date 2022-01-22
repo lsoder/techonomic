@@ -19,17 +19,15 @@ const About = () => {
           <div className={styles.textContainer}>
             <h2>Om oss</h2>
             <p>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-              commodo consequat. Duis aute irure dolor in reprehenderit in
-              voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
-              amet!
+              Teknik, ekonomi och personliga relationer driver Techonomic
+              framåt. Vi är övertygade om att kombinationen av detta är rätt väg
+              att gå - kryddat med mycket glädje. Vi har skapat ett
+              redovisningsabonnemang där vi blir din digitala ekonomiavdelning.
+              Det ska vara enkelt, personligt och skräddarsytt för dig och din
+              verksamhet.
               <br />
               <br />
-              Frågor? Prata med någon av våra experter!
+              Vill du veta mer? Prata med någon av våra experter!
             </p>
           </div>
           <div className={styles.about}>
