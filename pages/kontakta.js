@@ -10,10 +10,10 @@ const Kontakta = () => {
       <Head>
         {/*         <title>Techonomic - Kontakta oss</title>
          */}{' '}
-        <meta
+        {/*  <meta
           name='description'
           content='Meta description for the contact page'
-        />
+        /> */}
       </Head>
       <div className={styles.container}>
         <h2>Kontakta oss</h2>
