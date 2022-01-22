@@ -47,10 +47,12 @@ const Footer = () => {
         <div className={styles.logoFooter}>
           <Image src='/logo.png' alt='logo' width='120' height='18' />
         </div>
-        <p>
-          Ⓒ 2022 Techonomic - Personlig konsult, rådgivning och bokföring på
-          abonnemang.
-        </p>
+        <div className={styles.footerBottom}>
+          <p>
+            Ⓒ 2022 Techonomic - Personlig konsult, rådgivning och bokföring på
+            abonnemang.
+          </p>
+        </div>
       </div>
       <div className={styles.bottom}>
         <p>Powered by Linda & Amanda</p>
