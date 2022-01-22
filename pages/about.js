@@ -9,10 +9,10 @@ const About = () => {
       <Head>
         {/*         <title>Techonomic - Om oss</title>
          */}{' '}
-        <meta
+        {/*  <meta
           name='description'
           content='Meta description for the about page'
-        />
+        /> */}
       </Head>
       <div className={styles.container}>
         <div className={styles.aboutContainer}>
