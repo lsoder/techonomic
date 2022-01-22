@@ -11,7 +11,8 @@ const Abonnemang = () => {
   return (
     <>
       <Head>
-        <title>Techonomic - Abonnemang</title>
+        {/*         <title>Techonomic - Abonnemang</title>
+         */}{' '}
         <meta
           name='description'
           content='Meta description for the subscription page'
