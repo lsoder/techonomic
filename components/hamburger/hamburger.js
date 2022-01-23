@@ -31,13 +31,12 @@ const Hamburger = () => {
           <div className={styles.sidenavFooterContent}>
             <Image src='/logo.png' alt='logo' width='120' height='18' />
             <br />
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
+            Teknik, ekonomi och personliga relationer driver Techonomic framåt.
             <br />
             <br />
             Frågor? Prata med någon av våra experter!
             <div className={styles.padding}>
-              <h4>info@techonomic.se</h4> <h4>0700 - 12 34 56</h4>
+              <h4>info@techonomic.se</h4> <h4>0768 - 58 03 65</h4>
             </div>
             <Some
               facebook='https://www.facebook.com/'

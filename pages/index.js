@@ -8,7 +8,7 @@ import Section4 from '../components/section4/section4'
 import Section5 from '../components/section5/section5'
 // import Section6 from '../components/section5/section6'
 
-export default function Home() {
+export default function Home({ content }) {
   return (
     <div>
       <Head>
@@ -20,6 +20,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <Hero />
+        <section1 id='tech'>{content}</section1>
         <Section1 />
         <Section2 />
         <Section3 />

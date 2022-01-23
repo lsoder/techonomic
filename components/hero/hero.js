@@ -1,10 +1,10 @@
-import Image from 'next/image'
 import styles from '../hero/Hero.module.scss'
+import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { container, container2, container3, item } from '../../motion/motion'
-import { ButtonLgBlue, ButtonSmBlue } from '../buttons'
+import { ButtonSmBlue } from '../buttons'
 import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined'
-
+import DesktopHero from './desktopHero'
 import Lottie from 'lottie-react'
 //import arrow from '../../lottie/arrowDown.json'
 //import arrow2 from '../../lottie/scroll.json'
@@ -17,14 +17,6 @@ const Hero = () => {
       <Lottie className={styles.animation} animationData={animation}></Lottie>
       <div className={styles.container}>
         <div className={styles.box1}>
-          {/* <div className={styles.imageMobile}>
-            <Image
-            src="/illustration.png"
-            alt="bild"
-            width="190"
-            height="100"
-            />
-          </div> */}
           <h1>
             <motion.div variants={container} initial='hidden' animate='show'>
               <motion.div variants={item} size={50}>
@@ -37,24 +29,13 @@ const Hero = () => {
               </motion.div>
             </motion.div>
           </h1>
-
-          {/* Below code is hidden on mobile */}
-
-          <div className={styles.hideMobile}>
-            <motion.div variants={container3} initial='hidden' animate='show'>
-              <motion.div variants={item} size={50}>
-                <ButtonLgBlue href='/' text='Kontakta oss' />
-                {/* <h6>Frågor? Prata med någon av våra experter!</h6> */}
-              </motion.div>
-            </motion.div>
-          </div>
+          <DesktopHero />
         </div>
 
         {/*         <div className={styles.box2}>
-          {/* <Lottie animationData={animation3}/> 
-        </div> */}
+{/* <Lottie animationData={animation3}/> 
+</div> */}
       </div>
-
       <div className={styles.mobile}>
         <motion.div variants={container3} initial='hidden' animate='show'>
           <motion.div variants={item} size={50}>
@@ -70,7 +51,11 @@ const Hero = () => {
          */}{' '}
         <motion.div variants={container3} initial='hidden' animate='show'>
           <motion.div variants={item} size={50}>
-            <KeyboardArrowDownOutlinedIcon />
+            <Link href='#tech' scroll={false}>
+              <a>
+                <KeyboardArrowDownOutlinedIcon />
+              </a>
+            </Link>
           </motion.div>
         </motion.div>
       </div>

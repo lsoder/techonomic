@@ -35,7 +35,7 @@ const ContactUs = () => {
       <h4>
         <br></br>
         info@techonomic.se <br />
-        073 - 00 00 00
+        0768 - 58 03 65
       </h4>
     </div>
   )
