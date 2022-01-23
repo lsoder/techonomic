@@ -9,8 +9,8 @@ const Footer = () => {
       <div className={styles.footerContainer}>
         <div className={styles.footerTop}>
           <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur.
+            Med fokus på personligt bemötande och en heldigitaliserad
+            redovisningslösning blir Techonomic din ekonomiavdelning.
           </p>
         </div>
         <div className={styles.footerMenuContainer}>
@@ -47,7 +47,10 @@ const Footer = () => {
         <div className={styles.logoFooter}>
           <Image src='/logo.png' alt='logo' width='120' height='18' />
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>
+          Ⓒ 2022 Techonomic - Personlig konsult, rådgivning och bokföring på
+          abonnemang.
+        </p>
       </div>
       <div className={styles.bottom}>
         <p>Powered by Linda & Amanda</p>

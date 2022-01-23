@@ -8,12 +8,13 @@ const ContactUs = () => {
       <h2>Bli kontaktad av oss?</h2>
       <div className={styles.textContainer}>
         <p>
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit, sed do eiusmod tempor. Lorem ipsum dolor
-          sit amet, consectetur adipiscing elit! <br />
+          Teknik, ekonomi och personliga relationer driver Techonomic framåt. Vi
+          är övertygade om att kombinationen av detta är rätt väg att gå -
+          kryddat med mycket glädje. Vi har skapat ett redovisningsabonnemang
+          där vi blir din digitala ekonomiavdelning. <br />
           <br />
-          Sed do eiusmod tempor.
+          Det ska vara enkelt, personligt och skräddarsytt för dig och din
+          verksamhet!
         </p>
       </div>
       <form>

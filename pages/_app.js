@@ -6,10 +6,10 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <meta
+        {/*  <meta
           name='description'
           content='Meta description for the index page'
-        />
+        /> */}
       </Head>
       <Layout>
         <Component {...pageProps} />
