@@ -10,8 +10,10 @@
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
-      background-color: $purpleBackground;
+      background-color: rgb(247, 184, 67);
+      // border: 1rem solid #205FE8;
       margin: 0 1rem;
+      color: white;
     }
     @media (min-width: $desktop) {
       display: none;

@@ -1,11 +1,15 @@
 @import './styles/variables';
 
-
 .animation {
   position: absolute;
-  width: 100vw;
+  /* width: 100vw;
   height: 100vh;
-  transform: rotate(90deg);
+  transform: rotate(90deg); */
+  z-index: -1;
+  width: 100%;
+  @media (min-width: $desktop) {
+    width: 70%;
+  }
 }
 
 .hero {
@@ -40,7 +44,7 @@
         text-align: left;
         h1 {
           font-size: 70px;
-          margin-bottom: 1.5rem;
+          //margin-bottom: 1.5rem;
         }
       }
       .hideMobile {
@@ -69,6 +73,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 8rem;
     .animationArrow {
       height: 3rem;
     }
@@ -94,34 +99,3 @@
     display: none;
   }
 }
-// HÄR KAN MAN MANIPULERA KNAPP LITE!!!!!
-
-// button {
-//   width: 20%;
-//   height: 2.5rem;
-//   transition: width .2s;
-//   &:hover {
-//     width: 21%;
-//     background-color: #724ed6;
-//   }
-// }
-
-
-
-// .buttonStyle {
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   background: #5a2cdd;
-//   color: white;
-//   height: 2rem;
-//   width: 8rem;
-//   border: none;
-//   border-radius: 4px;
-//   font-weight: bold;
-//   font-size: 0.7rem;
-//   letter-spacing: 0.05rem;
-//   @media (min-width: 900px) {
-//     display: none;
-//   }
-// }

@@ -1,17 +1,20 @@
-import styles from '../styles/Branscher.module.scss';
-import CustomerCard, { CustomerCardReverse } from '../components/customerCards/customerCards';
-import Head from 'next/head';
-import { gear } from '../components/coloredIcons';
+import styles from '../styles/Branscher.module.scss'
+import CustomerCard, {
+  CustomerCardReverse,
+} from '../components/customerCards/customerCards'
+import Head from 'next/head'
+import { gear } from '../components/coloredIcons'
 
 const Branscher = () => {
   return (
     <>
       <Head>
-        <title>Techonomic - BRANSCHER</title>
-        <meta
-          name="description"
-          content="Meta description for the bransch page"
-        />
+        {/*         <title>Techonomic - Branscher</title>
+         */}{' '}
+        {/*  <meta
+          name='description'
+          content='Meta description for the bransch page'
+        /> */}
       </Head>
       <div className={styles.container}>
         <h2>Branscher</h2>
@@ -21,23 +24,19 @@ const Branscher = () => {
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat. Duis aute irure dolor in
           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          pariatur.
         </p>
         <div className={styles.content}>
           <div className={styles.customerDiv}>
             <CustomerCard
-              image="/images/petter.png"
-              comment="Jag tycker att techonomic tillför exakt det jag behöver i min bokföring."
-              name="Petter, mäklare"
+              image='/images/petter.png'
+              comment='Jag tycker att techonomic tillför exakt det jag behöver i min bokföring.'
+              name='Petter, mäklare'
             />
             <CustomerCardReverse
-              image="/images/ola.png"
-              comment="Snabbt och effektivt, dem har gjort underverk för mig och min firma."
-              name="Nils, målare"
+              image='/images/ola.png'
+              comment='Snabbt och effektivt, dem har gjort underverk för mig och min firma.'
+              name='Nils, målare'
             />
           </div>
           <div className={styles.branscherDiv}>
@@ -52,13 +51,13 @@ const Branscher = () => {
             </div>
             <i>
               * tveka inte att höra av dig om du tillhör någon annan bransch, vi
-              tror på det bla bla lba
+              kan säkert hitta en lösning för er också!
             </i>
           </div>
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Branscher;
+export default Branscher

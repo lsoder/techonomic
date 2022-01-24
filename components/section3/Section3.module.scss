@@ -1,0 +1,15 @@
+@import '../../styles/variables';
+
+.hideSmall {
+    display: none;
+    @media (min-width: $desktop) {
+      display: inherit;
+    }
+  }
+  
+  .hideLarge {
+    @media (min-width: $desktop) {
+      display: none;
+    }
+  }
+  

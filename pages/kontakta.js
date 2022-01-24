@@ -1,28 +1,31 @@
 import styles from '../styles/Contact.module.scss'
 import ContactCard from '../components/contactCard/contactCard'
 import Head from 'next/head'
-import FadeIn from '../motion/fadeIn';
-import { Fade } from '@mui/material';
+import FadeIn from '../motion/fadeIn'
+import { Fade } from '@mui/material'
 
 const Kontakta = () => {
   return (
     <>
       <Head>
-        <title>Techonomic - KONTAKTA OSS</title>
-        <meta
+        {/*         <title>Techonomic - Kontakta oss</title>
+         */}{' '}
+        {/*  <meta
           name='description'
           content='Meta description for the contact page'
-        />
+        /> */}
       </Head>
       <div className={styles.container}>
         <h2>Kontakta oss</h2>
         <div className={styles.textContainer}>
           <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet!
+            Med fokus på personligt bemötande och en heldigitaliserad
+            redovisningslösning blir Techonomic din ekonomiavdelning - som
+            hjälper dig ta rätt beslut. Ta kontakt med oss så bokar vi in ett
+            personligt möte, utan kostnad.
             <br />
             <br />
-            Frågor? Prata med någon av våra experter!
+            Vill ni veta mer? Prata med någon av våra experter!
           </p>
         </div>
         <div className={styles.cardContainer}>
