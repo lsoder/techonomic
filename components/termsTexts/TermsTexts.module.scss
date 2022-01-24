@@ -1,35 +1,40 @@
 @import '../../styles/variables';
 
-.contentPlaceholder {
-  max-width: 600px;
-  // background-color: white;
-  color: white;
-  .header {
-    .word {
-      display: inline-block;
-      margin-bottom: 8px;
-      margin-right: 8px;
-    }
-    .paragraph {
-      margin-bottom: 40px;
-    }
+.hideSmall {
+  display: none;
+  @media (min-width: 1012px) {
+    display: inherit;
   }
 }
 
-// @media (max-width: $desktop) {
-//   .contentPlaceholder {
-//     padding-left: 80px;
-//     .header .word {
-//       height: 30px;
-//     }
+.hideLarge {
+  @media (min-width: 1012px) {
+    display: none;
+  }
+}
 
-//     .word {
-//       height: 14px;
-//       margin-bottom: 5px;
-//       margin-right: 5px;
-//     }
-//     .paragraph {
-//       margin-bottom: 20px;
-//     }
-//   }
-// }
+.contentPlaceholder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  padding-left: 4.5rem;
+  max-width: 80%;
+  .word {
+    display: inline-block;
+    margin-bottom: 8px;
+  }
+  .paragraph {
+    margin-bottom: 40px;
+    word-wrap: break-word;
+  }
+  @media (min-width: $desktop) {
+    background: white;
+    color: black;
+    max-width: 70%;
+    padding: 2rem;
+    .paragraph {
+      word-wrap: none;
+    }
+  } 
+}

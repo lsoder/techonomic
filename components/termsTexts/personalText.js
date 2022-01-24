@@ -3,22 +3,11 @@ import styles from './TermsTexts.module.scss';
 export const PersonalTexts = () => (
   <div className={styles.contentPlaceholder}>
     <div className={styles.word}>
-      <h2>PERSONUPPGIFTSBITRÄDESAVTAL</h2>
+      <h2 className={styles.hideLarge}>PERSONUPPGIFTS-BITRÄDESAVTAL</h2>
+      <h2 className={styles.hideSmall}>PERSONUPPGIFTSBITRÄDESAVTAL</h2>
     </div>
     <div className={styles.paragraph}>
-      <h3>1. Parter</h3>
-      <p>
-        Detta avtal avser behandling av personuppgifter och gäller mellan
-        följande parter:
-      </p>
-      <p>Uppdragsgivare/Personuppgiftsansvarig:</p>
-      <p>
-        Redovisningsbyrå/Personuppgiftsbiträde: <br />
-        Techonomic Accounting AB
-      </p>
-    </div>
-    <div className={styles.paragraph}>
-      <h3>2. Personuppgiftsansvarig</h3>
+      <h3>1. Personuppgiftsansvarig</h3>
       <p>
         Personuppgiftsansvarig förbinder sig att agera i enlighet med tillämplig
         dataskyddslagstiftning och endast tillhandahålla personuppgiftsbiträdet
@@ -27,7 +16,7 @@ export const PersonalTexts = () => (
       </p>
     </div>
     <div className={styles.paragraph}>
-      <h3>3. Personuppgiftsbiträde</h3>
+      <h3>2. Personuppgiftsbiträde</h3>
       <p>Personuppgiftsbiträdet förbinder sig att</p>
       <ul>
         <li>agera i enlighet med tillämplig dataskyddslagstiftning</li>
@@ -72,7 +61,7 @@ export const PersonalTexts = () => (
       </ul>
     </div>
     <div className={styles.paragraph}>
-      <h3>4. Sekretess</h3>
+      <h3>3. Sekretess</h3>
       <p>
         Personuppgiftsbiträdet ska vidta åtgärder för att skydda personuppgifter
         på en säkerhetsnivå som minst motsvarar säkerheten hos den
@@ -90,7 +79,7 @@ export const PersonalTexts = () => (
       </p>
     </div>
     <div className={styles.paragraph}>
-      <h3>5. Rapportering av personuppgiftsincidenter</h3>
+      <h3>4. Rapportering av personuppgiftsincidenter</h3>
       <p>
         Personuppgiftsbiträdet ska snarast möjligt underrätta
         personuppgiftsansvarig om förekomst och sannolik innebörd av en
@@ -101,7 +90,7 @@ export const PersonalTexts = () => (
       </p>
     </div>
     <div className={styles.paragraph}>
-      <h3>6. Samverkan och samtycke</h3>
+      <h3>5. Samverkan och samtycke</h3>
       <p>
         Personuppgiftsbiträdet ska snarast möjligt informera och bistå
         personuppgiftsansvarig vid förfrågan från en registrerad eller myndighet
@@ -115,7 +104,7 @@ export const PersonalTexts = () => (
       </p>
     </div>
     <div className={styles.paragraph}>
-      <h3>7. Giltighetstid</h3>
+      <h3>6. Giltighetstid</h3>
       <p>
         Om ett nytt uppdragsavtal tecknas mellan personuppgiftsbiträdet och
         personuppgiftsansvarig utan ett nytt personuppgiftsbiträdesavtal tecknas
