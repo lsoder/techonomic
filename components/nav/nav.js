@@ -17,8 +17,8 @@ const Navbar = () => {
           <Link href='/'>HEM</Link>
           <Link href='/abonnemang'>ABONNEMANG</Link>
           <Link href='/branscher'>BRANSCHER</Link>
-          <Link href='/about'>OM OSS</Link>
-          <Link href='/kontakta'>KONTAKT</Link>
+          <Link href='/om-oss'>OM OSS</Link>
+          <Link href='/kontakt'>KONTAKT</Link>
 
           <ButtonSm href='/' text='Boka demo' />
         </div>

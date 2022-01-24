@@ -1,25 +1,34 @@
 @import '../../styles/variables';
 
 .containerSubscriptionDesktop {
-    display: none;
-    @media (min-width: $desktop) {
+    // display: none;
+
       display: inherit;
       width: 100vw;
       display: flex;
-      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      background-color: #205fe8;
+      color: #ffffff;
+      padding-top: 2rem;
+      margin-bottom: 8rem;
+      max-width: 1440px;
       h2 {
-        margin: 0;
+        margin: 2rem;
+        color: inherit;
       }
       h3 {
         margin: 0.5rem 0;
       }
       .gridContainer {
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto;
         padding: 1rem 0;
-        @media (max-width: 1015px) {
+        @media (min-width: 1015px) {
           grid-template-columns: auto auto;
-
+        }
+        @media (min-width: $desktop) {
+          grid-template-columns: auto auto auto;
         }
         .gridContent {
           display: flex;
@@ -27,10 +36,11 @@
           .gridText {
             padding-left: 1rem;
             h3 {
+              color: white;
               margin: 0;
             }
           }
         }
       }
-    }
+    
   }

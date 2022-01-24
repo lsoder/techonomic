@@ -1,11 +1,13 @@
-import Head from 'next/head'
-import { ButtonSm, ButtonSmBlue } from '../components/buttons'
-import { filledPlus } from '../components/coloredIcons'
+import Head from 'next/head';
+import { ButtonSm, ButtonSmBlue } from '../components/buttons';
+import { filledPlus } from '../components/coloredIcons';
 import SubscriptionCardBasic, {
   SubscriptionCardExtra,
-} from '../components/subscriptionCards/subscriptionCards'
-import SubscriptionDesktop from '../components/subscriptionDesktop/subscriptionDesktop'
-import styles from '../styles/Abonnemang.module.scss'
+} from '../components/subscriptionCards/subscriptionCards';
+import SubscriptionDesktop from '../components/subscriptionDesktop/subscriptionDesktop';
+import styles from '../styles/Abonnemang.module.scss';
+import Image from 'next/image';
+import FadeIn from '../motion/fadeIn';
 
 const Abonnemang = () => {
   return (
@@ -18,7 +20,7 @@ const Abonnemang = () => {
           content='Meta description for the subscription page'
         /> */}
       </Head>
-      <div className={styles.subscriptionWrapperMobile}>
+      {/* <div className={styles.subscriptionWrapperMobile}>
         <div>
           <h2>Abonnemang</h2>
           <p>
@@ -43,26 +45,44 @@ const Abonnemang = () => {
         <div className={styles.center}>
           <ButtonSmBlue href='/kontakta' text='Kontakta oss' />
         </div>
-      </div>
+      </div> */}
       <div className={styles.subscriptionWrapperDesktop}>
-        <h2>Löpande bokföring på abonnemang</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua.
-          <h3>Fr. 1500kr/mån.</h3>
-        </p>
-        <h2>Detta ingår i paketet</h2>
-        <SubscriptionDesktop />
-        <div className={styles.content}>
+        <FadeIn>
           <div className={styles.box1}>
-            <h2>Plustjänster</h2>
+            <div className={styles.infoText}>
+              <h2>Löpande bokföring på abonnemang</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <h3>Fr. 1500kr/mån.</h3>
+            </div>
+            <div className={styles.imageDiv}>
+              <Image
+                src="/images/fortnox.jpeg"
+                alt="bild på oss i fortnox tidning"
+                width="1616"
+                height="1216"
+              />
+            </div>
+          </div>
+        </FadeIn>
+        <FadeIn>
+          <SubscriptionDesktop />
+        </FadeIn>
+        <FadeIn>
+        <div className={styles.content}>
+          <div className={styles.box2}>
+            <h2>
+              <span>Plustjänster</span>
+            </h2>
             <div>
               <div className={styles.listItem}>
                 {filledPlus}
@@ -86,7 +106,7 @@ const Abonnemang = () => {
               </div>
             </div>
           </div>
-          <div className={styles.box2}>
+          <div className={styles.box3}>
             <p>
               consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
               labore et dolore magna aliqua. Ut enim ad minim veniam, quis
@@ -96,15 +116,17 @@ const Abonnemang = () => {
               occaecat cupidatat non proident, sunt in culpa qui officia
               deserunt mollit anim id est laborum.
             </p>
+            <i>
+              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore.
+            </i>
+            <ButtonSm href="/kontakta" text="Boka demo" />
           </div>
         </div>
-        <i>
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
-        </i>
-        <ButtonSm href='/kontakta' text='Ta kontakt med oss nu' />
+        </FadeIn>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Abonnemang
+export default Abonnemang;

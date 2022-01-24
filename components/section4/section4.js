@@ -1,4 +1,4 @@
-import Kontakta from '../../pages/kontakta';
+import Kontakta from '../../pages/kontakt';
 import FadeIn from '../../motion/fadeIn';
 import styles from './Section4.module.scss';
 

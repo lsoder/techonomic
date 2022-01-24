@@ -5,11 +5,15 @@ import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
 import SummarizeIcon from '@mui/icons-material/Summarize';
 import AnalyticsIcon from '@mui/icons-material/Analytics';
 import EmojiEmotionsIcon from '@mui/icons-material/EmojiEmotions';
+import ContentPasteOffIcon from '@mui/icons-material/ContentPasteOff';
 import styles from './SubscriptionDesktop.module.scss';
+import ContentPasteOff from '@mui/icons-material/ContentPasteOff';
+import { ButtonSm } from '../buttons';
 
 const SubscriptionDesktop = () => {
   return (
     <div className={styles.containerSubscriptionDesktop}>
+       <h2>Detta ingår i paketet</h2>
       <div className={styles.gridContainer}>
         <div className={styles.gridContent}>
           <LoyaltyIcon fontSize="large" />
@@ -72,6 +76,21 @@ const SubscriptionDesktop = () => {
             <p>
               Duis aute irure dolor in reprehenderit in voluptate velit esse!
             </p>
+          </div>
+        </div>
+        <div className={styles.gridContent}>
+          <ContentPasteOff fontSize="large" />
+          <div className={styles.gridText}>
+            <h3>Ingen bindningstid</h3>
+            <p>
+              Duis aute irure dolor in reprehenderit in voluptate velit esse!
+            </p>
+          </div>
+        </div>
+        <div className={styles.gridContent}>
+          <div className={styles.gridText}>
+          <ButtonSm href='/kontakta' text='Boka demo' />
+            {/* <h3>Fr. 1500kr/mån</h3> */}
           </div>
         </div>
       </div>

@@ -28,33 +28,102 @@
 }
 
 .subscriptionWrapperDesktop {
-  display: none;
+  // display: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   @media (min-width: $desktop) {
+    padding: 10rem 2rem 2rem 2rem;
+    max-width: 1440px;
+  }
+  .box1 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    @media (min-width: $desktop) {
+      flex-direction: row;
+      align-items: unset;
+      margin-bottom: 8rem;
+    }
+    .infoText {
+      width: 70%;
+      @media (min-width: $desktop) {
+        width: 50%;
+        padding-right: 6rem;
+        p {
+          padding: 2rem 0 3rem 0;
+        }
+      }
+      h2 {
+        color: #205fe8;
+        margin: 0;
+      }
+    }
+    .imageDiv {
+      width: 70%;
+      @media (min-width: $desktop) {
+        width: 50%;
+      }
+    }
+  }
+  h3 {
+    margin: 0.5rem 0 3rem 0;
+    color: #205fe8;
+  }
+  i {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+  .content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5rem 2rem;
-    background-color: #f3f0fd;
-    h3 {
-      margin: 0.5rem 0 3rem 0;
-    }
-    i {
-      font-size: 1rem;
-      padding: 1rem;
-    }
-    .content {
-      display: flex;
+    padding: 2rem;
+    @media (min-width: $desktop) {
       flex-direction: row;
+      align-items: unset;
+      justify-content: space-between;
+      margin-bottom: 8rem;
+    }
+    .box2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       padding: 2rem;
-      .box1 {
-        width: 50%;
-        .listItem {
-          display: flex;
-          align-items: center;
+      margin-bottom: 3rem;
+      border: 0.5px solid #f8f8f8;
+      background-color: white;
+      border-radius: 0.5rem;
+      box-shadow: 0.1rem 0.1rem 0.3rem #dddddd;
+      max-width: 20rem;
+      h2 {
+        margin: 0 0 1rem 0;
+        span {
+          background-color: rgb(247, 184, 67);
         }
       }
-      .box2 {
+      .listItem {
+        display: flex;
+        align-items: center;
+        margin: .5rem 0;
+        p {
+          margin: 0;
+        }
+      }
+      @media (min-width: $desktop) {
         width: 50%;
+      }
+    }
+    .box3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(247, 184, 67);
+      padding: 2rem 4rem;
+      @media (min-width: $desktop) {
+        width: 70%;
+        margin-left: 3rem;
       }
     }
   }
