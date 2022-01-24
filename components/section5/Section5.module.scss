@@ -1,1 +1,8 @@
 @import '../../styles/variables';
+
+.animation {
+  width: 70%;
+  @media (min-width: $desktop) {
+    width: 40%;
+  }
+}
