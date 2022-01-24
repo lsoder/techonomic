@@ -1,8 +1,13 @@
+import TermAnimation from '../motion/termsAnimation';
+import { PersonalTexts } from '../components/termsTexts/personalText';
+
 const Personuppgiftsbitradesavtal = () => {
-    return(
-        <div>
-            <h1>personuppgiftsbiträdesavtal</h1>
-        </div>
-    )
-}
+  return (
+    <div>
+      <TermAnimation>
+        <PersonalTexts />
+      </TermAnimation>
+    </div>
+  );
+};
 export default Personuppgiftsbitradesavtal;

@@ -1,0 +1,40 @@
+@import '../../styles/variables';
+
+.hideSmall {
+  display: none;
+  @media (min-width: 1012px) {
+    display: inherit;
+  }
+}
+
+.hideLarge {
+  @media (min-width: 1012px) {
+    display: none;
+  }
+}
+
+.contentPlaceholder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  padding-left: 4.5rem;
+  max-width: 80%;
+  .word {
+    display: inline-block;
+    margin-bottom: 8px;
+  }
+  .paragraph {
+    margin-bottom: 40px;
+    word-wrap: break-word;
+  }
+  @media (min-width: $desktop) {
+    background: white;
+    color: black;
+    max-width: 70%;
+    padding: 2rem;
+    .paragraph {
+      word-wrap: none;
+    }
+  } 
+}

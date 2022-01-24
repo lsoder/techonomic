@@ -1,9 +1,13 @@
+import TermAnimation from '../motion/termsAnimation';
+import { TermsTexts } from '../components/termsTexts/termsText';
+
 const Allmannavillkor = () => {
-    return(
-        <div>
-            <h1>Allmänna villkor</h1>
-            <p>Här ska det in en sida</p>
-        </div>
-    )
-}
+  return (
+    <div>
+      <TermAnimation>
+        <TermsTexts/>
+      </TermAnimation>
+    </div>
+  );
+};
 export default Allmannavillkor;
