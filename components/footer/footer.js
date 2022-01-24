@@ -49,8 +49,8 @@ const Footer = () => {
         </div>
         <div className={styles.footerBottom}>
           <p>
-            Ⓒ 2022 Techonomic - Personlig konsult, rådgivning och bokföring på
-            abonnemang.
+            Personlig konsult, rådgivning och bokföring på abonnemang. Ⓒ 2022
+            Techonomic - All Rights Are Reserved.
           </p>
         </div>
       </div>

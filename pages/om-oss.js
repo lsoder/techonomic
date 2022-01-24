@@ -7,12 +7,12 @@ const About = () => {
   return (
     <>
       <Head>
-        {/*         <title>Techonomic - Om oss</title>
-         */}{' '}
-        {/*  <meta
+        <title>Techonomic - Om oss</title>
+
+        <meta
           name='description'
-          content='Meta description for the about page'
-        /> */}
+          content='Teknik, ekonomi och personliga relationer driver Techonomic framåt. Vi är övertygade om att kombinationen av detta är rätt väg att gå - kryddat med mycket glädje. '
+        />
       </Head>
       <div className={styles.container}>
         <div className={styles.aboutContainer}>

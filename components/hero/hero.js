@@ -6,9 +6,6 @@ import { ButtonSmBlue } from '../buttons'
 import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined'
 import DesktopHero from './desktopHero'
 import Lottie from 'lottie-react'
-//import arrow from '../../lottie/arrowDown.json'
-//import arrow2 from '../../lottie/scroll.json'
-//import animation from '../../lottie/pattern.json'
 import animation from '../../lottie/background.json'
 
 const Hero = () => {
@@ -31,24 +28,15 @@ const Hero = () => {
           </h1>
           <DesktopHero />
         </div>
-
-        {/*         <div className={styles.box2}>
-{/* <Lottie animationData={animation3}/> 
-</div> */}
       </div>
       <div className={styles.mobile}>
         <motion.div variants={container3} initial='hidden' animate='show'>
           <motion.div variants={item} size={50}>
-            {/*             <h6>Frågor? Prata med någon av våra experter!</h6>
-             */}{' '}
             <ButtonSmBlue href='/' text='Boka möte' />
           </motion.div>
         </motion.div>
       </div>
       <div className={styles.centered}>
-        {/*  <Lottie className={styles.animationArrow} animationData={arrow} /> */}
-        {/*         <Lottie className={styles.animationArrow} animationData={arrow2} />
-         */}{' '}
         <motion.div variants={container3} initial='hidden' animate='show'>
           <motion.div variants={item} size={50}>
             <Link href='#tech' scroll={false}>

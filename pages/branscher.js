@@ -9,12 +9,12 @@ const Branscher = () => {
   return (
     <>
       <Head>
-        {/*         <title>Techonomic - Branscher</title>
-         */}{' '}
-        {/*  <meta
+        <title>Techonomic - Branscher</title>
+
+        <meta
           name='description'
           content='Meta description for the bransch page'
-        /> */}
+        />
       </Head>
       <div className={styles.container}>
         <h2>Branscher</h2>

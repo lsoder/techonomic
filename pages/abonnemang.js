@@ -13,12 +13,12 @@ const Abonnemang = () => {
   return (
     <>
       <Head>
-        {/*         <title>Techonomic - Abonnemang</title>
-         */}{' '}
-        {/*   <meta
+        <title>Techonomic - Abonnemang</title>
+
+        <meta
           name='description'
-          content='Meta description for the subscription page'
-        /> */}
+          content='Vi levererar en heldigitaliserad redovisningslösning till en fast kostnad. Inga extra kostnader för uppstart eller andra dolda avgifter. Utan bindningstid och uppsägningstid - flexibelt och enkelt. '
+        />
       </Head>
       {/* <div className={styles.subscriptionWrapperMobile}>
         <div>

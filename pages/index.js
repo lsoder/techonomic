@@ -14,7 +14,7 @@ export default function Home({ content }) {
         <title>Techonomic - Sveriges första redovisningsabonnemang</title>
         <meta
           name='description'
-          content='Meta description for the index page'
+          content='Sveriges första redovisningsabonnemang. Digital helhetslösning till en fast kostnad. Techonomic är din ekonomiavdelning- som hjälper dig ta rätt beslut. www.techonomic.se'
         />
       </Head>
       <>
