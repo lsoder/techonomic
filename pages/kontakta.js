@@ -6,7 +6,7 @@ const Kontakta = () => {
   return (
     <>
       <Head>
-        <title>Techonomic - Kontakta oss</title>
+        <title>Techonomic - Sveriges första redovisningsabonnemang</title>
         <meta
           name='description'
           content='Meta description for the contact page'
