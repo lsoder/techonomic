@@ -21,10 +21,10 @@ const Hamburger = () => {
             <Link href='/branscher'>BRANSCHER</Link>
           </li>
           <li>
-            <Link href='/about'>OM OSS</Link>
+            <Link href='/om-oss'>OM OSS</Link>
           </li>
           <li>
-            <Link href='/kontakta'>KONTAKT</Link>
+            <Link href='/kontakt'>KONTAKT</Link>
           </li>
         </ul>
         <div className={styles.sidenavFooterContainer}>
