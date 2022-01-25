@@ -16,13 +16,12 @@
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
 
   @media (min-width: $desktop) {
     flex-direction: row;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 1rem;
   }
   .textContainer {
     background: #74a2ff;
