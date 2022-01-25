@@ -6,12 +6,12 @@ import contact from '../../lottie/contact.json'
 
 const Section5 = () => {
   return (
-    <>
+    <div className={styles.center}>
       <Lottie className={styles.animation} animationData={contact} />
       <FadeIn>
         <ContactUs />
       </FadeIn>
-    </>
+    </div>
   )
 }
 

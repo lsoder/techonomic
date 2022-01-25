@@ -1,8 +1,14 @@
 @import '../../styles/variables';
 
-.animation {
-  width: 70%;
-  @media (min-width: $desktop) {
-    width: 40%;
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .animation {
+    width: 70%;
+    @media (min-width: $desktop) {
+      width: 40%;
+    }
   }
 }
+
