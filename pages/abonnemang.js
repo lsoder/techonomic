@@ -1,9 +1,6 @@
 import Head from 'next/head';
 import { ButtonSm, ButtonSmBlue } from '../components/buttons';
 import { filledPlus } from '../components/coloredIcons';
-import SubscriptionCardBasic, {
-  SubscriptionCardExtra,
-} from '../components/subscriptionCards/subscriptionCards';
 import SubscriptionDesktop from '../components/subscriptionDesktop/subscriptionDesktop';
 import styles from '../styles/Abonnemang.module.scss';
 import Image from 'next/image';
@@ -20,32 +17,6 @@ const Abonnemang = () => {
           content='Vi levererar en heldigitaliserad redovisningslösning till en fast kostnad. Inga extra kostnader för uppstart eller andra dolda avgifter. Utan bindningstid och uppsägningstid - flexibelt och enkelt. '
         />
       </Head>
-      {/* <div className={styles.subscriptionWrapperMobile}>
-        <div>
-          <h2>Abonnemang</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
-        <SubscriptionCardBasic />
-        <SubscriptionCardExtra />
-
-        <i>
-          (Adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore.)
-        </i>
-        <div className={styles.center}>
-          <ButtonSmBlue href='/kontakta' text='Kontakta oss' />
-        </div>
-      </div> */}
       <div className={styles.subscriptionWrapperDesktop}>
         <FadeIn>
           <div className={styles.box1}>
@@ -120,7 +91,6 @@ const Abonnemang = () => {
               adipiscing elit, sed do eiusmod tempor incididunt ut labore et
               dolore.
             </i>
-            <ButtonSm href="/kontakta" text="Boka demo" />
           </div>
         </div>
         </FadeIn>

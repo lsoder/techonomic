@@ -8,6 +8,8 @@
   }
   
   .hideLarge {
+    display: flex;
+    justify-content: center;
     @media (min-width: $desktop) {
       display: none;
     }

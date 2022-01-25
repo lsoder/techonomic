@@ -20,7 +20,7 @@ const Navbar = () => {
           <Link href='/om-oss'>OM OSS</Link>
           <Link href='/kontakta-oss'>KONTAKT</Link>
 
-          <ButtonSm href='/' text='Boka demo' />
+          <ButtonSm href='https://calendly.com/techonomic-jonatan' text='Boka demo' />
         </div>
         {/* Below show only on mobile */}
         <Hamburger />

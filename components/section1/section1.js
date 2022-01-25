@@ -39,7 +39,7 @@ const Section1 = () => {
             />
           </FadeIn>
           <div className={styles.center}>
-            <ButtonSm href='/' text='Boka demo' />
+            <ButtonSm href='https://calendly.com/techonomic-jonatan/' text='Boka demo' />
           </div>
         </div>
 
