@@ -21,11 +21,10 @@ export default function Home({ content }) {
         <Hero />
         <section1 id='tech'>{content}</section1>
         <Section1 />
-        <Section2 />
+        {/* <Section2 />
         <Section3 />
         <Section4 />
-        <Section5 />
-        {/* <Section6 /> */}
+        <Section5 />  */}
       </>
     </div>
   )
