@@ -1,38 +1,49 @@
 @import '/styles/variables';
 
-.container404 {
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2rem;
+  max-width: 1440px;
   padding: 0 2rem;
   background: $solidBlueBackground;
   text-align: center;
   color: white;
-  .animation {
-    width: 70%;
+  .textContainer {
     padding: 2rem;
-    @media (min-width: $desktop) {
-      width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .animation {
+      width: 70%;
+      padding: 2rem;
+      @media (min-width: $desktop) {
+        width: 40%;
+      }
     }
-  }
-  h1 {
-    padding: 0;
-    margin: 0;
-  }
-  h3 {
-    padding: 0.5rem 0 4rem 0;
-    margin: 0;
-  }
-  .mobile {
-    @media (min-width: $desktop) {
-      display: none;
+    h1 {
+      padding: 0;
+      margin: 0;
     }
-  }
-  .desktop {
-    @media (max-width: $desktop) {
-      display: none;
+    h3 {
+      padding: 0.5rem 0 4rem 0;
+      margin: 0;
+    }
+    p {
+      color: $solidBlueBackground;
+    }
+    .mobile {
+      @media (min-width: $desktop) {
+        display: none;
+      }
+    }
+    .desktop {
+      @media (max-width: $desktop) {
+        display: none;
+      }
     }
   }
 }
