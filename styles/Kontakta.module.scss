@@ -1,0 +1,48 @@
+@import './variables';
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2rem;
+  max-width: 1440px;
+  @media (min-width: $desktop) {
+    padding-top: 10rem;
+  }
+  .textContainer {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    @media (min-width: $desktop) {
+      width: 65%;
+      padding: 0 2rem 2rem 2rem;
+    }
+  }
+  .cardContainer {
+    display: flex;
+    flex-direction: column;
+    @media (min-width: $desktop) {
+        flex-direction: row;
+      }
+
+    p {
+      font-weight: bold;
+      line-height: 15px;
+      font-size: 13px;
+      @media (min-width: $desktop) {
+        font-size: 15px;
+      }
+    }
+    h4 {
+      font-size: 0.7rem;
+      font-weight: normal;
+      line-height: 18px;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+}

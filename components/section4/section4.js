@@ -1,4 +1,4 @@
-import Kontakta from '../../pages/kontakt';
+import Kontakt from '../../pages/kontakta-oss';
 import FadeIn from '../../motion/fadeIn';
 import styles from './Section4.module.scss';
 
@@ -6,7 +6,7 @@ const Section4 = () => {
   return (
     <>
       <FadeIn>
-        <Kontakta />
+        <Kontakt />
       </FadeIn>
     </>
   );
