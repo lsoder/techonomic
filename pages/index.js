@@ -22,9 +22,9 @@ export default function Home({ content }) {
         <section1 id='tech'>{content}</section1>
         <Section1 />
         <Section2 />
-        {/* <Section3 />
+        <Section3 />
         <Section4 />
-        <Section5 />  */}
+        <Section5 /> 
       </>
     </div>
   )
