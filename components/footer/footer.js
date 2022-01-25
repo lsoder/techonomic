@@ -27,13 +27,19 @@ const Footer = () => {
             <ul>
               <li>MENY</li>
               <li>
-                <Link href='/abonnemang'>Abonnemang</Link>
+                <Link href='/abonnemang' passHref>
+                  <a>Abonnemang</a>
+                </Link>
               </li>
               <li>
-                <Link href='/branscher'>Branscher</Link>
+                <Link href='/branscher' passHref>
+                  <a>Branscher</a>
+                </Link>
               </li>
               <li>
-                <Link href='/about'>Om oss</Link>
+                <Link href='/om-oss' passHref>
+                  <a>Om oss</a>
+                </Link>
               </li>
             </ul>
             <ul>
