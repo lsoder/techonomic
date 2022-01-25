@@ -24,10 +24,10 @@
         display: grid;
         grid-template-columns: auto;
         padding: 1rem 0;
-        @media (min-width: 1015px) {
+        @media (min-width: 640px) {
           grid-template-columns: auto auto;
         }
-        @media (min-width: $desktop) {
+        @media (min-width: 950px) {
           grid-template-columns: auto auto auto;
         }
         .gridContent {

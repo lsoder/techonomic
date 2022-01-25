@@ -47,7 +47,7 @@ const SubscriptionCardBasic = () => {
             {bull} <p>Programvarukostnad</p>
           </div>
           <div className={styles.listItem}>
-            {bull} <p>Grafisk rapporteringsverktyg</p>
+            {bull} <p>Grafiskt-rapporteringsverktyg</p>
           </div>
           <div className={styles.listItem}>
             {bull} <p>Ingen bindningstid</p>

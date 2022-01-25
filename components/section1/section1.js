@@ -2,15 +2,12 @@ import styles from './Section1.module.scss'
 import SubscriptionCardBasic from '../subscriptionCards/subscriptionCards'
 import { ButtonSm } from '../buttons'
 
-import Lottie from 'lottie-react'
-// import animation from "../lottie/pattern.json"
 import FadeIn from '../../motion/fadeIn'
 import Some from '../some'
 
 const Section1 = () => {
   return (
     <>
-      {/* <Section5/> */}
       <div className={styles.container}>
         <div className={styles.textContainer}>
           <FadeIn>
