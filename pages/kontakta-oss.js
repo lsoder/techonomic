@@ -31,12 +31,14 @@ const Kontakt = () => {
               name="Jonatan Brekke"
               mail="jonatan@techonomic.se"
               phone="073 000000"
+              href="https://calendly.com/techonomic-jonatan"
             />
             <ContactCard
               image="/images/thobias1.png"
               name="Thobias Granström"
               mail="thobias@techonomic.se"
               phone="073 000000"
+              href="https://calendly.com/thobias-techonomic"
             />
           </div>
       </div>

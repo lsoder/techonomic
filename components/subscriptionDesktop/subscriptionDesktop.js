@@ -89,7 +89,7 @@ const SubscriptionDesktop = () => {
         </div>
         <div className={styles.gridContent}>
           <div className={styles.gridText}>
-          <ButtonSm href='/kontakta' text='Boka demo' />
+          <ButtonSm href='https://calendly.com/techonomic-jonatan' text='Boka demo' />
             {/* <h3>Fr. 1500kr/mån</h3> */}
           </div>
         </div>

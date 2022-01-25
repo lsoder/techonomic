@@ -9,7 +9,7 @@ const BookAMeeting = () => {
         <FadeIn>
           <div className={`${styles.bookMeetingContent}`}>
             <h2>Boka ett möte med oss</h2>
-            <ButtonSm href="/" text="Boka möte" />
+            <ButtonSm href="https://calendly.com/techonomic-jonatan" text="Boka möte" />
             <p><span>Vi väntar på just dig!</span></p>
           </div>
         </FadeIn>

@@ -11,7 +11,7 @@ const ContactCard = (props) => {
       <h4>{props.mail}</h4>
       <h4>{props.phone}</h4>
       <Some facebook='/' linkedIn='/' instagram='/' />
-      <ButtonSm href='/' text='Boka möte' />
+      <ButtonSm href={props.href} text='Boka möte' />
     </div>
   )
 }

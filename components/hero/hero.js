@@ -32,7 +32,7 @@ const Hero = () => {
       <div className={styles.mobile}>
         <motion.div variants={container3} initial='hidden' animate='show'>
           <motion.div variants={item} size={50}>
-            <ButtonSmBlue href='/' text='Boka möte' />
+            <ButtonSmBlue href='https://calendly.com/techonomic-jonatan' text='Boka möte' />
           </motion.div>
         </motion.div>
       </div>
