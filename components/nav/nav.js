@@ -14,13 +14,26 @@ const Navbar = () => {
           </Link>
         </div>
         <div className={styles.menuDesktop}>
-          <Link href='/'>HEM</Link>
-          <Link href='/abonnemang'>ABONNEMANG</Link>
-          <Link href='/branscher'>BRANSCHER</Link>
-          <Link href='/om-oss'>OM OSS</Link>
-          <Link href='/kontakta-oss'>KONTAKT</Link>
+          <Link href='/' passHref>
+            <a>HEM</a>
+          </Link>
+          <Link href='/abonnemang' passHref>
+            <a>ABONNEMANG</a>
+          </Link>
+          <Link href='/branscher' passHref>
+            <a>BRANSCHER</a>
+          </Link>
+          <Link href='/om-oss' passHref>
+            <a>OM OSS</a>
+          </Link>
+          <Link href='/kontakta-oss' passHref>
+            <a>KONTAKT</a>
+          </Link>
 
-          <ButtonSm href='https://calendly.com/techonomic-jonatan' text='Boka demo' />
+          <ButtonSm
+            href='https://calendly.com/techonomic-jonatan'
+            text='Boka demo'
+          />
         </div>
         {/* Below show only on mobile */}
         <Hamburger />
