@@ -11,7 +11,8 @@ import animation from '../../lottie/background.json'
 const Hero = () => {
   return (
     <div className={styles.hero}>
-      <Lottie className={styles.animation} animationData={animation}></Lottie>
+      {/*       <Lottie className={styles.animation} animationData={animation}></Lottie>
+       */}{' '}
       <div className={styles.container}>
         <div className={styles.box1}>
           <h1>
@@ -32,7 +33,10 @@ const Hero = () => {
       <div className={styles.mobile}>
         <motion.div variants={container3} initial='hidden' animate='show'>
           <motion.div variants={item} size={50}>
-            <ButtonSmBlue href='https://calendly.com/techonomic-jonatan' text='Boka möte' />
+            <ButtonSmBlue
+              href='https://calendly.com/techonomic-jonatan'
+              text='Boka möte'
+            />
           </motion.div>
         </motion.div>
       </div>
