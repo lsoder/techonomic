@@ -2,7 +2,6 @@ import Head from 'next/head';
 import Some from '../components/some';
 import Image from 'next/image';
 import styles from '../styles/Omoss.module.scss';
-import { Fade } from '@mui/material';
 import FadeIn from '../motion/fadeIn';
 
 const About = () => {
