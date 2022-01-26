@@ -59,8 +59,8 @@ const About = () => {
           <FadeIn>
             <div className={styles.bild}>
               <Image
-                src="/images/Techonomic.png"
-                alt="om oss"
+                src="/images/omoss.jpeg"
+                alt="bild på Techonomic"
                 width="927"
                 height="709"
               />
