@@ -1,6 +1,21 @@
 @import '../../styles/variables';
 
-.container {
-    padding: 0 2rem;
-    margin-bottom: 8rem;
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 0;
+  @media (min-width: $desktop) {
+    flex-direction: row;  
+    padding: 7rem 5rem 5rem 0;  
+    padding-bottom: 5rem;
+    padding-right: 5rem;
+  }
+  .animation {
+    width: 70%;
+    @media (min-width: $desktop) {
+      width: 50%;
+    }
+  }
 }
+

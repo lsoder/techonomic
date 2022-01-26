@@ -17,13 +17,12 @@
       width: 50%;
     }
     h2 {
-      color: #205fe8;
+      color: $darkBlue;
       margin: 0;
     }
     h3 {
       margin: 0;
-      color: rgb(247, 184, 67);
-      // color: #205fe8;
+      color: $orange;
     }
     p {
       @media (min-width: $desktop) {
@@ -31,7 +30,7 @@
       }
     }
     i {
-      color: #205fe8;
+      color: $darkBlue;
     }
   }
   .about {

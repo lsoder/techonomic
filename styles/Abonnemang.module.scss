@@ -29,7 +29,7 @@
         }
       }
       h2 {
-        color: #205fe8;
+        color: $darkBlue;
         margin: 0;
       }
     }
@@ -42,7 +42,7 @@
   }
   h3 {
     margin: 0.5rem 0 3rem 0;
-    color: #205fe8;
+    color: $darkBlue;
   }
   i {
     font-size: 1rem;
@@ -74,7 +74,7 @@
       h2 {
         margin: 0 0 1rem 0;
         span {
-          background-color: rgb(247, 184, 67);
+          background-color: $orange;
         }
       }
       .listItem {
@@ -94,7 +94,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background-color: rgb(247, 184, 67);
+      background-color: $orange;
       padding: 2rem 4rem;
       @media (min-width: $desktop) {
         width: 70%;
