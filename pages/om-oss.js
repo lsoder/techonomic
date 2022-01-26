@@ -61,8 +61,8 @@ const About = () => {
               <Image
                 src="/images/omosss.png"
                 alt="bild på Techonomic"
-                width="800px"
-                height="612px"
+                width="800"
+                height="612"
               />
             </div>
           </FadeIn>
