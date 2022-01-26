@@ -49,6 +49,14 @@
   li {
     font-size: 0.7rem;
   }
+  a {
+    color: inherit;
+    font-size: 0.7rem;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
   .desktopUl {
     display: flex;
     align-items: center;

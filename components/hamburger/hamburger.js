@@ -24,7 +24,7 @@ const Hamburger = () => {
             <Link href='/om-oss'>OM OSS</Link>
           </li>
           <li>
-            <Link href='/kontakt'>KONTAKT</Link>
+            <Link href='/kontakta-oss'>KONTAKT</Link>
           </li>
         </ul>
         <div className={styles.sidenavFooterContainer}>
