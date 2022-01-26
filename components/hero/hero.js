@@ -45,7 +45,7 @@ const Hero = () => {
           <motion.div variants={item} size={50}>
             <Link href='#tech' scroll={false}>
               <a>
-                <KeyboardArrowDownOutlinedIcon />
+                <KeyboardArrowDownOutlinedIcon alt='scroll knapp' />
               </a>
             </Link>
           </motion.div>
