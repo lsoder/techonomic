@@ -18,8 +18,8 @@ const About = () => {
       <div className={styles.aboutContainer}>
         <div className={styles.textContainer}>
           <FadeIn>
-            <h2>Techonomic</h2>
             <h3>Det här är vi</h3>
+            <h2>Techonomic</h2>
           </FadeIn>
           <FadeIn>
             <p>
