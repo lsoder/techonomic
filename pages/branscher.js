@@ -3,7 +3,7 @@ import CustomerCard, {
   CustomerCardReverse,
 } from '../components/customerCards/customerCards'
 import Head from 'next/head'
-import BranschCard from '../components/branschCard/branschCard'
+import { BranschCard2 } from '../components/branschCard/branschCard'
 import FadeIn from '../motion/fadeIn'
 import petter from '../public/images/petter.png'
 import ola from '../public/images/ola.png'
@@ -50,7 +50,7 @@ const Branscher = () => {
           <div className={styles.bransch}>
             <FadeIn>
               <div className={styles.branschCard}>
-                <BranschCard />
+                <BranschCard2 />
               </div>
             </FadeIn>
           </div>
