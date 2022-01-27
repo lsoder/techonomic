@@ -2,7 +2,6 @@
 
 .row {
   display: flex;
-  // VILL VI HA DEN FIXED??
   position: fixed;
   background-color: white;
   z-index: 100;
@@ -13,18 +12,16 @@
   border-bottom: 1px solid #eaf0ff;
   max-width: 1440px;
   cursor: initial;
-  //   box-shadow: 1px 1px 5px #f3f0fd;
   .logoStyling {
     cursor: pointer;
   }
-  @media (min-width: $desktop){
+  @media (min-width: $desktop) {
     padding-right: 0;
     padding-left: 0;
     justify-content: space-evenly;
   }
   @media (min-width: 1000px) {
     justify-content: space-between;
-    //padding-right: 0.5rem;
     padding-right: 4rem;
     padding-left: 5rem;
   }

@@ -11,8 +11,8 @@ import animation from '../../lottie/background.json'
 const Hero = () => {
   return (
     <div className={styles.hero}>
-      {/*       <Lottie className={styles.animation} animationData={animation}></Lottie>
-       */}{' '}
+      <Lottie className={styles.animation} animationData={animation}></Lottie>
+
       <div className={styles.container}>
         <div className={styles.box1}>
           <h1>
