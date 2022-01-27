@@ -3,9 +3,10 @@ import { ButtonSm, ButtonSmBlue } from '../components/buttons';
 import { filledPlus } from '../components/coloredIcons';
 import SubscriptionDesktop from '../components/subscriptionDesktop/subscriptionDesktop';
 import styles from '../styles/Abonnemang.module.scss';
-import Image from 'next/image';
-import fortnox from '../public/images/fortnox.jpg'
 import FadeIn from '../motion/fadeIn';
+
+import Image from 'next/image';
+import magazine from '../public/images/magazine.jpg';
 
 const Abonnemang = () => {
   return (
@@ -38,8 +39,8 @@ const Abonnemang = () => {
             </div>
             <div className={styles.imageDiv}>
               <Image
-                src={fortnox}
-                alt="bild på oss i fortnox tidning"
+                src={magazine}
+                alt="Bild på oss i tidning."
                 placeholder="blur"
                 width="1616"
                 height="1216"
