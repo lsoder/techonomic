@@ -1,10 +1,12 @@
-import styles from '../styles/Branscher.module.scss'
+import styles from '../styles/Branscher.module.scss';
 import CustomerCard, {
   CustomerCardReverse,
-} from '../components/customerCards/customerCards'
-import Head from 'next/head'
-import BranschCard from '../components/branschCard/branschCard'
-import FadeIn from '../motion/fadeIn'
+} from '../components/customerCards/customerCards';
+import Head from 'next/head';
+import BranschCard from '../components/branschCard/branschCard';
+import FadeIn from '../motion/fadeIn';
+import petter from '../public/images/petter.png';
+import ola from '../public/images/ola.png';
 
 const Branscher = () => {
   return (
@@ -13,8 +15,8 @@ const Branscher = () => {
         <title>Techonomic - Branscher</title>
 
         <meta
-          name='description'
-          content='Meta description for the bransch page'
+          name="description"
+          content="Meta description for the bransch page"
         />
       </Head>
       <div className={styles.branschContainer}>
@@ -37,25 +39,29 @@ const Branscher = () => {
           </FadeIn>
         </div>
         <div className={styles.bransch}>
-          <div className={styles.branscherDiv}>
-            <CustomerCard
-              image='/images/petter.png'
-              comment='Jag tycker att techonomic tillför exakt det jag behöver i min bokföring.'
-              name='Petter, mäklare'
-            />
-            <CustomerCardReverse
-              image='/images/ola.png'
-              comment='Snabbt och effektivt, dem har gjort underverk för mig och min firma.'
-              name='Nils, målare'
-            />
-          </div>
-          <div className={styles.branschCard}>
-            <BranschCard />
-          </div>
+          <FadeIn>
+            <div className={styles.branscherDiv}>
+              <CustomerCard
+                image={petter}
+                comment="Jag tycker att techonomic tillför exakt det jag behöver i min bokföring."
+                name="Petter, mäklare"
+              />
+              <CustomerCardReverse
+                image={ola}
+                comment="Snabbt och effektivt, dem har gjort underverk för mig och min firma."
+                name="Nils, målare"
+              />
+            </div>
+          </FadeIn>
+          <FadeIn>
+            <div className={styles.branschCard}>
+              <BranschCard />
+            </div>
+          </FadeIn>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Branscher
+export default Branscher;

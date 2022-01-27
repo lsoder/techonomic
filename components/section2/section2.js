@@ -5,6 +5,8 @@ import CustomerCard, {
   CustomerCardReverse,
 } from '../customerCards/customerCards';
 import styles from './Section2.module.scss';
+import petter from '../../public/images/petter.png';
+import ola from '../../public/images/ola.png';
 
 const Section2 = () => {
   return (
@@ -18,13 +20,13 @@ const Section2 = () => {
             <div className={styles.customerContent}>
               <h2>Våra kunder tycker</h2>
               <CustomerCard
-                image="/images/petter.png"
+                image={petter}
                 comment="Jag tycker att techonomic tillför exakt det jag behöver i min bokföring."
                 name="Petter, mäklare"
               />
               <div>
                 <CustomerCardReverse
-                  image="/images/ola.png"
+                  image={ola}
                   comment="Snabbt och effektivt, helt klart den bästa redovisningsbyrå jag någonsin har haft!"
                   name="Ola, utvecklare"
                 />
