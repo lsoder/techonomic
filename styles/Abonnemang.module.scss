@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 5rem;
+  //padding-top: 5rem;
   @media (min-width: $desktop) {
     padding: 9rem 0rem 2rem 0rem;
     // max-width: 1440px;
@@ -20,7 +20,9 @@
       padding: 0 5rem;
     }
     .infoText {
-      width: 70%;
+      padding: 2rem;
+      //width: 70%;
+      width: 100%;
       @media (min-width: $desktop) {
         width: 50%;
         padding-right: 6rem;
@@ -34,7 +36,8 @@
       }
     }
     .imageDiv {
-      width: 70%;
+      //width: 70%;
+      width: 100%;
       @media (min-width: $desktop) {
         width: 50%;
       }
@@ -84,7 +87,7 @@
       .listItem {
         display: flex;
         align-items: center;
-        margin: .5rem 0;
+        margin: 0.5rem 0;
         p {
           margin: 0;
         }
