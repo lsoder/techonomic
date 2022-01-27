@@ -8,7 +8,7 @@ import { makeStyles } from '@material-ui/core/styles'
 const useStyles = makeStyles((theme) => ({
   hoverStyle: {
     '&:hover': {
-      color: '#2162f0;',
+      color: '#6A6A6A',
     },
   },
 }))
