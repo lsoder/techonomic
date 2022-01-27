@@ -4,6 +4,7 @@ import { filledPlus } from '../components/coloredIcons';
 import SubscriptionDesktop from '../components/subscriptionDesktop/subscriptionDesktop';
 import styles from '../styles/Abonnemang.module.scss';
 import Image from 'next/image';
+import fortnox from '../public/images/fortnox.jpg'
 import FadeIn from '../motion/fadeIn';
 
 const Abonnemang = () => {
@@ -37,8 +38,9 @@ const Abonnemang = () => {
             </div>
             <div className={styles.imageDiv}>
               <Image
-                src="/images/fortnox.jpeg"
+                src={fortnox}
                 alt="bild på oss i fortnox tidning"
+                placeholder="blur"
                 width="1616"
                 height="1216"
               />

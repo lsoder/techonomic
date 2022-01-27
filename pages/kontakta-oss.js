@@ -2,6 +2,8 @@ import Head from 'next/head';
 import styles from '../styles/Kontakta.module.scss';
 import ContactCard from '../components/contactCard/contactCard';
 import FadeIn from '../motion/fadeIn';
+import jonatan from '../public/images/jonatan1.png'
+import thobias from '../public/images/thobias1.png'
 const Kontakt = () => {
   return (
     <>
@@ -29,14 +31,14 @@ const Kontakt = () => {
           </div>
         <div className={styles.cardContainer}>
             <ContactCard
-              image="/images/jonatan1.png"
+              image={jonatan}
               name="Jonatan Brekke"
               mail="jonatan@techonomic.se"
               phone="073 000000"
               href="https://calendly.com/techonomic-jonatan"
             />
             <ContactCard
-              image="/images/thobias1.png"
+              image={thobias}
               name="Thobias Granström"
               mail="thobias@techonomic.se"
               phone="073 000000"

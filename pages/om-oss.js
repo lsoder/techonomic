@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Some from '../components/some';
 import Image from 'next/image';
+import omoss from '../public/images/omosss.png';
 import styles from '../styles/Omoss.module.scss';
 import FadeIn from '../motion/fadeIn';
 
@@ -59,8 +60,9 @@ const About = () => {
           <FadeIn>
             <div className={styles.bild}>
               <Image
-                src="/images/omosss.png"
+                src={omoss}
                 alt="bild på Techonomic"
+                placeholder="blur"
                 width="800"
                 height="612"
               />
