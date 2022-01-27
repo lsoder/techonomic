@@ -38,7 +38,7 @@ export const CustomerCardReverse = (props) => {
         <p>{'-' + ' ' + props.name}</p>
       </div>
       <div className={styles.imageDiv}>
-        <Image src={props.image} alt="logo" width="100" height="100" />
+        <Image src={props.image} alt="logo" width="100" height="100" placeholder="blur"/>
       </div>
     </div>
   );
