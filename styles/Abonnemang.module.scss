@@ -46,7 +46,7 @@
   }
   i {
     font-size: 1rem;
-    padding: 1rem;
+    padding: 1rem 0;
   }
   .content {
     display: flex;
@@ -76,6 +76,10 @@
         span {
           background-color: $orange;
         }
+      }
+      i {
+        font-size: 10px;
+        text-align: left;
       }
       .listItem {
         display: flex;
