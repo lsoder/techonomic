@@ -10,24 +10,21 @@
 }
 
 .hero {
-  height: 88vh;
+  height: 90vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 4rem;
+  padding-top: 7rem;
   @media (min-width: $desktop) {
     flex-direction: column;
-    padding-top: 7rem;
+    padding-top: 6rem;
   }
   .container {
     display: flex;
     width: 100%;
     flex-direction: row;
     justify-content: center;
-    h1 {
-      font-size: 36px;
-    }
     .h1blue {
       color: $blue;
     }
@@ -68,7 +65,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 8rem;
+    margin-top: 6rem;
     .animationArrow {
       height: 3rem;
     }

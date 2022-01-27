@@ -18,7 +18,12 @@ const Footer = () => {
             <div className={styles.desktopStyle}>
               <ul className={styles.desktopUl}>
                 <li className={styles.desktopLi}>
-                  <Image src='/logo.png' alt='logo' width='120' height='18' />
+                  <Image
+                    src='/vit-logo.png'
+                    alt='logo'
+                    width='120'
+                    height='18'
+                  />
                 </li>
                 <li>Kungsportsavenyen 21</li>
                 <li>411 36 Göteborg</li>
@@ -51,13 +56,10 @@ const Footer = () => {
           </div>
         </div>
         <div className={styles.logoFooter}>
-          <Image src='/logo.png' alt='logo' width='120' height='18' />
+          <Image src='/vit-logo.png' alt='logo' width='120' height='18' />
         </div>
         <div className={styles.footerBottom}>
-          <p>
-            Personlig konsult, rådgivning och bokföring på abonnemang. Ⓒ 2022
-            Techonomic - All Rights Are Reserved.
-          </p>
+          <p>Ⓒ 2022 Techonomic - All Rights Are Reserved.</p>
         </div>
       </div>
       <div className={styles.bottom}>
