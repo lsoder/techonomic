@@ -25,7 +25,8 @@
       width: 100%;
       @media (min-width: $desktop) {
         width: 50%;
-        padding-right: 6rem;
+        padding: 0 6rem 0 0;
+        //padding-right: 6rem;
         p {
           padding: 2rem 0 3rem 0;
         }
