@@ -55,14 +55,3 @@ export const filledPlus = (
     </Box>
   </ThemeProvider>
 );
-
-export const gear = (
-  <ThemeProvider theme={theme}>
-    <Box
-      component="span"
-      sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
-    >
-      <SettingsIcon color="black" />
-    </Box>
-  </ThemeProvider>
-);

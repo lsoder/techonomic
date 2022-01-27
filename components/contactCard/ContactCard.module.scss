@@ -8,6 +8,9 @@
   padding: 2rem;
   align-items: center;
   text-align: center;
+  @media (min-width: $desktop) {
+    padding-right: 2rem;
+  }
   p {
     font-weight: bold;
   }

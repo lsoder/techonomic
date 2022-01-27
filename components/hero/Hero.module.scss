@@ -18,12 +18,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  //background: rgb(241, 228, 255);
-  //background: $blueBackground;
   padding-top: 4rem;
   @media (min-width: $desktop) {
     flex-direction: column;
-    //height: 80vh;
     padding-top: 7rem;
   }
   .container {
@@ -35,7 +32,7 @@
       font-size: 36px;
     }
     .h1blue {
-      color: #2162f0;
+      color: $blue;
     }
     .box1 {
       padding: 0 2rem;

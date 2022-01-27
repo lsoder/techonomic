@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Kontakta.module.scss';
 import ContactCard from '../components/contactCard/contactCard';
+import FadeIn from '../motion/fadeIn';
 const Kontakt = () => {
   return (
     <>
@@ -12,9 +13,10 @@ const Kontakt = () => {
           content="Meta description for the contact page"
         />
       </Head>
+        <FadeIn>
       <div className={styles.container}>
           <div className={styles.textContainer}>
-              <h2>Kontakta oss</h2>
+            <h2>Kontakta oss</h2>
             <p>
               Med fokus på personligt bemötande och en heldigitaliserad
               redovisningslösning blir Techonomic din ekonomiavdelning - som
@@ -25,7 +27,7 @@ const Kontakt = () => {
               Vill ni veta mer? Prata med någon av våra experter!
             </p>
           </div>
-          <div className={styles.cardContainer}>
+        <div className={styles.cardContainer}>
             <ContactCard
               image="/images/jonatan1.png"
               name="Jonatan Brekke"
@@ -40,8 +42,9 @@ const Kontakt = () => {
               phone="073 000000"
               href="https://calendly.com/thobias-techonomic"
             />
-          </div>
+        </div>
       </div>
+      </FadeIn>
     </>
   );
 };
