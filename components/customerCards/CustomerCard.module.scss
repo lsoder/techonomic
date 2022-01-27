@@ -7,8 +7,11 @@
   margin: 1rem 0;
   padding: 1rem 0;
   align-items: center;
-  width: 80%;
+  width: 100%;
   background-color: $darkBlue;
+  @media (min-width: $desktop){
+    width: 80%;
+  }
   .imageDiv {
     margin: .5rem 1rem;
   }
