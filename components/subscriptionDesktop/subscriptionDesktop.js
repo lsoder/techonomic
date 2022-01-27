@@ -13,7 +13,7 @@ import { ButtonSm } from '../buttons';
 const SubscriptionDesktop = () => {
   return (
     <div className={styles.containerSubscriptionDesktop}>
-       <h2>Detta ingår i paketet</h2>
+       <h2>Abonnemang</h2>
       <div className={styles.gridContainer}>
         <div className={styles.gridContent}>
           <LoyaltyIcon fontSize="large" />

@@ -78,6 +78,7 @@ const Abonnemang = () => {
             </div>
           </div>
           <div className={styles.box3}>
+            <h2>Vad är detta?</h2>
             <p>
               consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
               labore et dolore magna aliqua. Ut enim ad minim veniam, quis
@@ -88,8 +89,7 @@ const Abonnemang = () => {
               deserunt mollit anim id est laborum.
             </p>
             <i>
-              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore.
+              Hör av er för att få ett personligt prisförslag.
             </i>
           </div>
         </div>
