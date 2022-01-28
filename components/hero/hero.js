@@ -35,7 +35,7 @@ const Hero = () => {
           <motion.div variants={item} size={50}>
             <ButtonSmBlue
               href='https://calendly.com/techonomic-jonatan'
-              text='Boka möte'
+              text='Boka demo'
             />
           </motion.div>
         </motion.div>
