@@ -44,8 +44,6 @@ const Section1 = () => {
           <FadeIn>
             <SubscriptionCardBasic />
           </FadeIn>
-          {/* <Lottie className={styles.animation} animationData={animation}></Lottie> */}
-          {/* <SubscriptionCardExtra/> */}
         </div>
       </div>
     </>

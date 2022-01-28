@@ -50,7 +50,6 @@ const TermAnimation = ({children}) => {
       </svg>
       </div>
       {children}
-          {/* <TermsTexts /> */}
       </div>
     </>
   );

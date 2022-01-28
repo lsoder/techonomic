@@ -1,7 +1,6 @@
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import AddCircleIcon from '@mui/icons-material/AddCircle';
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
-import SettingsIcon from '@mui/icons-material/Settings';
 import Box from '@mui/material/Box';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
@@ -39,7 +38,6 @@ export const plus = (
       component="span"
       sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
     >
-      {/* <AddCircleIcon color="green" /> */}
       <AddCircleOutlineIcon color="green" />
     </Box>
   </ThemeProvider>

@@ -4,7 +4,6 @@ import styles from './ContactUs.module.scss'
 const ContactUs = () => {
   return (
     <div className={styles.containerContact}>
-      {/* <Image src='/illustration.png' alt='bild' width='250' height='150' /> */}
       <h2>Bli kontaktad av oss?</h2>
       <div className={styles.textContainer}>
         <p>
@@ -25,9 +24,6 @@ const ContactUs = () => {
           type='text'
           required
         />
-        {/*   <button className={styles.buttonStyle} type='submit'>
-          Skicka
-        </button> */}
         <div className={styles.padding}>
           <ButtonLg href='/' text='Skicka' />
         </div>

@@ -11,11 +11,6 @@ const My404Page = () => {
     <>
       <Head>
         <title>Techonomic - 404-sida</title>
-
-        {/* <meta
-              name="description"
-              content="Meta description for the contact page"
-            /> */}
       </Head>
       <div className={styles.container}>
         <div className={styles.textContainer}>
@@ -38,7 +33,6 @@ const My404Page = () => {
             commodo consequat. Duis aute irure dolor in reprehenderit in
             voluptate velit esse dolore eu fugiat nulla pariatur.{' '}
           </p>
-
         </div>
       </div>
     </>

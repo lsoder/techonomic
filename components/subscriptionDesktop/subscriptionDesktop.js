@@ -5,7 +5,6 @@ import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
 import SummarizeIcon from '@mui/icons-material/Summarize';
 import AnalyticsIcon from '@mui/icons-material/Analytics';
 import EmojiEmotionsIcon from '@mui/icons-material/EmojiEmotions';
-import ContentPasteOffIcon from '@mui/icons-material/ContentPasteOff';
 import styles from './SubscriptionDesktop.module.scss';
 import ContentPasteOff from '@mui/icons-material/ContentPasteOff';
 import { ButtonSm } from '../buttons';
@@ -90,7 +89,6 @@ const SubscriptionDesktop = () => {
         <div className={styles.gridContent}>
           <div className={styles.gridText}>
           <ButtonSm href='https://calendly.com/techonomic-jonatan' text='Boka demo' />
-            {/* <h3>Fr. 1500kr/mån</h3> */}
           </div>
         </div>
       </div>

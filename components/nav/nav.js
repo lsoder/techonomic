@@ -35,7 +35,6 @@ const Navbar = () => {
             text='Boka demo'
           />
         </div>
-        {/* Below show only on mobile */}
         <Hamburger />
       </div>
     </>
